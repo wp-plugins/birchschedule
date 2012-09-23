@@ -35,8 +35,14 @@ BirchSchedule is an appointment booking toolkit that allows service businesses s
 2. Multiple locations
 3. Staff settings
 4. Service settings
+5. Front end booking form
 
 == Frequently Asked Questions ==
+
+= How can I embed the booking form into a post/page? =
+
+To embed the booking form into a post/page, just insert the following shortcode:
+[birchschedule_bookingform]
 
 == Changelog ==
 
