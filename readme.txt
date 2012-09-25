@@ -1,6 +1,6 @@
 === BirchSchedule ===
 Contributors: birchpress
-Tags: appointment booking, appointment scheduling, scheduling, book appointment, scheduling appointments, booking calendar, appointment scheduler, accept appointments online, salon scheduling, spa scheduling, reservation, availability calendar, availability, bookable
+Tags: appointment book, book appointment, appointment schedule, schedule appointment, appointment booking, booking appointment, appointment scheduling, scheduling appointment, booking calendar, appointment scheduler, scheduler, scheduling, reservation
 Requires at least: 3.3
 Tested up to: 3.4.2
 Stable tag: 1.0.0
