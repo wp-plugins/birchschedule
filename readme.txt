@@ -1,22 +1,22 @@
 === BirchSchedule ===
 Contributors: birchpress
-Tags: appointment book, book appointment, appointment schedule, schedule appointment, appointment booking, booking appointment, appointment scheduling, scheduling appointment, booking calendar, appointment scheduler, scheduler, scheduling, reservation
+Tags: appointment, appointment scheduler, appointment scheduling, scheduler, scheduling appointments, appointment booking
 Requires at least: 3.3
 Tested up to: 3.4.2
-Stable tag: 1.0.0
+Stable tag: 1.0.1
 
-BirchSchedule is an appointment booking toolkit that allows service businesses to take reservations online.
+BirchSchedule is an appointment scheduler that allows service businesses to take reservations online.
 
 == Description ==
 
-BirchSchedule is an appointment booking toolkit that allows service businesses such as spas, yoga studios, contractors and photographers to take reservations online. Merchants can embed a booking form in a page or post on the website, and customers can see service availability and book a reservation online directly. It is an effective tool to manage appointments and staffing schedules.
+BirchSchedule is an appointment scheduler that allows service businesses such as spas, yoga studios, contractors and photographers to take reservations online. Merchants can embed a booking form in a page or post on the website, and customers can see service availability and book a reservation online directly. It is an effective tool to manage appointments and staffing schedules.
 
 = Feature: =
-* Make booking reservations by selecting dates and staff
-* Powerful Admin panel for booking management
+* Schedule appointments by selecting dates and staff
+* Powerful Admin panel for appointment management
 * Easy integration into posts/pages
 * Set work time of each staff for each location
-* Admin modification of bookings made by customers of your site
+* Admin modification of appointments made by customers of your site
 * Booking for specific time in a day
 
 = Desired Businesses =
@@ -45,6 +45,9 @@ To embed the booking form into a post/page, just insert the following shortcode:
 [birchschedule_bookingform]
 
 == Changelog ==
+
+= 1.0.1 =
+* Fix BUG: remove scripts from pages containing escape booking form shortcode.
 
 = 1.0.0 =
 * Init release.
