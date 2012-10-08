@@ -3,7 +3,7 @@ Contributors: birchpress
 Tags: appointment, appointment scheduler, appointment scheduling, scheduler, scheduling appointments, appointment booking
 Requires at least: 3.3
 Tested up to: 3.4.2
-Stable tag: 1.0.1
+Stable tag: 1.0.2
 
 BirchSchedule is an appointment scheduler that allows service businesses to take reservations online.
 
@@ -24,10 +24,12 @@ BirchSchedule is an appointment scheduler that allows service businesses such as
 * Meeting scheduling (Coaching, Phone advice)
 * Patient scheduling (Doctor, Clinic, Medical)
 
+Please visit [our website](http://www.birchpress.com "WordPress Appointment Scheduling Plugin") for more info.
+
 == Installation ==
 
 1. Download the plugin file to your computer and unzip it
-2. Using an FTP program, or your hosting control panel, upload the unzipped plugin folder to your WordPress installation’s wp-content/plugins/ directory.
+2. Using an FTP program, or your hosting control panel, upload the unzipped plugin folder to your WordPress installation's wp-content/plugins/ directory.
 3. Activate the plugin from the Plugins menu within the WordPress admin.
 
 == Screenshots ==
@@ -46,8 +48,11 @@ To embed the booking form into a post/page, just insert the following shortcode:
 
 == Changelog ==
 
+= 1.0.2 =
+* Fix the bug that only five staff are shown in the staff list.
+
 = 1.0.1 =
-* Fix BUG: remove scripts from pages containing escape booking form shortcode.
+* Fix the bug that pages containing escape booking form shortcode render unneeded scripts.
 
 = 1.0.0 =
 * Init release.
