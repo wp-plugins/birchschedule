@@ -6,6 +6,6 @@
   Description: An appointment booking toolkit that allows service businesses to take reservations online.
   Version: 1.0.2
   Author: BirchPress
-  Author URI: http://www.birchpress.com
+  Author URI: http://www.birchpress.com/
   License: GPLv2
  */
