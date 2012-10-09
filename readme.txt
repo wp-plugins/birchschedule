@@ -3,7 +3,7 @@ Contributors: birchpress
 Tags: appointment, appointment scheduler, appointment scheduling, scheduler, scheduling appointments, appointment booking
 Requires at least: 3.3
 Tested up to: 3.4.2
-Stable tag: trunk
+Stable tag: 1.0.2
 
 BirchSchedule is an appointment scheduler that allows service businesses to take reservations online.
 
