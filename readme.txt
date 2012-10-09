@@ -1,4 +1,4 @@
-=== BirchSchedule ===
+=== BirchSchedule === 
 Contributors: birchpress
 Tags: appointment, appointment scheduler, appointment scheduling, scheduler, scheduling appointments, appointment booking
 Requires at least: 3.3
