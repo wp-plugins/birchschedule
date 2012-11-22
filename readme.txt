@@ -3,7 +3,7 @@ Contributors: birchpress
 Tags: appointment, appointment scheduler, appointment scheduling, scheduler, scheduling appointments, appointment booking
 Requires at least: 3.3
 Tested up to: 3.4.2
-Stable tag: 1.1.0
+Stable tag: 1.1.1
 
 BirchSchedule is an appointment scheduler that allows service businesses to take reservations online.
 
@@ -47,6 +47,9 @@ To embed the booking form into a post/page, just insert the following shortcode:
 [birchschedule_bookingform]
 
 == Changelog ==
+
+= 1.1.1 =
+* clean some notices and warnings.
 
 = 1.1.0 =
 * Multi-currency support
