@@ -1,0 +1,70 @@
+<?php
+
+class BIRS_Admin_View {
+
+    public $page_hook;
+
+    function __construct() {
+        add_action('admin_init', array(&$this, 'admin_init'));
+        add_action('init', array(&$this, 'init'));
+    }
+
+    function init() {
+        
+    }
+
+    function admin_init() {
+        add_action('admin_enqueue_scripts', array(&$this, 'add_admin_scripts'));
+    }
+
+    function add_admin_scripts($hook) {
+        if ($this->page_hook == $hook) {
+            $scripts = $this->get_admin_scripts();
+            foreach ($scripts as $script) {
+                wp_enqueue_script($script);
+            }
+            $styles = $this->get_admin_styles();
+            foreach ($styles as $style) {
+                wp_enqueue_style($style);
+            }
+        }
+    }
+
+    function get_admin_scripts() {
+        return array();
+    }
+
+    function get_admin_styles() {
+        return array();
+    }
+
+    function get_util() {
+        return BIRS_Util::get_instance();
+    }
+
+    function save_field_string($post_id, $field_name) {
+        if (isset($_POST[$field_name])) {
+            $value = sanitize_text_field($_POST[$field_name]);
+            update_post_meta($post_id, '_' . $field_name, $value);
+        }
+    }
+
+    function save_field_array($post_id, $field_name) {
+        if (isset($_POST[$field_name])) {
+            $value = serialize($_POST[$field_name]);
+        } else {
+            $value = serialize(array());
+        }
+        update_post_meta($post_id, '_' . $field_name, $value);
+    }
+
+    function save_field_int($post_id, $field_name) {
+        if (isset($_POST[$field_name])) {
+            $value = intval($_POST[$field_name]);
+            update_post_meta($post_id, '_' . $field_name, $value);
+        }
+    }
+
+}
+
+?>
