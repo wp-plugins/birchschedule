@@ -1,15 +1,15 @@
-=== BirchSchedule === 
+=== BirchPress Scheduler === 
 Contributors: birchpress
 Tags: appointment, appointment scheduler, appointment scheduling, scheduler, scheduling appointments, appointment booking
 Requires at least: 3.3
 Tested up to: 3.4.2
-Stable tag: 1.1.1
+Stable tag: 1.2.0
 
-BirchSchedule is an appointment scheduler that allows service businesses to take reservations online.
+BirchPress Scheduler is an appointment booking toolkit that allows service businesses to take reservations online.
 
 == Description ==
 
-BirchSchedule is an appointment scheduler that allows service businesses such as spas, yoga studios, contractors and photographers to take reservations online. Merchants can embed a booking form in a page or post on the website, and customers can see service availability and book a reservation online directly. It is an effective tool to manage appointments and staffing schedules.
+BirchPress Scheduler is an appointment booking toolkit that allows service businesses such as spas, yoga studios, contractors and photographers to take reservations online. Merchants can embed a booking form in a page or post on the website, and customers can see service availability and book a reservation online directly. It is an effective tool to manage appointments and staffing schedules.
 
 = Feature: =
 * Schedule appointments by selecting dates and staff
@@ -44,9 +44,14 @@ Please visit [our website](http://www.birchpress.com "WordPress Appointment Sche
 = How can I embed the booking form into a post/page? =
 
 To embed the booking form into a post/page, just insert the following shortcode:
-[birchschedule_bookingform]
+[bp-scheduler-bookingform]
 
 == Changelog ==
+
+= 1.2.0 =
+* BirchSchedule is now BirchPress Scheduler
+* Fix a shortcode rendering bug
+* Shortcode [birchschedule_bookingform] is deprecated and replaced by [bp-scheduler-bookingform]
 
 = 1.1.1 =
 * clean some notices and warnings.
