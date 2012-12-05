@@ -3,7 +3,7 @@ Contributors: birchpress
 Tags: appointment, appointment scheduler, appointment scheduling, scheduler, scheduling appointments, appointment booking
 Requires at least: 3.3
 Tested up to: 3.4.2
-Stable tag: 1.2.1
+Stable tag: 1.3.0
 
 BirchPress Scheduler is an appointment booking toolkit that allows service businesses to take reservations online.
 
@@ -19,7 +19,7 @@ BirchPress Scheduler is an appointment booking toolkit that allows service busin
 * Admin modification of appointments made by customers of your site
 * Booking for specific time in a day
 * Multi-currency support
-* Supported languages:English, Dutch(by Edwin ten Brink)
+* Supported languages: English, Dutch(by Edwin ten Brink)
 
 = Desired Businesses =
 * Client scheduling ( Beauty salon, Spa management, Hairdresser, Massage therapist, Acupuncture, Photographers)
@@ -49,6 +49,9 @@ To embed the booking form into a post/page, just insert the following shortcode:
 [bp-scheduler-bookingform]
 
 == Changelog ==
+
+= 1.3.0 =
+* change permission level
 
 = 1.2.1 =
 * Dutch support (Thanks to Edwin ten Brink)
