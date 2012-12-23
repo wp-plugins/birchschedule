@@ -1,0 +1,101 @@
+#birs_booking_box {
+    width: 100%
+}
+
+#birs_appointment_form ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+#birs_appointment_form .birs_form_field > label {
+    clear: both;
+    display: inline-block;
+    font-weight: bold;
+    margin: 10px 0 4px;
+}
+
+#birs_appointment_form .birs_form_field select {
+    padding: 2px;
+    width: 50%
+}
+
+#birs_appointment_form .birs_form_field input[type=text] {
+    width: 50%;
+}
+
+#birs_appointment_form .birs_form_field textarea {
+    width: 70%;
+}
+
+#birs_appointment_form .birs_form_field .birs_datetime {
+    width: 100%;
+}
+
+#birs_appointment_form .birs_form_field .birs_datetime,
+#birs_appointment_form .birs_form_field .birs_datetime tbody,
+#birs_appointment_form .birs_form_field .birs_datetime tr,
+#birs_appointment_form .birs_form_field .birs_datetime td{
+    border-width: 0;
+    border-style: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+}
+
+#birs_appointment_timeoptions {
+    margin: 0 0 0 10px;
+    width: 90%;
+}
+
+#birs_appointment_timeoptions div {
+    border-width: 1px;
+    border-style: solid;
+    border-color: #AAA;
+    padding: 4px;
+    min-height: 60px;
+}
+
+#birs_appointment_timeoptions span {
+    display: inline-block;
+    width: 28%;
+    text-align: right;
+}
+
+#birs_appointment_timeoptions a.selected {
+    background-color: #BFBFBF;
+    color: white;
+    padding: 2px;
+}
+
+#birs_appointment_form .birs_footer {
+    margin-top: 6px;
+}
+
+#birs_appointment_form .birs_error {
+    display: none;
+    color: red;
+    margin: 0;
+    padding: 0;
+}
+#birs_appointment_form .birs_clear {
+    clear: both;
+}
+
+#birs_booking_success {
+    display: none;
+}
+
+#birs_booking_success ul {
+    list-style: none;
+    margin: 0 0 4px 0;
+}
+
+#birs_booking_success li h4 {
+    font-weight: bold;
+    margin-bottom: 4px;
+}
+
+#birs_booking_success li p {
+    margin-top: 2px;
+}
