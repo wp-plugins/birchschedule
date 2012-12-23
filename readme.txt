@@ -3,13 +3,13 @@ Contributors: birchpress
 Tags: calendar, appointment scheduler, appointment calendar, scheduler, booking calendar, appointment booking calendar
 Requires at least: 3.3
 Tested up to: 3.5
-Stable tag: 1.3.1
+Stable tag: 1.3.2
 
-BirchPress Scheduler is a booking calendar and appointment scheduler that allows service businesses to take reservations online.
+BirchPress Scheduler is an appointment booking calendar that allows service businesses to take appointments online.
 
 == Description ==
 
-BirchPress Scheduler is a booking calendar and appointment scheduler that allows service businesses such as spas, yoga studios, contractors and photographers to take reservations online. Merchants can embed a booking form in a page or post on the website, and customers can see service availability and book a reservation online directly. It is an effective tool to manage appointments and staffing schedules.
+BirchPress Scheduler is an appointment booking calendar that allows service businesses such as spas, yoga studios, contractors and photographers to take appointments online. Merchants can embed a booking form in a page or post on the website, and customers can see service availability and book a appointment online directly. It is an effective tool to manage appointments and staffing schedules.
 
 = Feature: =
 * Schedule appointments by selecting dates and staff
@@ -19,7 +19,7 @@ BirchPress Scheduler is a booking calendar and appointment scheduler that allows
 * Admin modification of appointments made by customers of your site
 * Booking for specific time in a day
 * Multi-currency support
-* Supported languages: English, Dutch(by Edwin ten Brink)
+* Supported languages: English, Dutch(by Edwin ten Brink), German (by Edwin ten Brink), Spanish (by Juan Viñas)
 
 = Desired Businesses =
 * Client scheduling ( Beauty salon, Spa management, Hairdresser, Massage therapist, Acupuncture, Photographers)
@@ -35,11 +35,16 @@ Please visit [our website](http://www.birchpress.com "WordPress Appointment Sche
 3. Activate the plugin from the Plugins menu within the WordPress admin.
 
 == Screenshots ==
-1. Appointment calendar
-2. Multiple locations
-3. Staff settings
-4. Service settings
-5. Front end booking form
+1. Frontend booking form
+2. Admin calendar view
+3. New appointment from admin
+4. Multiple locations
+5. Staff info
+6. Staff work schedule
+7. Service info
+8. Service settings
+9. Client info
+10. Currency and other settings
 
 == Frequently Asked Questions ==
 
@@ -49,6 +54,10 @@ To embed the booking form into a post/page, just insert the following shortcode:
 [bp-scheduler-bookingform]
 
 == Changelog ==
+
+= 1.3.2 =
+* Improve usability of the booking form with calendar view
+* Blocking to select date in the past
 
 = 1.3.1 =
 * Compatible with WordPress 3.5 now
