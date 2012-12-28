@@ -3,13 +3,13 @@ Contributors: birchpress
 Tags: calendar, appointment scheduler, appointment calendar, scheduler, booking calendar, appointment booking calendar
 Requires at least: 3.3
 Tested up to: 3.5
-Stable tag: 1.3.2
+Stable tag: 1.3.2.1
 
 BirchPress Scheduler is an appointment booking calendar that allows service businesses to take online bookings.
 
 == Description ==
 
-BirchPress Scheduler is an appointment booking calendar that allows service businesses such as spas, yoga studios, contractors and photographers to take online bookings. Merchants can embed a booking form in a page or post on the website, and customers can see service availability and book a appointment online directly. It is an effective tool to manage appointments and staffing schedules.
+BirchPress Scheduler is an appointment booking calendar that allows service businesses such as spas, yoga studios, contractors and photographers to take online bookings. Merchants can embed a booking form in a page or post on the website, and customers can see service availability and book an appointment online directly. It is an effective tool to manage appointments and staffing schedules.
 
 = Feature: =
 * Schedule appointments by selecting dates and staff
@@ -54,6 +54,9 @@ To embed the booking form into a post/page, just insert the following shortcode:
 [bp-scheduler-bookingform]
 
 == Changelog ==
+
+= 1.3.2.1 =
+* change the booking form design
 
 = 1.3.2 =
 * Improve usability of the booking form with calendar view
