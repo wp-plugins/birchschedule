@@ -1,0 +1,754 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BirchSchedule\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2012-11-29 09:09+0100\n"
+"PO-Revision-Date: \n"
+"Last-Translator: Edwin ten Brink - Emotion Services "
+"<transalte@emotionservices.nl>\n"
+"Language-Team: Emotion Services <translate@emotionservices.nl>\n"
+"Language: Dutch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: birchschedule.php:160
+msgid "BirchSchedule"
+msgstr "BirchSchedule"
+
+#: birchschedule.php:161 classes/birs-calendar-view.php:225
+msgid "Calendar"
+msgstr "Kalender"
+
+#: birchschedule.php:162
+msgid "BirchSchedule Settings"
+msgstr "BirchSchedule Instellingen"
+
+#: birchschedule.php:162
+msgid "Settings"
+msgstr "Instellingen"
+
+#: birchschedule.php:163
+msgid "Help"
+msgstr "Help"
+
+#: addons/general-settings/index.php:21
+msgid "General Options"
+msgstr "Algemene instellingen"
+
+#: addons/general-settings/index.php:23
+msgid "Timezone"
+msgstr "Tijdzone"
+
+#: addons/general-settings/index.php:24
+msgid "Currency"
+msgstr "Valuta"
+
+#: addons/general-settings/index.php:25
+msgid "Default Calendar View"
+msgstr "Standaard Kalender Opmaak"
+
+#: addons/general-settings/index.php:30
+msgid "General"
+msgstr "Algemeen"
+
+#: addons/general-settings/index.php:117
+msgid "Save changes"
+msgstr "Wijzigingen opslaan"
+
+#: classes/birs-calendar-view.php:22
+msgid "Appointments"
+msgstr "Afspraken"
+
+#: classes/birs-calendar-view.php:23
+msgid "Appointment"
+msgstr "Afspraak"
+
+#: classes/birs-calendar-view.php:24 classes/birs-calendar-view.php:63
+#: classes/birs-calendar-view.php:229
+msgid "Add Appointment"
+msgstr "Toevoegen Afspraak"
+
+#: classes/birs-calendar-view.php:25
+msgid "Add New Appointment"
+msgstr "Nieuwe Afspraak Toevoegen"
+
+#: classes/birs-calendar-view.php:26 classes/birs-clients-view.php:21
+#: classes/birs-locations-view.php:21 classes/birs-services-view.php:30
+#: classes/birs-staff-view.php:66
+msgid "Edit"
+msgstr "Wijzigen"
+
+#: classes/birs-calendar-view.php:27 classes/birs-calendar-view.php:67
+msgid "Edit Appointment"
+msgstr "Wijzig Afspraak"
+
+#: classes/birs-calendar-view.php:28
+msgid "New Appointment"
+msgstr "Nieuwe Afspraak"
+
+#: classes/birs-calendar-view.php:29 classes/birs-calendar-view.php:30
+msgid "View Appointment"
+msgstr "Bekijk Afspraak"
+
+#: classes/birs-calendar-view.php:31
+msgid "Search Appointments"
+msgstr "Zoek Afspraken"
+
+#: classes/birs-calendar-view.php:32
+msgid "No Appointments found"
+msgstr "Geen Afspraken gevonden"
+
+#: classes/birs-calendar-view.php:33
+msgid "No Appointments found in trash"
+msgstr "Geen Afspraken gevonden in prullenbak"
+
+#: classes/birs-calendar-view.php:34
+msgid "Parent Appointment"
+msgstr ""
+
+#: classes/birs-calendar-view.php:36
+msgid "This is where appointments are stored."
+msgstr "Hier worden afspraken opgeslagen"
+
+#: classes/birs-calendar-view.php:60 classes/birs-content-view.php:149
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: classes/birs-calendar-view.php:234
+msgid "Refresh"
+msgstr "Verversen"
+
+#: classes/birs-calendar-view.php:238 classes/birs-locations-view.php:18
+#: classes/birs-shortcode.php:268
+msgid "Location"
+msgstr "Locatie"
+
+#: classes/birs-calendar-view.php:242 classes/birs-calendar-view.php:426
+#: classes/birs-services-view.php:112 classes/birs-staff-view.php:62
+#: classes/birs-staff-view.php:63
+msgid "Staff"
+msgstr "Personeel"
+
+#: classes/birs-calendar-view.php:282 classes/birs-clients-view.php:162
+msgid "Title"
+msgstr "Titel"
+
+#: classes/birs-calendar-view.php:292 classes/birs-clients-view.php:59
+#: classes/birs-clients-view.php:197 classes/birs-locations-view.php:57
+#: classes/birs-locations-view.php:156
+msgid "Address"
+msgstr "Adres"
+
+#: classes/birs-calendar-view.php:306 classes/birs-clients-view.php:207
+#: classes/birs-locations-view.php:58 classes/birs-locations-view.php:166
+msgid "City"
+msgstr "Plaats"
+
+#: classes/birs-calendar-view.php:313 classes/birs-clients-view.php:214
+#: classes/birs-locations-view.php:59 classes/birs-locations-view.php:173
+msgid "State/Province"
+msgstr "Provincie"
+
+#: classes/birs-calendar-view.php:324 classes/birs-clients-view.php:224
+#: classes/birs-locations-view.php:183
+msgid "Country"
+msgstr "Land"
+
+#: classes/birs-calendar-view.php:336 classes/birs-clients-view.php:232
+#: classes/birs-locations-view.php:191
+msgid "Zip Code"
+msgstr "Postcode"
+
+#: classes/birs-calendar-view.php:358 classes/birs-shortcode.php:354
+msgid "Notes"
+msgstr "Notitie"
+
+#: classes/birs-calendar-view.php:404
+msgid "General Info"
+msgstr "Algemene Informatie"
+
+#: classes/birs-calendar-view.php:405
+msgid "Appointment Details"
+msgstr "Afspraak Details"
+
+#: classes/birs-calendar-view.php:406
+msgid "Client Details"
+msgstr "Klant Details"
+
+#: classes/birs-calendar-view.php:418 classes/birs-services-view.php:27
+#: classes/birs-shortcode.php:276
+msgid "Service"
+msgstr "Dienst"
+
+#: classes/birs-calendar-view.php:439 classes/birs-shortcode.php:293
+msgid "Date & Time"
+msgstr "Datum & Tijd"
+
+#: classes/birs-calendar-view.php:455 classes/birs-services-view.php:147
+msgid "Price"
+msgstr "Prijs"
+
+#: classes/birs-calendar-view.php:501 classes/birs-clients-view.php:171
+#: classes/birs-shortcode.php:322
+msgid "First Name"
+msgstr "Voornaam"
+
+#: classes/birs-calendar-view.php:516 classes/birs-clients-view.php:177
+#: classes/birs-shortcode.php:330
+msgid "Last Name"
+msgstr "Achternaam"
+
+#: classes/birs-calendar-view.php:531 classes/birs-clients-view.php:58
+#: classes/birs-clients-view.php:190 classes/birs-shortcode.php:338
+msgid "Email"
+msgstr ""
+
+#: classes/birs-calendar-view.php:546 classes/birs-clients-view.php:57
+#: classes/birs-shortcode.php:346
+msgid "Phone"
+msgstr "Telefoon"
+
+#: classes/birs-calendar-view.php:653
+msgid "Please select a service and a "
+msgstr "Selecteer een Dienst en een"
+
+#: classes/birs-calendar-view.php:656
+msgid "Date & time is required"
+msgstr "Datum en Tijd is verplicht"
+
+#: classes/birs-calendar-view.php:664
+msgid "Date & time is incorrect"
+msgstr "Datum en Tijd is niet correct"
+
+#: classes/birs-calendar-view.php:672
+msgid "First name is required"
+msgstr "Voornaam is verplicht"
+
+#: classes/birs-calendar-view.php:675
+msgid "Last name is required"
+msgstr "Achternaam is verplicht"
+
+#: classes/birs-calendar-view.php:678
+msgid "Email is required"
+msgstr "Email is verplicht"
+
+#: classes/birs-calendar-view.php:680
+msgid "Email is incorrect"
+msgstr "Email is niet correct"
+
+#: classes/birs-calendar-view.php:683
+msgid "Phone is required"
+msgstr "Telefoon is verplicht"
+
+#: classes/birs-clients-view.php:17
+msgid "Clients"
+msgstr "Klanten"
+
+#: classes/birs-clients-view.php:18
+msgid "Client"
+msgstr "Klant"
+
+#: classes/birs-clients-view.php:19
+msgid "Add Client"
+msgstr "Klant Toevoegen"
+
+#: classes/birs-clients-view.php:20
+msgid "Add New Client"
+msgstr "Nieuwe Klant Toevoegen"
+
+#: classes/birs-clients-view.php:22
+msgid "Edit Client"
+msgstr "Wijzigen Klant"
+
+#: classes/birs-clients-view.php:23
+msgid "New Client"
+msgstr "Nieuwe Klant"
+
+#: classes/birs-clients-view.php:24 classes/birs-clients-view.php:25
+msgid "View Client"
+msgstr "Bekijken Klant"
+
+#: classes/birs-clients-view.php:26
+msgid "Search Clients"
+msgstr "Klant Zoeken"
+
+#: classes/birs-clients-view.php:27
+msgid "No Clients found"
+msgstr "Geen klanten gevonden"
+
+#: classes/birs-clients-view.php:28
+msgid "No Clients found in trash"
+msgstr "Geen klanten in prullenbak"
+
+#: classes/birs-clients-view.php:29
+msgid "Parent Client"
+msgstr "Ouders Klant"
+
+#: classes/birs-clients-view.php:31
+msgid "This is where clients are stored."
+msgstr "Hier worden klanten opgeslagen"
+
+#: classes/birs-clients-view.php:56
+msgid "Client Name"
+msgstr "Klant naam"
+
+#: classes/birs-clients-view.php:113 classes/birs-clients-view.php:116
+#: classes/birs-clients-view.php:118
+msgid "Client updated."
+msgstr "Klant bijgewerkt"
+
+#: classes/birs-clients-view.php:114 classes/birs-locations-view.php:109
+#: classes/birs-services-view.php:71 classes/birs-staff-view.php:43
+msgid "Custom field updated."
+msgstr "Aangepast Veld bijgewerkt"
+
+#: classes/birs-clients-view.php:115 classes/birs-locations-view.php:110
+#: classes/birs-services-view.php:72 classes/birs-staff-view.php:44
+msgid "Custom field deleted."
+msgstr "Aangepast Veld verwijderd"
+
+#: classes/birs-clients-view.php:117
+#, php-format
+msgid "Client restored to revision from %s"
+msgstr "Klant hersteld van wijziging datum %s"
+
+#: classes/birs-clients-view.php:119
+msgid "Client saved."
+msgstr "Klant opgeslagen"
+
+#: classes/birs-clients-view.php:120
+msgid "Client submitted."
+msgstr "Klant Toegevoegd"
+
+#: classes/birs-clients-view.php:121
+#, php-format
+msgid "Client scheduled for: <strong>%1$s</strong>."
+msgstr "Klant ingepland voor: <strong>%1$s</strong>."
+
+#: classes/birs-clients-view.php:121 classes/birs-locations-view.php:116
+#: classes/birs-services-view.php:78 classes/birs-staff-view.php:50
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: classes/birs-clients-view.php:122
+msgid "Client draft updated."
+msgstr ""
+
+#: classes/birs-clients-view.php:131
+msgid "Client Info"
+msgstr "Klant informatie"
+
+#: classes/birs-clients-view.php:183 classes/birs-locations-view.php:149
+msgid "Phone Number"
+msgstr "Telefoonnummer"
+
+#: classes/birs-content-view.php:145
+msgid "Save"
+msgstr ""
+
+#: classes/birs-content-view.php:146
+msgid "Save Data"
+msgstr ""
+
+#: classes/birs-help-view.php:11
+msgid "Help and Support"
+msgstr "Help en Ondersteuning"
+
+#: classes/birs-help-view.php:12
+msgid "Versions"
+msgstr "Versies"
+
+#: classes/birs-locations-view.php:17
+msgid "Locations"
+msgstr "Locaties"
+
+#: classes/birs-locations-view.php:19
+msgid "Add Location"
+msgstr "Toevoegen Locatie"
+
+#: classes/birs-locations-view.php:20
+msgid "Add New Location"
+msgstr "Nieuwe Locatie Toevoegen"
+
+#: classes/birs-locations-view.php:22
+msgid "Edit Location"
+msgstr "Wijzig Locatie"
+
+#: classes/birs-locations-view.php:23
+msgid "New Location"
+msgstr "Nieuwe Locatie"
+
+#: classes/birs-locations-view.php:24 classes/birs-locations-view.php:25
+msgid "View Location"
+msgstr "Bekijk Locatie"
+
+#: classes/birs-locations-view.php:26
+msgid "Search Locations"
+msgstr "Zoek Locaties"
+
+#: classes/birs-locations-view.php:27
+msgid "No Locations found"
+msgstr "Geen Locatie gevonden"
+
+#: classes/birs-locations-view.php:28
+msgid "No Locations found in trash"
+msgstr "Geen Locatie gevonden in prullenbak"
+
+#: classes/birs-locations-view.php:29
+msgid "Parent Location"
+msgstr ""
+
+#: classes/birs-locations-view.php:31
+msgid "This is where locations are stored."
+msgstr "Hier worden Locaties opgeslagen"
+
+#: classes/birs-locations-view.php:56
+msgid "Location Name"
+msgstr "Locatie Beschrijving"
+
+#: classes/birs-locations-view.php:108 classes/birs-locations-view.php:111
+#: classes/birs-locations-view.php:113
+msgid "Location updated."
+msgstr "Locatie Bijgewerkt"
+
+#: classes/birs-locations-view.php:112
+#, php-format
+msgid "Location restored to revision from %s"
+msgstr "Locatie teruggezet van datum %s"
+
+#: classes/birs-locations-view.php:114
+msgid "Location saved."
+msgstr "Locatie opgeslagen."
+
+#: classes/birs-locations-view.php:115
+msgid "Location submitted."
+msgstr "Locatie Toegevoegd."
+
+#: classes/birs-locations-view.php:116
+#, php-format
+msgid "Location scheduled for: <strong>%1$s</strong>."
+msgstr "Locatie geboekt voor: <strong>%1$s</strong>."
+
+#: classes/birs-locations-view.php:117
+msgid "Location draft updated."
+msgstr ""
+
+#: classes/birs-locations-view.php:125
+msgid "Location Details"
+msgstr "Locatie Details"
+
+#: classes/birs-services-view.php:11
+msgid "minutes"
+msgstr "minuten"
+
+#: classes/birs-services-view.php:12
+msgid "hours"
+msgstr "uren"
+
+#: classes/birs-services-view.php:13
+msgid "Before"
+msgstr "Voor"
+
+#: classes/birs-services-view.php:14
+msgid "After"
+msgstr "Na"
+
+#: classes/birs-services-view.php:15
+msgid "Before & After"
+msgstr "Voor & Na"
+
+#: classes/birs-services-view.php:16
+msgid "Fixed"
+msgstr "vast"
+
+#: classes/birs-services-view.php:17
+msgid "Free"
+msgstr "Beschikbaar"
+
+#: classes/birs-services-view.php:18
+msgid "Varies"
+msgstr "Verschild"
+
+#: classes/birs-services-view.php:19
+msgid "Don't show"
+msgstr "Niet tonen"
+
+#: classes/birs-services-view.php:26 classes/birs-staff-view.php:96
+msgid "Services"
+msgstr "Dienst"
+
+#: classes/birs-services-view.php:28
+msgid "Add Service"
+msgstr "Dienst Toevoegen"
+
+#: classes/birs-services-view.php:29
+msgid "Add New Service"
+msgstr "Nieuwe Dienst Toevoegen"
+
+#: classes/birs-services-view.php:31
+msgid "Edit Service"
+msgstr "Dienst Wijzigen"
+
+#: classes/birs-services-view.php:32
+msgid "New Service"
+msgstr "Nieuwe Dienst"
+
+#: classes/birs-services-view.php:33 classes/birs-services-view.php:34
+msgid "View Service"
+msgstr "Dienst Bekijken"
+
+#: classes/birs-services-view.php:35
+msgid "Search Services"
+msgstr "Zoek Dienst"
+
+#: classes/birs-services-view.php:36
+msgid "No Services found"
+msgstr "Geen dienst gevonden"
+
+#: classes/birs-services-view.php:37
+msgid "No Services found in trash"
+msgstr "Geen dienst gevonden in prullenbak"
+
+#: classes/birs-services-view.php:38
+msgid "Parent Service"
+msgstr "Bovenliggende Dienst"
+
+#: classes/birs-services-view.php:40
+msgid "This is where services are stored."
+msgstr "Hier worden Diensten opgeslagen"
+
+#: classes/birs-services-view.php:70 classes/birs-services-view.php:73
+#: classes/birs-services-view.php:75
+msgid "Service updated."
+msgstr "Dienst bijgewerkt"
+
+#: classes/birs-services-view.php:74
+#, php-format
+msgid "Service restored to revision from %s"
+msgstr "Dienst teruggeplaatst van datum %s"
+
+#: classes/birs-services-view.php:76
+msgid "Service saved."
+msgstr "Dienst opgeslagen"
+
+#: classes/birs-services-view.php:77
+msgid "Service submitted."
+msgstr "Dienst toegevoegd"
+
+#: classes/birs-services-view.php:78
+#, php-format
+msgid "Service scheduled for: <strong>%1$s</strong>."
+msgstr "Dienst deplaned voor: <strong>%1$s</strong>."
+
+#: classes/birs-services-view.php:79
+msgid "Service draft updated."
+msgstr ""
+
+#: classes/birs-services-view.php:104
+msgid "Service Name"
+msgstr "Dienst Naam"
+
+#: classes/birs-services-view.php:105 classes/birs-staff-view.php:33
+msgid "Description"
+msgstr "Beschrijving"
+
+#: classes/birs-services-view.php:111
+msgid "Service Settings"
+msgstr "Dienst Instellingen"
+
+#: classes/birs-services-view.php:127
+msgid "Length"
+msgstr "Lengte"
+
+#: classes/birs-services-view.php:137
+msgid "Padding"
+msgstr "Opvulling"
+
+#: classes/birs-services-view.php:140
+msgid "mins padding time"
+msgstr "Minuten opvul tijd"
+
+#: classes/birs-services-view.php:190
+msgid "Assign staff that can perform this service:"
+msgstr "Personeel die deze dienst uitvoeren:"
+
+#: classes/birs-services-view.php:197
+#, php-format
+msgid "There is no staff to assign. Click %s here %s to add one."
+msgstr "Er is geen personeel toegewezen. Druk %s HIER %s om toe te voegen."
+
+#: classes/birs-shortcode.php:56
+msgid "Booking appointment failed"
+msgstr "Afspraak maken NIET gelukt!"
+
+#: classes/birs-shortcode.php:105
+msgid "Your appointment has been booked successfully."
+msgstr "Afspraak is gemaakt!"
+
+#: classes/birs-shortcode.php:109
+msgid "Location:"
+msgstr "Locatie:"
+
+#: classes/birs-shortcode.php:113
+msgid "Service:"
+msgstr "Dienst:"
+
+#: classes/birs-shortcode.php:117
+msgid "Time:"
+msgstr "Tijd:"
+
+#: classes/birs-shortcode.php:196
+msgid "Time is unavaliable"
+msgstr "Tijdstip is niet beschikbaar"
+
+#: classes/birs-shortcode.php:284
+msgid "Service Provider"
+msgstr "Dienst verlener"
+
+#: classes/birs-shortcode.php:308
+msgid "Submit"
+msgstr "Versturen"
+
+#: classes/birs-staff-view.php:32
+msgid "Staff Name"
+msgstr "Personeel Naam"
+
+#: classes/birs-staff-view.php:42 classes/birs-staff-view.php:45
+#: classes/birs-staff-view.php:47
+msgid "Staff updated."
+msgstr "Personeel bijgewerkt"
+
+#: classes/birs-staff-view.php:46
+#, php-format
+msgid "Staff restored to revision from %s"
+msgstr "Personeel teruggezet van datum %s"
+
+#: classes/birs-staff-view.php:48
+msgid "Staff saved."
+msgstr "Personeel opgeslagen"
+
+#: classes/birs-staff-view.php:49
+msgid "Staff submitted."
+msgstr "Personeel Toegevoegd"
+
+#: classes/birs-staff-view.php:50
+#, php-format
+msgid "Staff scheduled for: <strong>%1$s</strong>."
+msgstr "Personeel geboekt voor: <strong>%1$s</strong>."
+
+#: classes/birs-staff-view.php:51
+msgid "Staff draft updated."
+msgstr ""
+
+#: classes/birs-staff-view.php:64
+msgid "Add Staff"
+msgstr "Personeel Toevoegen"
+
+#: classes/birs-staff-view.php:65
+msgid "Add New Staff"
+msgstr "Nieuw Personeel toevoegen"
+
+#: classes/birs-staff-view.php:67
+msgid "Edit Staff"
+msgstr "Personeel Wijzigen"
+
+#: classes/birs-staff-view.php:68
+msgid "New Staff"
+msgstr "Nieuw Personeel"
+
+#: classes/birs-staff-view.php:69 classes/birs-staff-view.php:70
+msgid "View Staff"
+msgstr "Bekijken Personeel"
+
+#: classes/birs-staff-view.php:71
+msgid "Search Staff"
+msgstr "Zoeken Personeel"
+
+#: classes/birs-staff-view.php:72
+msgid "No Staff found"
+msgstr "Geen Personeel gevonden"
+
+#: classes/birs-staff-view.php:73
+msgid "No Staff found in trash"
+msgstr "Geen Personeel gevonden in prullenbak"
+
+#: classes/birs-staff-view.php:74
+msgid "Parent Staff"
+msgstr ""
+
+#: classes/birs-staff-view.php:76
+msgid "This is where staff are stored."
+msgstr "Hier wordt personeel opgeslagen"
+
+#: classes/birs-staff-view.php:95
+msgid "Work Schedule"
+msgstr "Werk planning"
+
+#: classes/birs-staff-view.php:110
+msgid "Sun"
+msgstr "Zo"
+
+#: classes/birs-staff-view.php:111
+msgid "Mon"
+msgstr "Ma"
+
+#: classes/birs-staff-view.php:112
+msgid "Tue"
+msgstr "Di"
+
+#: classes/birs-staff-view.php:113
+msgid "Wed"
+msgstr "Wo"
+
+#: classes/birs-staff-view.php:114
+msgid "Thu"
+msgstr "Do"
+
+#: classes/birs-staff-view.php:115
+msgid "Fri"
+msgstr "Vr"
+
+#: classes/birs-staff-view.php:116
+msgid "Sat"
+msgstr "Za"
+
+#: classes/birs-staff-view.php:211
+#, php-format
+msgid "There is no locations. Click %s here %s to add one."
+msgstr "Er is geen locatie. Druk %s HIER %s om toe te voegen."
+
+#: classes/birs-staff-view.php:250
+msgid "Assign services that this staff can perform:"
+msgstr "Dinesten die dit personeelslid kan uitvoeren:"
+
+#: classes/birs-staff-view.php:257
+#, php-format
+msgid "There is no services to assign. Click %s here %s to add one."
+msgstr "Er is geen Dienst geselecteerd. Druk %s HIER %s om toe te voegen."
+
+#: classes/birs-util.php:456
+msgid "Mr"
+msgstr "Dhr."
+
+#: classes/birs-util.php:457
+msgid "Mrs"
+msgstr "Mevr."
+
+#: classes/birs-util.php:458
+msgid "Miss"
+msgstr ""
+
+#: classes/birs-util.php:459
+msgid "Ms"
+msgstr ""
+
+#: classes/birs-util.php:460
+msgid "Dr"
+msgstr ""
