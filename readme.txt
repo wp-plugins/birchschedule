@@ -36,7 +36,9 @@ BirchPress Scheduler is an appointment booking calendar that allows service busi
 * Automated Email Reminders to staff and clients
 * Custom email messages 
 * Display staff appointments in different colors 
-* Custom booking form based on business needs(add custom fields, visible/invisible to admin and customers, required/not required) and much more comming soon
+* Custom booking form based on business needs(add custom fields, visible/invisible to admin and customers, required/not required)
+* and much more comming soon
+
 Please visit [our website](http://www.birchpress.com "WordPress Appointment Booking Calendar") for more info.
 
 == Installation ==
