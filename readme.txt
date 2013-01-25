@@ -68,6 +68,9 @@ To embed the booking form into a post/page, just insert the following shortcode:
 
 == Changelog ==
 
+= 1.3.5 =
+* CRITICAL: Version 1.3.4 is a bad build. Please update to 1.3.5
+
 = 1.3.4 =
 * Show update notices
 * Fix a display bug of showing time options in the frontend
