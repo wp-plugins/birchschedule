@@ -3,7 +3,7 @@ Contributors: birchpress
 Tags: calendar, appointment scheduler, appointment calendar, scheduler, booking calendar, appointment booking calendar
 Requires at least: 3.4
 Tested up to: 3.5
-Stable tag: 1.3.4
+Stable tag: 1.3.5
 
 BirchPress Scheduler is an appointment booking calendar that allows service businesses to take online bookings.
 
