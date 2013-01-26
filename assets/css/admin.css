@@ -1,0 +1,183 @@
+div#submitdiv #minor-publishing{
+    display: none;
+}
+
+.birchschedule .form-field input[type="text"] {
+    width: 50%;
+}
+
+.birchschedule .form-table textarea {
+    width: 80%;
+    margin-bottom: 6px;
+}
+
+/* locations view */
+.birchschedule #location_list {
+    float: left;
+    width: 25%;
+    background-color: white;
+    border-color: #DFDFDF;
+    border-style: solid;
+    border-width: 1px;
+}
+
+.birchschedule #location_list li {
+    padding: 0px;
+    margin: 0px;
+}
+
+.birchschedule #location_list li a {
+    display: block;
+    color: #21759B;
+    padding: 3px 5px;
+    padding-left: 12px;
+}
+
+.birchschedule #location_list li a:hover {
+    background-color: #EAF2FA;
+    color: #333;
+    cursor: pointer;
+}
+
+.birchschedule #location_list li.current a {
+    font-weight: bold;
+    color: #333;
+}
+
+.birchschedule #timetable {
+    margin-left: 28%;
+}
+
+.birchschedule #timetable span {
+    margin: 4px;
+}
+
+.birchschedule #timetable input[type="checkbox"] {
+    margin-right: 6px;
+}
+
+.birchschedule #timetable label {
+    margin-right: 11px;
+}
+
+.birchschedule #timetable select {
+    padding-left: 4px;
+    padding-right: 4px;
+    margin-top: 4px;
+    margin-bottom: 3px;
+    width: 100px;
+}
+
+.birchschedule #timetable th {
+    text-align: left;
+}
+
+/* services view */
+.birchschedule #birs_service_length, 
+.birchschedule #birs_service_padding,
+.birchschedule #birs_service_price {
+    width: 20%;
+}
+
+div#birchschedule-staff-services input,
+div#birchschedule-service-staff input{
+    margin-right: 4px;
+}
+
+/* calendar view */
+#birs_calendar_title {
+    float: left;
+}
+
+#birs_calendar_filter {
+    float: right;
+    padding-top: 9px;
+}
+
+#birs_calendar_filter select {
+    margin-left: 2px;
+    margin-right: 12px;
+    padding: 2px;
+    height: 2em;
+    min-width: 10em;
+}
+
+#birs_calendar_filter label {
+    display: inline-block;
+
+}
+
+#birs_calendar_filter .select2-container {
+    min-width: 140px
+}
+
+/* edit dialog */
+.ui-dialog .button-primary {
+    min-width: 70px;
+    text-align: center;
+}
+
+.ui-dialog-title span {
+    font-weight: normal;
+    margin-left: 120px;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    margin-bottom: 0;
+}
+
+input#birs_appointment_price {
+    width: 80px;
+}
+
+input#birs_date_start {
+    width: 120px;
+}
+
+#birs_appointment_edit th {
+    text-align: right;
+}
+
+#birs_appointment_edit td textArea {
+    width: 280px;
+    height: 50px;
+}
+
+#birs_appointment_edit #birs_client_details input[type="text"] {
+    width: 240px;
+}
+
+#birs_appointment_edit .splitter {
+    border-top: 1px #DFDFDF solid;
+    margin: 8px;
+}
+
+#birs_appointment_edit th {
+    vertical-align: top;
+    padding-top: 2px;
+}
+
+
+#birs_appointment_edit tr.error th, #birs_appointment_edit tr.error td {
+    padding: 0;
+}
+
+#birs_appointment_edit label.error {
+    display: none;
+    color: red;
+}
+
+.ui-dialog-titlebar .submitbox a {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 4px;
+}
+
+.birchschedule .fc-event {
+    cursor: pointer;
+}
+
+div.jGrowl div.jGrowl-notification, div.jGrowl div.jGrowl-closer {
+    background-color: #E4F2FD; 
+}
