@@ -3,7 +3,7 @@ Contributors: birchpress
 Tags: calendar, appointment scheduler, appointment calendar, scheduler, booking calendar, appointment booking calendar
 Requires at least: 3.4
 Tested up to: 3.5
-Stable tag: 1.3.5
+Stable tag: 1.3.6
 
 BirchPress Scheduler is an appointment booking calendar that allows service businesses to take online bookings.
 
@@ -67,6 +67,9 @@ To embed the booking form into a post/page, just insert the following shortcode:
 [bp-scheduler-bookingform]
 
 == Changelog ==
+
+= 1.3.6 =
+* IMPORTANT: remove unnessary time availability check in the admin calendar
 
 = 1.3.5 =
 * CRITICAL: Version 1.3.4 is a bad build. Please update to 1.3.5

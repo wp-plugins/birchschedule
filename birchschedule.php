@@ -4,7 +4,7 @@
   Plugin Name: BirchPress Scheduler
   Plugin URI: http://www.birchpress.com
   Description: An appointment booking calendar that allows service businesses to take online bookings. 
-  Version: 1.3.5
+  Version: 1.3.6
   Author: BirchPress
   Author URI: http://www.birchpress.com/
   License: GPLv2
