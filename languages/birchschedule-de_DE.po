@@ -1,0 +1,1350 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BirchPress Scheduler\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-01-27 17:28+0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: BirchPress <support@birchpress.com>\n"
+"Language-Team: EmotionServices <transalte@emotionservices.nl>\n"
+"Language: German\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: birchschedule.php:172
+msgid "Scheduler"
+msgstr "Zeitplan"
+
+#: birchschedule.php:173 classes/birs-calendar-view.php:234
+msgid "Calendar"
+msgstr "Kalender"
+
+#: birchschedule.php:174
+msgid "BirchPress Scheduler Settings"
+msgstr "BirchPress Zeitplan Einstellungen"
+
+#: birchschedule.php:174
+msgid "Settings"
+msgstr "Einstellungen"
+
+#: birchschedule.php:175
+msgid "Help"
+msgstr "Beistand"
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:28
+msgid "BirchPress"
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:29
+msgid "Support License Key"
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:42
+msgid "Your license will expire on "
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:44
+msgid "Failed to connect to birchpress.com."
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:46
+msgid "Your license key is incorrect."
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:59
+#, php-format
+msgid ""
+"<a href=\"%s\">Purchase a license</a> to receive access to automatic "
+"upgrades and support."
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:62
+#, php-format
+msgid ""
+"Your license has expired. Please <a href=\"%s\">renew it</a> before you can "
+"receive access to automatic upgrades and support."
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:65
+#, php-format
+msgid ""
+"<a href=\"%s\">Fill out </a> the license key to receive access to automatic "
+"upgrades and support. <a href=\"$s\">Purchase here</a> if your don't have "
+"one."
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:146
+msgid "Change License Key"
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:211
+msgid ""
+"An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?"
+"\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:216
+msgid "An unknown error occurred"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:127
+msgid "Additional Info"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:148
+#, fuzzy
+msgid "Email Address"
+msgstr "Adresse"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:161
+#, fuzzy
+msgid "Notifications"
+msgstr "Standorte"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:170
+msgid "Notification to Staff"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:171
+msgid "Notification to Client"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:201
+#, fuzzy
+msgid "Notification Settings Updated"
+msgstr "Stelle aktualisiert."
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:212
+#: classes/birs-calendar-view.php:27
+msgid "New Appointment"
+msgstr "Neuer Voranmeldung"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:213
+#, fuzzy
+msgid "Appointment Modified"
+msgstr "Voranmeldung"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:214
+#, fuzzy
+msgid "Appointment Cancelled"
+msgstr "Voranmeldung"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:231
+msgid "Enable email notification to "
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:235
+#, fuzzy
+msgid "From Name"
+msgstr "Vorname"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:244
+msgid "From Email"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:255
+msgid "Reply To"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:266
+msgid "BCC"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:279
+msgid "Edit Email Templates"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:315
+msgid "Subject"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:327
+msgid "Message"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:395
+#: addons/general-settings/index.php:148
+msgid "Save changes"
+msgstr "Änderungen speichern"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:418
+#: addons/form-builder/classes/birs-addon-form-builder.php:581
+msgid "&nbsp"
+msgstr ""
+
+#: addons/enhanced-admin/classes/birs-addon-enhanced-admin.php:77
+msgid "Select an Existing Client"
+msgstr ""
+
+#: addons/enhanced-admin/classes/birs-addon-enhanced-admin.php:96
+#: classes/birs-calendar-view.php:78
+msgid "Loading..."
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:25
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:74
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:82
+#: classes/birs-shortcode.php:325
+msgid "Appointment Info"
+msgstr "Voranmeldung"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:31
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:80
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:86
+#: classes/birs-calendar-view.php:247 classes/birs-locations-view.php:18
+#: classes/birs-shortcode.php:328
+msgid "Location"
+msgstr "Stelle"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:32
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:81
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:90
+#: classes/birs-calendar-view.php:431 classes/birs-services-view.php:18
+#: classes/birs-shortcode.php:336
+msgid "Service"
+msgstr "Dienst"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:33
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:82
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:94
+#: classes/birs-shortcode.php:344
+msgid "Service Provider"
+msgstr "Dienstleister"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:34
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:83
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:98
+#: classes/birs-calendar-view.php:452 classes/birs-shortcode.php:353
+msgid "Date & Time"
+msgstr "Datum & Uhrzeit"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:42
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:97
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:59
+#: classes/birs-shortcode.php:374
+msgid "Your Info"
+msgstr "Ihre Info"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:48
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:103
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:63
+msgid "Are you a new or returning user?"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:49
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:104
+#, fuzzy
+msgid "New User"
+msgstr "Neuer Dienst"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:50
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:105
+msgid "Returning User"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-email.php:10
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-email.php:24
+msgid "Please input a valid email address"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:173
+msgid "Field Label"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:190
+msgid "The field is mandatory"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:204
+msgid "Visibility"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:213
+msgid "Customers and Admin"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:221
+msgid "Admin Only"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:234
+#: classes/birs-content-view.php:140
+msgid "Save"
+msgstr "Speichern"
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:235
+msgid "Cancel"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:245
+#: addons/form-builder/classes/predefined/birs-addon-fb-address.php:37
+#, fuzzy
+msgid "This field is required"
+msgstr "Vorname ist erforderlich."
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:284
+#: classes/birs-calendar-view.php:25 classes/birs-clients-view.php:21
+#: classes/birs-locations-view.php:21 classes/birs-services-view.php:21
+#: classes/birs-staff-view.php:66
+msgid "Edit"
+msgstr "Ändern"
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:287
+#: addons/form-builder/classes/birs-addon-fb-selectable.php:48
+#: classes/birs-calendar-view.php:59 classes/birs-content-view.php:144
+msgid "Delete"
+msgstr "Löschen"
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:298
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:65
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:5
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:5
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:5
+msgid "Predefined"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-selectable.php:13
+#: addons/form-builder/classes/predefined/birs-addon-fb-country.php:7
+msgid "Choices"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-selectable.php:20
+#, fuzzy
+msgid "+ Add Choice"
+msgstr "Hinzufügen Kunde"
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:68
+#: addons/form-builder/classes/birs-addon-form-builder.php:602
+msgid "Single Line Text"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:69
+#: addons/form-builder/classes/birs-addon-form-builder.php:605
+msgid "Paragraph Text"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:70
+#: addons/form-builder/classes/birs-addon-form-builder.php:608
+msgid "Drop Down"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:71
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:138
+#: classes/birs-calendar-view.php:546 classes/birs-clients-view.php:58
+#: classes/birs-clients-view.php:240 classes/birs-shortcode.php:393
+msgid "Email"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:72
+#: addons/form-builder/classes/birs-addon-form-builder.php:611
+msgid "Checkboxes"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:73
+#: addons/form-builder/classes/birs-addon-form-builder.php:614
+msgid "Radio Buttons"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:74
+msgid "Section Break"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:448
+#, fuzzy
+msgid "Field Deleted"
+msgstr "Adaptiert feld gelöscht."
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:474
+msgid "Add a Field"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:479
+msgid "Form Builder"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:650
+msgid "Field Settings Updated"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:6
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:13
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:20
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:27
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:39
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:51
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:63
+#, fuzzy
+msgid "Untitled"
+msgstr "Titel"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:32
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:44
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:56
+#, fuzzy
+msgid "First Choice"
+msgstr "Vorname"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:33
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:45
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:57
+msgid "Second Choice"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:34
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:46
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:58
+msgid "Third Choice"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:89
+#: classes/birs-calendar-view.php:368 classes/birs-shortcode.php:367
+msgid "Notes"
+msgstr "Aufzeichnungen"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:112
+#: classes/birs-calendar-view.php:292 classes/birs-clients-view.php:207
+msgid "Title"
+msgstr "Titel"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:122
+#: classes/birs-calendar-view.php:516 classes/birs-clients-view.php:217
+#: classes/birs-shortcode.php:377
+msgid "First Name"
+msgstr "Vorname"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:130
+#: classes/birs-calendar-view.php:531 classes/birs-clients-view.php:224
+#: classes/birs-shortcode.php:385
+msgid "Last Name"
+msgstr "Nachname"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:146
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:22
+msgid "Password"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:152
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:26
+msgid "Retype Password"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:157
+#: classes/birs-calendar-view.php:561 classes/birs-clients-view.php:57
+#: classes/birs-shortcode.php:401
+msgid "Phone"
+msgstr "Telefon"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:165
+#: classes/birs-calendar-view.php:302 classes/birs-clients-view.php:59
+#: classes/birs-clients-view.php:248 classes/birs-locations-view.php:57
+#: classes/birs-locations-view.php:156
+msgid "Address"
+msgstr "Adresse"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:173
+#: classes/birs-calendar-view.php:316 classes/birs-clients-view.php:260
+#: classes/birs-locations-view.php:58 classes/birs-locations-view.php:166
+msgid "City"
+msgstr "Stadt"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:181
+#: classes/birs-calendar-view.php:323 classes/birs-clients-view.php:268
+#: classes/birs-locations-view.php:59 classes/birs-locations-view.php:173
+msgid "State/Province"
+msgstr "Provinz"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:189
+#: classes/birs-calendar-view.php:334 classes/birs-clients-view.php:280
+#: classes/birs-locations-view.php:183
+msgid "Country"
+msgstr "Land"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:199
+#: classes/birs-calendar-view.php:346 classes/birs-clients-view.php:289
+#: classes/birs-locations-view.php:191
+msgid "Zip Code"
+msgstr "Postleitzahl"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:207
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:22
+#: classes/birs-shortcode.php:412
+msgid "Submit"
+msgstr "Einsenden"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:213
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:26
+msgid "Lost your password?"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:231
+#: classes/birs-shortcode.php:88
+msgid "Your appointment has been booked successfully."
+msgstr "Ihr voranmeldung wurde erfolgreich gebucht."
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:235
+#: classes/birs-shortcode.php:92
+msgid "Location:"
+msgstr "Stelle:"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:239
+#: classes/birs-shortcode.php:96
+msgid "Service:"
+msgstr "Dienst:"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:243
+#: classes/birs-shortcode.php:100
+msgid "Time:"
+msgstr "Zeit:"
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:59
+msgid ""
+"Appointment Details ('Location','Service','Staff' & 'Date&Time' fields are "
+"predefined, click 'edit' to change the labels)"
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:79
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:56
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:19
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:19
+msgid "Labels"
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-email.php:19
+#: classes/birs-calendar-view.php:701
+msgid "Email is required"
+msgstr "Email ist erforderlich."
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-email.php:35
+msgid ""
+"Email already exists. You may book using this email by selecting \"I am a "
+"returning user.\""
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:71
+msgid "I am a new user."
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:79
+msgid "I am a returning user."
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:70
+#, fuzzy
+msgid "Password is required"
+msgstr "Telefon ist erforderlich"
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:75
+msgid "Password must be at least 6 digits."
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:78
+msgid "Both passwords should match"
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:88
+msgid ""
+"Email does not exist. You may book using this email by selecting \"I am a "
+"new user.\""
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:91
+#, fuzzy
+msgid "Email or password is incorrect."
+msgstr "Email ist nicht korrekt"
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:36
+#, fuzzy
+msgid "Confirmation"
+msgstr "Stelle"
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:44
+msgid "Text"
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:51
+msgid "Redirect"
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:90
+#: classes/birs-shortcode.php:410
+msgid "Please wait..."
+msgstr "Bitte warten ..."
+
+#: addons/general-settings/index.php:33
+msgid "General Options"
+msgstr "Allgemeinen Optionen"
+
+#: addons/general-settings/index.php:35
+msgid "Timezone"
+msgstr "Zeitzone"
+
+#: addons/general-settings/index.php:36
+msgid "Date Format, Time Format"
+msgstr "Datum, Zeit Struktur"
+
+#: addons/general-settings/index.php:37
+msgid "Currency"
+msgstr "Zahlungsmittel"
+
+#: addons/general-settings/index.php:38
+msgid "Default Calendar View"
+msgstr "Standard Kalendaransicht"
+
+#: addons/general-settings/index.php:43
+msgid "General"
+msgstr "Allgemein"
+
+#: addons/general-settings/index.php:104
+#, php-format
+msgid "<label>Timezone settings are located <a href='%s'>here</a>.</label>"
+msgstr ""
+
+#: addons/general-settings/index.php:111
+#, php-format
+msgid ""
+"<label>Date format, time format settings are located <a href='%s'>here</a>.</"
+"label>"
+msgstr ""
+
+#: addons/multi-staff/classes/birs-addon-multi-staff.php:79
+msgid "[All]"
+msgstr ""
+
+#: addons/multi-staff/classes/birs-addon-multi-staff.php:87
+#, fuzzy
+msgid "Calendar Color"
+msgstr "Kalender"
+
+#: addons/timeblocking/classes/birs-addon-timeblocking.php:24
+msgid "Day Offs"
+msgstr ""
+
+#: addons/timeblocking/classes/birs-addon-timeblocking.php:84
+#: classes/birs-staff-view.php:189
+msgid "to"
+msgstr ""
+
+#: addons/timeblocking/classes/birs-addon-timeblocking.php:143
+#, fuzzy
+msgid "Exceptions"
+msgstr "Standorte"
+
+#: addons/timeblocking/classes/birs-addon-timeblocking.php:153
+#, fuzzy
+msgid "+ Add Exception"
+msgstr "Hinzufügen Stelle"
+
+#: classes/birs-calendar-view.php:21
+msgid "Appointments"
+msgstr "Voranmeldungen"
+
+#: classes/birs-calendar-view.php:22
+msgid "Appointment"
+msgstr "Voranmeldung"
+
+#: classes/birs-calendar-view.php:23 classes/birs-calendar-view.php:62
+#: classes/birs-calendar-view.php:238
+msgid "Add Appointment"
+msgstr "Hinzufügen Voranmeldung"
+
+#: classes/birs-calendar-view.php:24
+msgid "Add New Appointment"
+msgstr "Hinzufügen Neuer Voranmeldung"
+
+#: classes/birs-calendar-view.php:26 classes/birs-calendar-view.php:66
+msgid "Edit Appointment"
+msgstr "Ändern Voranmeldung"
+
+#: classes/birs-calendar-view.php:28 classes/birs-calendar-view.php:29
+msgid "View Appointment"
+msgstr "Voranmeldung Zeigen"
+
+#: classes/birs-calendar-view.php:30
+msgid "Search Appointments"
+msgstr "Voranmeldungen Suche"
+
+#: classes/birs-calendar-view.php:31
+msgid "No Appointments found"
+msgstr "Keine Voranmeldung Gefunden"
+
+#: classes/birs-calendar-view.php:32
+msgid "No Appointments found in trash"
+msgstr "Keine Voranmeldung Im Papierkorb Gefunden"
+
+#: classes/birs-calendar-view.php:33
+msgid "Parent Appointment"
+msgstr ""
+
+#: classes/birs-calendar-view.php:35
+msgid "This is where appointments are stored."
+msgstr "Das ist, wo Voranmeldungen gespeichert werden."
+
+#: classes/birs-calendar-view.php:79
+#, fuzzy
+msgid "Loading appointments..."
+msgstr "Ändern Voranmeldung"
+
+#: classes/birs-calendar-view.php:243
+msgid "Refresh"
+msgstr "Erfrischen"
+
+#: classes/birs-calendar-view.php:251 classes/birs-calendar-view.php:439
+#: classes/birs-services-view.php:112 classes/birs-staff-view.php:62
+#: classes/birs-staff-view.php:63
+msgid "Staff"
+msgstr "Personal"
+
+#: classes/birs-calendar-view.php:417
+msgid "General Info"
+msgstr "Allgemeine Infos"
+
+#: classes/birs-calendar-view.php:418
+msgid "Appointment Details"
+msgstr "Voranmeldung Nähere"
+
+#: classes/birs-calendar-view.php:419
+msgid "Client Details"
+msgstr "Klient Nähere"
+
+#: classes/birs-calendar-view.php:469 classes/birs-services-view.php:147
+msgid "Price"
+msgstr "Preis"
+
+#: classes/birs-calendar-view.php:671
+msgid "Please select a service and a "
+msgstr "Bitte wählen Sie eine Dienst und eine"
+
+#: classes/birs-calendar-view.php:674
+msgid "Date & time is required"
+msgstr "Datum & Zeit ist erforderlich."
+
+#: classes/birs-calendar-view.php:682
+msgid "Date & time is incorrect"
+msgstr "Datum & Zeit ist nicht korrekt"
+
+#: classes/birs-calendar-view.php:695
+msgid "First name is required"
+msgstr "Vorname ist erforderlich."
+
+#: classes/birs-calendar-view.php:698
+msgid "Last name is required"
+msgstr "Nachname ist erforderlich."
+
+#: classes/birs-calendar-view.php:703
+msgid "Email is incorrect"
+msgstr "Email ist nicht korrekt"
+
+#: classes/birs-calendar-view.php:706
+msgid "Phone is required"
+msgstr "Telefon ist erforderlich"
+
+#: classes/birs-clients-view.php:17
+msgid "Clients"
+msgstr "Kunden"
+
+#: classes/birs-clients-view.php:18
+msgid "Client"
+msgstr "Kunde"
+
+#: classes/birs-clients-view.php:19
+msgid "Add Client"
+msgstr "Hinzufügen Kunde"
+
+#: classes/birs-clients-view.php:20
+msgid "Add New Client"
+msgstr "Hinzufügen Neuer Kunde"
+
+#: classes/birs-clients-view.php:22
+msgid "Edit Client"
+msgstr "Ändern Kunde"
+
+#: classes/birs-clients-view.php:23
+msgid "New Client"
+msgstr "Neuer Kunde"
+
+#: classes/birs-clients-view.php:24 classes/birs-clients-view.php:25
+msgid "View Client"
+msgstr "Kunde Zeigen"
+
+#: classes/birs-clients-view.php:26
+msgid "Search Clients"
+msgstr "Kunden Suche"
+
+#: classes/birs-clients-view.php:27
+msgid "No Clients found"
+msgstr "Keine Kunden Gefunden"
+
+#: classes/birs-clients-view.php:28
+msgid "No Clients found in trash"
+msgstr "Keine Kunden Im Papierkorb Gefunden"
+
+#: classes/birs-clients-view.php:29
+msgid "Parent Client"
+msgstr ""
+
+#: classes/birs-clients-view.php:31
+msgid "This is where clients are stored."
+msgstr "Das ist, wo kunden gespeichert werden"
+
+#: classes/birs-clients-view.php:56
+msgid "Client Name"
+msgstr "Kunde Name"
+
+#: classes/birs-clients-view.php:110 classes/birs-clients-view.php:113
+#: classes/birs-clients-view.php:115
+msgid "Client updated."
+msgstr "Kunde aktualisiert"
+
+#: classes/birs-clients-view.php:111 classes/birs-locations-view.php:109
+#: classes/birs-services-view.php:71 classes/birs-staff-view.php:43
+msgid "Custom field updated."
+msgstr "Adaptiert Feld aktualisiert."
+
+#: classes/birs-clients-view.php:112 classes/birs-locations-view.php:110
+#: classes/birs-services-view.php:72 classes/birs-staff-view.php:44
+msgid "Custom field deleted."
+msgstr "Adaptiert feld gelöscht."
+
+#: classes/birs-clients-view.php:114
+#, php-format
+msgid "Client restored to revision from %s"
+msgstr "Kunde wiederhergestellt zur version vom %s"
+
+#: classes/birs-clients-view.php:116
+msgid "Client saved."
+msgstr "Kunde speichern."
+
+#: classes/birs-clients-view.php:117
+msgid "Client submitted."
+msgstr "Kunde einreichen."
+
+#: classes/birs-clients-view.php:118
+#, php-format
+msgid "Client scheduled for: <strong>%1$s</strong>."
+msgstr "Kunde geplant für: <strong>%1$s</strong>."
+
+#: classes/birs-clients-view.php:118 classes/birs-locations-view.php:116
+#: classes/birs-services-view.php:78 classes/birs-staff-view.php:50
+msgid "M j, Y @ G:i"
+msgstr ""
+
+#: classes/birs-clients-view.php:119
+msgid "Client draft updated."
+msgstr ""
+
+#: classes/birs-clients-view.php:129
+msgid "Client Info"
+msgstr "Kunde Info"
+
+#: classes/birs-clients-view.php:151
+msgid "The email address isn’t correct."
+msgstr "Email ist nicht korrekt"
+
+#: classes/birs-clients-view.php:155
+msgid "Email already exists."
+msgstr "Email bereits vorhanden"
+
+#: classes/birs-clients-view.php:231 classes/birs-locations-view.php:149
+msgid "Phone Number"
+msgstr "Telefonnummer"
+
+#: classes/birs-content-view.php:141
+msgid "Save Data"
+msgstr "Daten speichern"
+
+#: classes/birs-help-view.php:11
+msgid "Help and Support"
+msgstr "Unterstützung"
+
+#: classes/birs-help-view.php:12
+msgid "Versions"
+msgstr "Versionen"
+
+#: classes/birs-locations-view.php:17
+msgid "Locations"
+msgstr "Standorte"
+
+#: classes/birs-locations-view.php:19
+msgid "Add Location"
+msgstr "Hinzufügen Stelle"
+
+#: classes/birs-locations-view.php:20
+msgid "Add New Location"
+msgstr "Hinzufügen Neuer Stelle"
+
+#: classes/birs-locations-view.php:22
+msgid "Edit Location"
+msgstr "Ändern Stelle"
+
+#: classes/birs-locations-view.php:23
+msgid "New Location"
+msgstr "Neuer Stelle"
+
+#: classes/birs-locations-view.php:24 classes/birs-locations-view.php:25
+msgid "View Location"
+msgstr "Stelle Zeigen"
+
+#: classes/birs-locations-view.php:26
+msgid "Search Locations"
+msgstr "Stellen Suche"
+
+#: classes/birs-locations-view.php:27
+msgid "No Locations found"
+msgstr "Keine Stellen Gefunden"
+
+#: classes/birs-locations-view.php:28
+msgid "No Locations found in trash"
+msgstr "Keine Stellen Im Papierkorb Gefunden"
+
+#: classes/birs-locations-view.php:29
+msgid "Parent Location"
+msgstr ""
+
+#: classes/birs-locations-view.php:31
+msgid "This is where locations are stored."
+msgstr "Das ist, wo Stellen gespeichert werden."
+
+#: classes/birs-locations-view.php:56
+msgid "Location Name"
+msgstr "Stelle Name"
+
+#: classes/birs-locations-view.php:108 classes/birs-locations-view.php:111
+#: classes/birs-locations-view.php:113
+msgid "Location updated."
+msgstr "Stelle aktualisiert."
+
+#: classes/birs-locations-view.php:112
+#, php-format
+msgid "Location restored to revision from %s"
+msgstr "Stelle wiederhergestellt zur version vom %s"
+
+#: classes/birs-locations-view.php:114
+msgid "Location saved."
+msgstr "Stelle speichern."
+
+#: classes/birs-locations-view.php:115
+msgid "Location submitted."
+msgstr "Stelle einreichen."
+
+#: classes/birs-locations-view.php:116
+#, php-format
+msgid "Location scheduled for: <strong>%1$s</strong>."
+msgstr "Stelle geplant für: <strong>%1$s</strong>."
+
+#: classes/birs-locations-view.php:117
+msgid "Location draft updated."
+msgstr ""
+
+#: classes/birs-locations-view.php:125
+msgid "Location Details"
+msgstr "Stelle Nähere"
+
+#: classes/birs-services-view.php:17 classes/birs-staff-view.php:96
+msgid "Services"
+msgstr "Dienstleistungen"
+
+#: classes/birs-services-view.php:19
+msgid "Add Service"
+msgstr "Hinzufügen Dienst"
+
+#: classes/birs-services-view.php:20
+msgid "Add New Service"
+msgstr "Hinzufügen Neuer Dienst"
+
+#: classes/birs-services-view.php:22
+msgid "Edit Service"
+msgstr "Ändern Dienst"
+
+#: classes/birs-services-view.php:23
+msgid "New Service"
+msgstr "Neuer Dienst"
+
+#: classes/birs-services-view.php:24 classes/birs-services-view.php:25
+msgid "View Service"
+msgstr "Dienst Zeigen"
+
+#: classes/birs-services-view.php:26
+msgid "Search Services"
+msgstr "Diensten Suche"
+
+#: classes/birs-services-view.php:27
+msgid "No Services found"
+msgstr "Keine Diensten Gefunden"
+
+#: classes/birs-services-view.php:28
+msgid "No Services found in trash"
+msgstr "Keine Diensten Im Papierkorb Gefunden"
+
+#: classes/birs-services-view.php:29
+msgid "Parent Service"
+msgstr ""
+
+#: classes/birs-services-view.php:31
+msgid "This is where services are stored."
+msgstr "Das ist, wo Diensten gespeichert werden."
+
+#: classes/birs-services-view.php:46
+msgid "minutes"
+msgstr "minuten"
+
+#: classes/birs-services-view.php:47
+msgid "hours"
+msgstr "Stunden"
+
+#: classes/birs-services-view.php:48
+msgid "Before"
+msgstr "Vor"
+
+#: classes/birs-services-view.php:49
+msgid "After"
+msgstr "Nach"
+
+#: classes/birs-services-view.php:50
+msgid "Before & After"
+msgstr "Vor & Nach"
+
+#: classes/birs-services-view.php:51
+msgid "Fixed"
+msgstr "Fixiert"
+
+#: classes/birs-services-view.php:52
+msgid "Free"
+msgstr "Frei"
+
+#: classes/birs-services-view.php:53
+msgid "Varies"
+msgstr "Variiert"
+
+#: classes/birs-services-view.php:54
+msgid "Don't show"
+msgstr "Nicht zeigen"
+
+#: classes/birs-services-view.php:70 classes/birs-services-view.php:73
+#: classes/birs-services-view.php:75
+msgid "Service updated."
+msgstr "Dienst aktualisiert."
+
+#: classes/birs-services-view.php:74
+#, php-format
+msgid "Service restored to revision from %s"
+msgstr "Dienst wiederhergestellt zur version vom %s"
+
+#: classes/birs-services-view.php:76
+msgid "Service saved."
+msgstr "Dienst gespeichert."
+
+#: classes/birs-services-view.php:77
+msgid "Service submitted."
+msgstr "Dienst eingereicht."
+
+#: classes/birs-services-view.php:78
+#, php-format
+msgid "Service scheduled for: <strong>%1$s</strong>."
+msgstr "Dienst geplant für: <strong>%1$s</strong>."
+
+#: classes/birs-services-view.php:79
+msgid "Service draft updated."
+msgstr ""
+
+#: classes/birs-services-view.php:104
+msgid "Service Name"
+msgstr "Dienst Name"
+
+#: classes/birs-services-view.php:105 classes/birs-staff-view.php:33
+msgid "Description"
+msgstr "Beschreibung"
+
+#: classes/birs-services-view.php:111
+msgid "Service Settings"
+msgstr "Dienst Einstellungen"
+
+#: classes/birs-services-view.php:127
+msgid "Length"
+msgstr "Dauer"
+
+#: classes/birs-services-view.php:137
+msgid "Padding"
+msgstr "Zwischenliegende Zeit"
+
+#: classes/birs-services-view.php:140
+msgid "mins padding time"
+msgstr "min Zwischenliegende Zeit"
+
+#: classes/birs-services-view.php:190
+msgid "Assign staff that can perform this service:"
+msgstr "Zuweisen personal die diesen Dienst ausführen kann:"
+
+#: classes/birs-services-view.php:197
+#, php-format
+msgid "There is no staff to assign. Click %s here %s to add one."
+msgstr ""
+"Es gibt keine Personal zu zuordnen. Klicken Sie %s hier %s, um eine "
+"hinzufügen."
+
+#: classes/birs-shortcode.php:131
+msgid "Booking appointment failed"
+msgstr "Buchung Termin versäumt"
+
+#: classes/birs-shortcode.php:223
+msgid "Time is unavaliable"
+msgstr "Zeit ist nicht verfügbar"
+
+#: classes/birs-staff-view.php:32
+msgid "Staff Name"
+msgstr "Personal Name"
+
+#: classes/birs-staff-view.php:42 classes/birs-staff-view.php:45
+#: classes/birs-staff-view.php:47
+msgid "Staff updated."
+msgstr "Personal aktualisiert."
+
+#: classes/birs-staff-view.php:46
+#, php-format
+msgid "Staff restored to revision from %s"
+msgstr "Personal wiederhergestellt zur version vom %s"
+
+#: classes/birs-staff-view.php:48
+msgid "Staff saved."
+msgstr "Personal speichern."
+
+#: classes/birs-staff-view.php:49
+msgid "Staff submitted."
+msgstr "Personal einreichen."
+
+#: classes/birs-staff-view.php:50
+#, php-format
+msgid "Staff scheduled for: <strong>%1$s</strong>."
+msgstr "Personal geplant für: <strong>%1$s</strong>."
+
+#: classes/birs-staff-view.php:51
+msgid "Staff draft updated."
+msgstr ""
+
+#: classes/birs-staff-view.php:64
+msgid "Add Staff"
+msgstr "Hinzufügen Personal"
+
+#: classes/birs-staff-view.php:65
+msgid "Add New Staff"
+msgstr "Hinzufügen Neuer Personal"
+
+#: classes/birs-staff-view.php:67
+msgid "Edit Staff"
+msgstr "Ändern Personal"
+
+#: classes/birs-staff-view.php:68
+msgid "New Staff"
+msgstr "Neuer Personal"
+
+#: classes/birs-staff-view.php:69 classes/birs-staff-view.php:70
+msgid "View Staff"
+msgstr "Personal Zeigen"
+
+#: classes/birs-staff-view.php:71
+msgid "Search Staff"
+msgstr "Personal Suche"
+
+#: classes/birs-staff-view.php:72
+msgid "No Staff found"
+msgstr "Keine Personal Gefunden"
+
+#: classes/birs-staff-view.php:73
+msgid "No Staff found in trash"
+msgstr "Keine Personal Im Papierkorb Gefunden"
+
+#: classes/birs-staff-view.php:74
+msgid "Parent Staff"
+msgstr ""
+
+#: classes/birs-staff-view.php:76
+msgid "This is where staff are stored."
+msgstr "Das ist, wo personal gespeichert werden."
+
+#: classes/birs-staff-view.php:95
+msgid "Work Schedule"
+msgstr "Arbeitsplan"
+
+#: classes/birs-staff-view.php:206
+#, php-format
+msgid "There is no locations. Click %s here %s to add one."
+msgstr ""
+"Es gibt keine Stelle zu zuordnen. Klicken Sie %s hier %s, um eine hinzufügen."
+
+#: classes/birs-staff-view.php:245
+msgid "Assign services that this staff can perform:"
+msgstr "Zuweisen Dienst die diesen Personal ausführen kann:"
+
+#: classes/birs-staff-view.php:252
+#, php-format
+msgid "There is no services to assign. Click %s here %s to add one."
+msgstr ""
+"Es gibt keine Dienst zu zuordnen. Klicken Sie %s hier %s, um eine hinzufügen."
+
+#: classes/birs-util.php:157
+msgid "Sun"
+msgstr "So"
+
+#: classes/birs-util.php:158
+msgid "Mon"
+msgstr "Mo"
+
+#: classes/birs-util.php:159
+msgid "Tue"
+msgstr "Di"
+
+#: classes/birs-util.php:160
+msgid "Wed"
+msgstr "Mi"
+
+#: classes/birs-util.php:161
+msgid "Thu"
+msgstr "Do"
+
+#: classes/birs-util.php:162
+msgid "Fri"
+msgstr "Fr"
+
+#: classes/birs-util.php:163
+msgid "Sat"
+msgstr "Sa"
+
+#: classes/birs-util.php:169
+msgid "Month"
+msgstr ""
+
+#: classes/birs-util.php:170
+msgid "Week"
+msgstr ""
+
+#: classes/birs-util.php:171
+msgid "Day"
+msgstr ""
+
+#: classes/birs-util.php:479
+msgid "U.S. Dollar"
+msgstr ""
+
+#: classes/birs-util.php:480
+msgid "Euro"
+msgstr ""
+
+#: classes/birs-util.php:481
+msgid "Japanese Yen"
+msgstr ""
+
+#: classes/birs-util.php:482
+msgid "Pounds Sterling"
+msgstr ""
+
+#: classes/birs-util.php:483
+msgid "Swiss Franc"
+msgstr ""
+
+#: classes/birs-util.php:484
+msgid "Australian Dollar"
+msgstr ""
+
+#: classes/birs-util.php:485
+msgid "Canadian Dollar"
+msgstr ""
+
+#: classes/birs-util.php:486
+msgid "Swedish Krona"
+msgstr ""
+
+#: classes/birs-util.php:487
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: classes/birs-util.php:488
+msgid "Norwegian Krone"
+msgstr ""
+
+#: classes/birs-util.php:489
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: classes/birs-util.php:490
+msgid "Mexican Peso"
+msgstr ""
+
+#: classes/birs-util.php:491
+msgid "Singapore Dollar"
+msgstr ""
+
+#: classes/birs-util.php:492
+msgid "Brazilian Real"
+msgstr ""
+
+#: classes/birs-util.php:493
+msgid "Chinese RMB"
+msgstr ""
+
+#: classes/birs-util.php:494
+msgid "Czech Koruna"
+msgstr ""
+
+#: classes/birs-util.php:495
+msgid "Danish Krone"
+msgstr ""
+
+#: classes/birs-util.php:496
+msgid "Hungarian Forint"
+msgstr ""
+
+#: classes/birs-util.php:497
+msgid "Israeli New Shekel"
+msgstr ""
+
+#: classes/birs-util.php:498
+msgid "Indian Rupee"
+msgstr ""
+
+#: classes/birs-util.php:499
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: classes/birs-util.php:500
+msgid "Philippine Peso"
+msgstr ""
+
+#: classes/birs-util.php:501
+msgid "Polish Zloty"
+msgstr ""
+
+#: classes/birs-util.php:502
+msgid "Thai Baht"
+msgstr ""
+
+#: classes/birs-util.php:503
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: classes/birs-util.php:538
+msgid "Mr"
+msgstr "Herr"
+
+#: classes/birs-util.php:539
+msgid "Mrs"
+msgstr "Frau"
+
+#: classes/birs-util.php:540
+msgid "Miss"
+msgstr "Fraulein"
+
+#: classes/birs-util.php:541
+msgid "Ms"
+msgstr ""
+
+#: classes/birs-util.php:542
+msgid "Dr"
+msgstr ""
+
+#~ msgid "Date & time is unavailable"
+#~ msgstr "Zeit ist nicht verfügbar"
