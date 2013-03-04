@@ -3,7 +3,7 @@ Contributors: birchpress
 Tags: calendar, appointment scheduler, appointment calendar, scheduler, booking calendar, appointment booking calendar
 Requires at least: 3.4
 Tested up to: 3.5.1
-Stable tag: 1.3.7
+Stable tag: 1.4.0
 
 BirchPress Scheduler is an appointment booking calendar that allows service businesses to take online bookings.
 
@@ -23,6 +23,7 @@ BirchPress Scheduler is an appointment booking calendar that allows service busi
 * Client Management
 * Multiple-currency support
 * Config date and time format
+* Set the first day of the week
 * Supported languages: English, Dutch(by Edwin ten Brink), German (by Edwin ten Brink), Spanish (by Juan Viñas)
 
 = Desired Businesses =
@@ -41,9 +42,13 @@ BirchPress Scheduler is an appointment booking calendar that allows service busi
 * Page redirection after booking
 * Returning user booking with email and password
 * WP user integration
+* Support minimum time requirement prior to booking
+* Set how far in advance an appointment can be booked
+* Set the length of time slot
+* Set booking availability for a specific time period
 * and much more comming soon
 
-Please visit [our website](http://www.birchpress.com "WordPress Appointment Booking Calendar") for more info.
+Please visit [our website](http://www.birchpress.com "WordPress Appointment Booking Calendar") for more info, or try our online [demo](http://www.birchpress.com/demo/ "BirchPress Scheduler Pro Demo") with all features.
 
 == Installation ==
 
@@ -71,6 +76,15 @@ To embed the booking form into a post/page, just insert the following shortcode:
 [bp-scheduler-bookingform]
 
 == Changelog ==
+
+= 1.4.0 =
+* More flexible work schedule settings
+* Use select2 library to improve user experiences
+* Set first day of the week
+* Fix some translation bugs
+* Sort services by alphabetical order
+* Remove hyphens if the service price type is "don't show"
+* Add Turkish lira and South Africa rand support
 
 = 1.3.7 =
 * Users with editor role can change business settings
