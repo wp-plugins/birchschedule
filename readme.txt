@@ -1,9 +1,9 @@
 === BirchPress Scheduler - Appointment Booking Calendar === 
 Contributors: birchpress
-Tags: calendar, appointment scheduler, appointment calendar, scheduler, booking calendar, appointment booking calendar
+Tags: appointment, appointment booking, appointment booking calendar, appointment calendar, appointment plugin, appointment scheduling calendar, appointments, Booking, Booking calendar, calendar, scheduling, scheduling plugin, wordpress appointment plugin, wordpress booking, scheduler
 Requires at least: 3.4
 Tested up to: 3.5.1
-Stable tag: 1.4.0.1
+Stable tag: 1.4.0.3
 
 BirchPress Scheduler is an appointment booking calendar that allows service businesses to take online bookings.
 
@@ -27,8 +27,8 @@ BirchPress Scheduler is an appointment booking calendar that allows service busi
 * Supported languages: English, Dutch(by Edwin ten Brink), German (by Edwin ten Brink), Spanish (by Juan Viñas)
 
 = Desired Businesses =
-* Client scheduling ( Beauty salon, Spa management, Hairdresser, Massage therapist, Acupuncture, Photographers)
-* Meeting scheduling (Coaching, Phone advice)
+* Client scheduling (Beauty salon, Spa management, Hairdresser, Massage therapist, Acupuncture, Photographers,Personal Trainers, Wellness, Training Institutes, Sightseeing Services, Home Repair, Auto Repair, Tuition, Financial Services)
+* Meeting scheduling (Coaching, Phone advice, Consulting, Law Firms, Education)
 * Patient scheduling (Doctor, Clinic, Medical)
 
 
@@ -76,6 +76,10 @@ To embed the booking form into a post/page, just insert the following shortcode:
 [bp-scheduler-bookingform]
 
 == Changelog ==
+
+= 1.4.0.3 =
+* Fix BUG: javascript errors happen when staff select box is empty
+* Fix BUG: time options is empty if the end time of work schedule is 11:45pm
 
 = 1.4.0.1 =
 * remove some warnings
