@@ -3,7 +3,7 @@ Contributors: birchpress
 Tags: appointment, appointment booking, appointment booking calendar, appointment calendar, appointment plugin, appointment scheduling calendar, appointments, Booking, Booking calendar, calendar, scheduling, scheduling plugin, wordpress appointment plugin, wordpress booking, scheduler
 Requires at least: 3.4
 Tested up to: 3.5.1
-Stable tag: 1.4.0.3
+Stable tag: 1.4.1
 
 BirchPress Scheduler is an appointment booking calendar that allows service businesses to take online bookings.
 
@@ -77,9 +77,14 @@ To embed the booking form into a post/page, just insert the following shortcode:
 
 == Changelog ==
 
+= 1.4.1 =
+* Add Hungry support
+* Update Spanish and Spanish Chile
+* Bug Fix: Fix confliction with other plugins.
+
 = 1.4.0.3 =
-* Fix BUG: javascript errors happen when staff select box is empty
-* Fix BUG: time options is empty if the end time of work schedule is 11:45pm
+* Bug Fix: javascript errors happen when staff select box is empty
+* Bug Fix: time options is empty if the end time of work schedule is 11:45pm
 
 = 1.4.0.1 =
 * remove some warnings
@@ -111,7 +116,7 @@ To embed the booking form into a post/page, just insert the following shortcode:
 
 = 1.3.3.1 =
 * Support date and time format settings
-* Fix bug: confirmation datetime is incorrect
+* Bug Fix: confirmation datetime is incorrect
 * Support Glider-like themes
 
 = 1.3.2.2 =
