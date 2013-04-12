@@ -1,0 +1,1912 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BirchPress Scheduler v1.3.7\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-03-21 17:07+0800\n"
+"PO-Revision-Date: 2013-03-21 17:08+0800\n"
+"Last-Translator: BirchPress <support@birchpress.com>\n"
+"Language-Team: \n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n%100/10==1 ? 2 : n%10==1 ? 0 : (n+9)%10>3 ? 2 : 1;\n"
+"X-Generator: Poedit 1.5.4\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2\n"
+"X-Poedit-Basepath: ../\n"
+"X-Textdomain-Support: yes\n"
+"X-Poedit-SearchPath-0: .\n"
+
+# @ birchschedule
+#: birchschedule.php:175
+msgid "Scheduler"
+msgstr "Raspored"
+
+# @ birchschedule
+#: birchschedule.php:176
+msgid "Calendar"
+msgstr "Kalendar"
+
+# @ birchschedule
+#: birchschedule.php:177
+msgid "BirchPress Scheduler Settings"
+msgstr "BirchPress postavke rasporeda"
+
+# @ birchschedule
+#: birchschedule.php:177
+msgid "Settings"
+msgstr "Postavke"
+
+# @ birchschedule
+#: birchschedule.php:178
+msgid "Help"
+msgstr "Pomoć"
+
+# @ birchschedule
+#: classes/birs-shortcode.php:98
+msgid "Your appointment has been booked successfully."
+msgstr "Tvoj termin je uspješno rezerviran."
+
+# @ birchschedule
+#: classes/birs-shortcode.php:102
+msgid "Location:"
+msgstr "Lokacija: "
+
+# @ birchschedule
+#: classes/birs-shortcode.php:106
+msgid "Service:"
+msgstr "Usluga: "
+
+# @ birchschedule
+#: classes/birs-shortcode.php:110
+msgid "Time:"
+msgstr "Vrijeme: "
+
+# @ default
+#: classes/birs-shortcode.php:141
+msgid "Booking appointment failed"
+msgstr "Nije uspjela rezervacija termina"
+
+#: classes/birs-shortcode.php:224
+msgid "mins"
+msgstr ""
+
+# @ birchschedule
+#: classes/birs-shortcode.php:241
+msgid "Time is unavaliable"
+msgstr "Vrijeme nije dostupno"
+
+# @ birchschedule
+#: classes/birs-shortcode.php:343
+msgid "Appointment Info"
+msgstr "Info termina"
+
+# @ birchschedule
+#: classes/birs-shortcode.php:346
+#: classes/birs-locations-view.php:18
+msgid "Location"
+msgstr "Lokacija"
+
+# @ birchschedule
+#: classes/birs-shortcode.php:354
+msgid "Service"
+msgstr "Usluga"
+
+# @ birchschedule
+#: classes/birs-shortcode.php:362
+msgid "Service Provider"
+msgstr "Pružatelj usluge"
+
+# @ birchschedule
+#: classes/birs-shortcode.php:371
+msgid "Date & Time"
+msgstr "Datum i vrijeme"
+
+# @ birchschedule
+#: classes/birs-shortcode.php:385
+msgid "Notes"
+msgstr "Bilješke"
+
+# @ birchschedule
+#: classes/birs-shortcode.php:392
+msgid "Your Info"
+msgstr "Vaš info"
+
+# @ birchschedule
+#: classes/birs-shortcode.php:395
+#: classes/birs-clients-view.php:217
+msgid "First Name"
+msgstr "Ime"
+
+# @ birchschedule
+#: classes/birs-shortcode.php:403
+#: classes/birs-clients-view.php:224
+msgid "Last Name"
+msgstr "Prezime"
+
+# @ birchschedule
+#: classes/birs-shortcode.php:411
+#: classes/birs-clients-view.php:58
+#: classes/birs-clients-view.php:240
+msgid "Email"
+msgstr "Email"
+
+# @ birchschedule
+#: classes/birs-shortcode.php:419
+#: classes/birs-clients-view.php:57
+msgid "Phone"
+msgstr "Telefon"
+
+# @ birchschedule
+#: classes/birs-shortcode.php:428
+msgid "Please wait..."
+msgstr "Molimo pričekajte..."
+
+# @ birchschedule
+#: classes/birs-shortcode.php:430
+msgid "Submit"
+msgstr "Pošalji"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:32
+msgid "Staff Name"
+msgstr "Ime djelatnika"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:33
+msgid "Description"
+msgstr "Opis"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:42
+#: classes/birs-staff-view.php:45
+#: classes/birs-staff-view.php:47
+msgid "Staff updated."
+msgstr "Djelatnik ažuriran."
+
+# @ birchschedule
+#: classes/birs-staff-view.php:43
+#: classes/birs-clients-view.php:111
+#: classes/birs-locations-view.php:109
+msgid "Custom field updated."
+msgstr "Ažurirano je prilagođeno polje."
+
+# @ birchschedule
+#: classes/birs-staff-view.php:44
+#: classes/birs-clients-view.php:112
+#: classes/birs-locations-view.php:110
+msgid "Custom field deleted."
+msgstr "Obrisano je prilagođeno polje."
+
+# @ birchschedule
+#: classes/birs-staff-view.php:46
+#, php-format
+msgid "Staff restored to revision from %s"
+msgstr "Djelatnik obnovljen revizijom %s"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:48
+msgid "Staff saved."
+msgstr "Djelatnik spremljen."
+
+# @ birchschedule
+#: classes/birs-staff-view.php:49
+msgid "Staff submitted."
+msgstr "Djelatnik poslan."
+
+# @ birchschedule
+#: classes/birs-staff-view.php:50
+#, php-format
+msgid "Staff scheduled for: <strong>%1$s</strong>."
+msgstr "Raspored djelatnika za: <strong>%1$s</strong>."
+
+# @ birchschedule
+#: classes/birs-staff-view.php:50
+#: classes/birs-clients-view.php:118
+#: classes/birs-locations-view.php:116
+msgid "M j, Y @ G:i"
+msgstr "M j, Y @ G:i"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:51
+msgid "Staff draft updated."
+msgstr "Ažurirana skica djelatnika."
+
+# @ birchschedule
+#: classes/birs-staff-view.php:62
+#: classes/birs-staff-view.php:63
+msgid "Staff"
+msgstr "Osoblje"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:64
+msgid "Add Staff"
+msgstr "Dodaj djelatnika"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:65
+msgid "Add New Staff"
+msgstr "Dodaj novog djelatnika"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:66
+#: classes/birs-clients-view.php:21
+#: classes/birs-locations-view.php:21
+msgid "Edit"
+msgstr "Uredi"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:67
+msgid "Edit Staff"
+msgstr "Uredi djelatnika"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:68
+msgid "New Staff"
+msgstr "Novi djelatnik"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:69
+#: classes/birs-staff-view.php:70
+msgid "View Staff"
+msgstr "Vidi djelatnika"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:71
+msgid "Search Staff"
+msgstr "Pretraži djelatnike"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:72
+msgid "No Staff found"
+msgstr "Nema pronađenih djelatnika"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:73
+msgid "No Staff found in trash"
+msgstr "Nema pronađenih djelatnika u smeću"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:74
+msgid "Parent Staff"
+msgstr "Nadređeni djelatnik"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:76
+msgid "This is where staff are stored."
+msgstr "Ovdje su spremljeni djelatnici."
+
+# @ birchschedule
+#: classes/birs-staff-view.php:101
+msgid "Work Schedule"
+msgstr "Raspored djelatnika"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:102
+msgid "Services"
+msgstr "Usluge"
+
+#: classes/birs-staff-view.php:152
+msgid "From"
+msgstr ""
+
+#: classes/birs-staff-view.php:166
+msgid "To"
+msgstr ""
+
+# @ birchschedule
+#: classes/birs-staff-view.php:255
+#, fuzzy
+msgid "+ Add Schedule"
+msgstr "Raspored"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:316
+#, php-format
+msgid "There is no locations. Click %s here %s to add one."
+msgstr "Ovdje nema lokacija. Klikni %s ovdje %s i dodaj jednu."
+
+# @ birchschedule
+#: classes/birs-staff-view.php:355
+msgid "Assign services that this staff can perform:"
+msgstr "Označi usluge koje ovaj djelatnik može napraviti:"
+
+# @ birchschedule
+#: classes/birs-staff-view.php:362
+#, php-format
+msgid "There is no services to assign. Click %s here %s to add one."
+msgstr "Nema označenih usluga. Klikni %s ovdje %s i dodaj jednu."
+
+# @ birchschedule
+#: classes/birs-clients-view.php:17
+msgid "Clients"
+msgstr "Klijenti"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:18
+msgid "Client"
+msgstr "Klijent"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:19
+msgid "Add Client"
+msgstr "Dodaj klijenta"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:20
+msgid "Add New Client"
+msgstr "Dodaj novog klijenta"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:22
+msgid "Edit Client"
+msgstr "Uredi klijenta"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:23
+msgid "New Client"
+msgstr "Novi klijent"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:24
+#: classes/birs-clients-view.php:25
+msgid "View Client"
+msgstr "Vidi klijenta"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:26
+msgid "Search Clients"
+msgstr "Pretraži klijente"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:27
+msgid "No Clients found"
+msgstr "Klijenti nisu pronađeni"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:28
+msgid "No Clients found in trash"
+msgstr "Nema klijenata u smeću"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:29
+msgid "Parent Client"
+msgstr "Nadređeni klijent"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:31
+msgid "This is where clients are stored."
+msgstr "Ovdje se spremaju klijenti."
+
+# @ birchschedule
+#: classes/birs-clients-view.php:56
+msgid "Client Name"
+msgstr "Ime klijenta"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:59
+#: classes/birs-clients-view.php:248
+#: classes/birs-locations-view.php:57
+#: classes/birs-locations-view.php:156
+msgid "Address"
+msgstr "Adresa"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:110
+#: classes/birs-clients-view.php:113
+#: classes/birs-clients-view.php:115
+msgid "Client updated."
+msgstr "Klijent ažuriran."
+
+# @ birchschedule
+#: classes/birs-clients-view.php:114
+#, php-format
+msgid "Client restored to revision from %s"
+msgstr "Klijent je obnovljen revizijom %s"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:116
+msgid "Client saved."
+msgstr "Klijent je spremljen"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:117
+msgid "Client submitted."
+msgstr "Klijent je poslan."
+
+# @ birchschedule
+#: classes/birs-clients-view.php:118
+#, php-format
+msgid "Client scheduled for: <strong>%1$s</strong>."
+msgstr "Klijent je raspoređen za: <strong>%1$s</strong>."
+
+# @ birchschedule
+#: classes/birs-clients-view.php:119
+msgid "Client draft updated."
+msgstr "Ažurirana skica klijenta."
+
+# @ birchschedule
+#: classes/birs-clients-view.php:129
+msgid "Client Info"
+msgstr "Info klijenta"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:151
+msgid "The email address isn’t correct."
+msgstr "Email adresa nije korektna."
+
+# @ birchschedule
+#: classes/birs-clients-view.php:155
+msgid "Email already exists."
+msgstr "Email već postoji."
+
+# @ birchschedule
+#: classes/birs-clients-view.php:207
+msgid "Title"
+msgstr "Naziv"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:231
+#: classes/birs-locations-view.php:149
+msgid "Phone Number"
+msgstr "Broj telefona"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:260
+#: classes/birs-locations-view.php:58
+#: classes/birs-locations-view.php:166
+msgid "City"
+msgstr "Grad"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:268
+#: classes/birs-locations-view.php:59
+#: classes/birs-locations-view.php:173
+msgid "State/Province"
+msgstr "Županija /regija"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:280
+#: classes/birs-locations-view.php:183
+msgid "Country"
+msgstr "Država"
+
+# @ birchschedule
+#: classes/birs-clients-view.php:289
+#: classes/birs-locations-view.php:191
+msgid "Zip Code"
+msgstr "Poštanski broj"
+
+# @ birchschedule
+#: classes/birs-util.php:157
+#: classes/birs-util.php:617
+#: classes/birs-util.php:669
+msgid "Sun"
+msgstr "Ned"
+
+# @ birchschedule
+#: classes/birs-util.php:158
+#: classes/birs-util.php:618
+#: classes/birs-util.php:670
+msgid "Mon"
+msgstr "Pon"
+
+# @ birchschedule
+#: classes/birs-util.php:159
+#: classes/birs-util.php:619
+#: classes/birs-util.php:671
+msgid "Tue"
+msgstr "Uto"
+
+# @ birchschedule
+#: classes/birs-util.php:160
+#: classes/birs-util.php:620
+#: classes/birs-util.php:672
+msgid "Wed"
+msgstr "Sri"
+
+# @ birchschedule
+#: classes/birs-util.php:161
+#: classes/birs-util.php:621
+#: classes/birs-util.php:673
+msgid "Thu"
+msgstr "Čet"
+
+# @ birchschedule
+#: classes/birs-util.php:162
+#: classes/birs-util.php:622
+#: classes/birs-util.php:674
+msgid "Fri"
+msgstr "Pet"
+
+# @ birchschedule
+#: classes/birs-util.php:163
+#: classes/birs-util.php:623
+#: classes/birs-util.php:675
+msgid "Sat"
+msgstr "Sub"
+
+# @ birchschedule
+#: classes/birs-util.php:169
+msgid "Month"
+msgstr "Mjesec"
+
+# @ birchschedule
+#: classes/birs-util.php:170
+msgid "Week"
+msgstr "Tjedan"
+
+# @ birchschedule
+#: classes/birs-util.php:171
+msgid "Day"
+msgstr "Dan"
+
+# @ birchschedule
+#: classes/birs-util.php:479
+msgid "U.S. Dollar"
+msgstr "američki dolar"
+
+# @ birchschedule
+#: classes/birs-util.php:480
+msgid "Euro"
+msgstr "euro"
+
+# @ birchschedule
+#: classes/birs-util.php:481
+msgid "Pounds Sterling"
+msgstr "funta"
+
+# @ birchschedule
+#: classes/birs-util.php:482
+msgid "Australian Dollar"
+msgstr "australijski dolar"
+
+# @ birchschedule
+#: classes/birs-util.php:483
+msgid "Brazilian Real"
+msgstr "brazilski real"
+
+# @ birchschedule
+#: classes/birs-util.php:484
+msgid "Canadian Dollar"
+msgstr "kanadski dolar"
+
+# @ birchschedule
+#: classes/birs-util.php:485
+msgid "Chinese RMB"
+msgstr "kineski RMB"
+
+# @ birchschedule
+#: classes/birs-util.php:486
+msgid "Czech Koruna"
+msgstr "češka kruna"
+
+# @ birchschedule
+#: classes/birs-util.php:487
+msgid "Danish Krone"
+msgstr "danska kruna"
+
+# @ birchschedule
+#: classes/birs-util.php:488
+msgid "Hong Kong Dollar"
+msgstr "hongkonški dolar"
+
+# @ birchschedule
+#: classes/birs-util.php:489
+msgid "Hungarian Forint"
+msgstr "mađarska forinta"
+
+# @ birchschedule
+#: classes/birs-util.php:490
+msgid "Indian Rupee"
+msgstr "indijska rupija"
+
+# @ birchschedule
+#: classes/birs-util.php:491
+msgid "Israeli New Shekel"
+msgstr "izraelski novi šekel"
+
+# @ birchschedule
+#: classes/birs-util.php:492
+msgid "Japanese Yen"
+msgstr "japanski jen"
+
+# @ birchschedule
+#: classes/birs-util.php:493
+msgid "Malaysian Ringgit"
+msgstr "malezijski ringit"
+
+# @ birchschedule
+#: classes/birs-util.php:494
+msgid "Mexican Peso"
+msgstr "meksički pezos"
+
+# @ birchschedule
+#: classes/birs-util.php:495
+msgid "New Zealand Dollar"
+msgstr "novozelandski dolar"
+
+# @ birchschedule
+#: classes/birs-util.php:496
+msgid "Norwegian Krone"
+msgstr "norveška kruna"
+
+# @ birchschedule
+#: classes/birs-util.php:497
+msgid "Philippine Peso"
+msgstr "filipinski pezos"
+
+# @ birchschedule
+#: classes/birs-util.php:498
+msgid "Polish Zloty"
+msgstr "poljski zlot"
+
+# @ birchschedule
+#: classes/birs-util.php:499
+msgid "Singapore Dollar"
+msgstr "singapurski dolar"
+
+#: classes/birs-util.php:500
+msgid "South Africa Rand"
+msgstr ""
+
+# @ birchschedule
+#: classes/birs-util.php:501
+msgid "Swedish Krona"
+msgstr "švedska kruna"
+
+# @ birchschedule
+#: classes/birs-util.php:502
+msgid "Swiss Franc"
+msgstr "švicarski franak"
+
+# @ birchschedule
+#: classes/birs-util.php:503
+msgid "Taiwan New Dollar"
+msgstr "tajvanski novi dolar"
+
+# @ birchschedule
+#: classes/birs-util.php:504
+msgid "Thai Baht"
+msgstr "tajlandski baht"
+
+#: classes/birs-util.php:505
+msgid "Turkish Lira"
+msgstr ""
+
+# @ birchschedule
+#: classes/birs-util.php:551
+msgid "Mr"
+msgstr "g."
+
+# @ birchschedule
+#: classes/birs-util.php:552
+msgid "Mrs"
+msgstr "gđa"
+
+# @ birchschedule
+#: classes/birs-util.php:553
+msgid "Miss"
+msgstr "gđica"
+
+# @ birchschedule
+#: classes/birs-util.php:554
+msgid "Ms"
+msgstr "gđa"
+
+# @ birchschedule
+#: classes/birs-util.php:555
+msgid "Dr"
+msgstr "dr."
+
+#: classes/birs-util.php:580
+#: classes/birs-util.php:632
+msgid "January"
+msgstr ""
+
+#: classes/birs-util.php:581
+#: classes/birs-util.php:633
+msgid "February"
+msgstr ""
+
+#: classes/birs-util.php:582
+#: classes/birs-util.php:634
+msgid "March"
+msgstr ""
+
+#: classes/birs-util.php:583
+#: classes/birs-util.php:635
+msgid "April"
+msgstr ""
+
+# @ birchschedule
+#: classes/birs-util.php:584
+#: classes/birs-util.php:598
+#: classes/birs-util.php:636
+#: classes/birs-util.php:650
+#, fuzzy
+msgid "May"
+msgstr "Dan"
+
+#: classes/birs-util.php:585
+#: classes/birs-util.php:637
+msgid "June"
+msgstr ""
+
+#: classes/birs-util.php:586
+#: classes/birs-util.php:638
+msgid "July"
+msgstr ""
+
+#: classes/birs-util.php:587
+#: classes/birs-util.php:639
+msgid "August"
+msgstr ""
+
+#: classes/birs-util.php:588
+#: classes/birs-util.php:640
+msgid "September"
+msgstr ""
+
+#: classes/birs-util.php:589
+#: classes/birs-util.php:641
+msgid "October"
+msgstr ""
+
+# @ birchschedule
+#: classes/birs-util.php:590
+#: classes/birs-util.php:642
+#, fuzzy
+msgid "November"
+msgstr "Broj telefona"
+
+#: classes/birs-util.php:591
+#: classes/birs-util.php:643
+msgid "December"
+msgstr ""
+
+#: classes/birs-util.php:594
+#: classes/birs-util.php:646
+msgid "Jan"
+msgstr ""
+
+#: classes/birs-util.php:595
+#: classes/birs-util.php:647
+msgid "Feb"
+msgstr ""
+
+# @ birchschedule
+#: classes/birs-util.php:596
+#: classes/birs-util.php:648
+#, fuzzy
+msgid "Mar"
+msgstr "g."
+
+#: classes/birs-util.php:597
+#: classes/birs-util.php:649
+msgid "Apr"
+msgstr ""
+
+# @ birchschedule
+#: classes/birs-util.php:599
+#: classes/birs-util.php:651
+#, fuzzy
+msgid "Jun"
+msgstr "Ned"
+
+#: classes/birs-util.php:600
+#: classes/birs-util.php:652
+msgid "Jul"
+msgstr ""
+
+#: classes/birs-util.php:601
+#: classes/birs-util.php:653
+msgid "Aug"
+msgstr ""
+
+#: classes/birs-util.php:602
+#: classes/birs-util.php:654
+msgid "Sep"
+msgstr ""
+
+#: classes/birs-util.php:603
+#: classes/birs-util.php:655
+msgid "Oct"
+msgstr ""
+
+#: classes/birs-util.php:604
+#: classes/birs-util.php:656
+msgid "Nov"
+msgstr ""
+
+#: classes/birs-util.php:605
+#: classes/birs-util.php:657
+msgid "Dec"
+msgstr ""
+
+#: classes/birs-util.php:608
+#: classes/birs-util.php:660
+msgid "Sunday"
+msgstr ""
+
+#: classes/birs-util.php:609
+#: classes/birs-util.php:661
+msgid "Monday"
+msgstr ""
+
+#: classes/birs-util.php:610
+#: classes/birs-util.php:662
+msgid "Tuesday"
+msgstr ""
+
+#: classes/birs-util.php:611
+#: classes/birs-util.php:663
+msgid "Wednesday"
+msgstr ""
+
+#: classes/birs-util.php:612
+#: classes/birs-util.php:664
+msgid "Thursday"
+msgstr ""
+
+#: classes/birs-util.php:613
+#: classes/birs-util.php:665
+msgid "Friday"
+msgstr ""
+
+#: classes/birs-util.php:614
+#: classes/birs-util.php:666
+msgid "Saturday"
+msgstr ""
+
+# @ birchschedule
+#: classes/birs-util.php:678
+#, fuzzy
+msgid "Su"
+msgstr "Ned"
+
+# @ birchschedule
+#: classes/birs-util.php:679
+#, fuzzy
+msgid "Mo"
+msgstr "Pon"
+
+# @ birchschedule
+#: classes/birs-util.php:680
+#, fuzzy
+msgid "Tu"
+msgstr "Uto"
+
+# @ birchschedule
+#: classes/birs-util.php:681
+#, fuzzy
+msgid "We"
+msgstr "Sri"
+
+# @ birchschedule
+#: classes/birs-util.php:682
+#, fuzzy
+msgid "Th"
+msgstr "Čet"
+
+# @ birchschedule
+#: classes/birs-util.php:683
+#, fuzzy
+msgid "Fr"
+msgstr "Pet"
+
+# @ birchschedule
+#: classes/birs-util.php:684
+#, fuzzy
+msgid "Sa"
+msgstr "Sub"
+
+# @ birchschedule
+#: classes/birs-locations-view.php:17
+msgid "Locations"
+msgstr "Lokacija"
+
+# @ birchschedule
+#: classes/birs-locations-view.php:19
+msgid "Add Location"
+msgstr "Dodaj lokaciju"
+
+# @ birchschedule
+#: classes/birs-locations-view.php:20
+msgid "Add New Location"
+msgstr "Dodaj novu lokaciju"
+
+# @ birchschedule
+#: classes/birs-locations-view.php:22
+msgid "Edit Location"
+msgstr "Uredi lokaciju"
+
+# @ birchschedule
+#: classes/birs-locations-view.php:23
+msgid "New Location"
+msgstr "Nova lokacija"
+
+# @ birchschedule
+#: classes/birs-locations-view.php:24
+#: classes/birs-locations-view.php:25
+msgid "View Location"
+msgstr "Vidi lokaciju"
+
+# @ birchschedule
+#: classes/birs-locations-view.php:26
+msgid "Search Locations"
+msgstr "Pretraži lokacije"
+
+# @ birchschedule
+#: classes/birs-locations-view.php:27
+msgid "No Locations found"
+msgstr "Lokacije nisu pronađene"
+
+# @ birchschedule
+#: classes/birs-locations-view.php:28
+msgid "No Locations found in trash"
+msgstr "Lokacije nisu pronađene u smeću"
+
+# @ birchschedule
+#: classes/birs-locations-view.php:29
+msgid "Parent Location"
+msgstr "Nadređena lokacija"
+
+# @ birchschedule
+#: classes/birs-locations-view.php:31
+msgid "This is where locations are stored."
+msgstr "Ovdje su spremljene lokacije."
+
+# @ birchschedule
+#: classes/birs-locations-view.php:56
+msgid "Location Name"
+msgstr "Ime lokacije"
+
+# @ birchschedule
+#: classes/birs-locations-view.php:108
+#: classes/birs-locations-view.php:111
+#: classes/birs-locations-view.php:113
+msgid "Location updated."
+msgstr "Ažurirana lokacija."
+
+# @ birchschedule
+#: classes/birs-locations-view.php:112
+#, php-format
+msgid "Location restored to revision from %s"
+msgstr "Lokacija obnovljena revizijom %s"
+
+# @ birchschedule
+#: classes/birs-locations-view.php:114
+msgid "Location saved."
+msgstr "Spremljene lokacije"
+
+# @ birchschedule
+#: classes/birs-locations-view.php:115
+msgid "Location submitted."
+msgstr "Poslana lokacija"
+
+# @ birchschedule
+#: classes/birs-locations-view.php:116
+#, php-format
+msgid "Location scheduled for: <strong>%1$s</strong>."
+msgstr "Raspored lokacije za: <strong>%1$s</strong>."
+
+# @ birchschedule
+#: classes/birs-locations-view.php:117
+msgid "Location draft updated."
+msgstr "Ažurirana skica lokacije."
+
+# @ birchschedule
+#: classes/birs-locations-view.php:125
+msgid "Location Details"
+msgstr "Pojedinosti lokacije"
+
+# @ birchschedule
+#: classes/birs-content-view.php:140
+msgid "Save"
+msgstr "Spremi"
+
+# @ birchschedule
+#: classes/birs-content-view.php:141
+msgid "Save Data"
+msgstr "Spremi podatak"
+
+# @ birchschedule
+#: classes/birs-content-view.php:144
+msgid "Delete"
+msgstr "Obriši"
+
+# @ birchschedule
+#: classes/birs-help-view.php:11
+msgid "Help and Support"
+msgstr "Pomoć i podrška"
+
+# @ birchschedule
+#: classes/birs-help-view.php:12
+msgid "Versions"
+msgstr "Verzija"
+
+# @ birchschedule
+#: classes/birs-services-view.php:19
+msgid "Add Service"
+msgstr "Dodaj uslugu"
+
+# @ birchschedule
+#: classes/birs-services-view.php:20
+msgid "Add New Service"
+msgstr "Dodaj novu uslugu"
+
+# @ birchschedule
+#: classes/birs-services-view.php:22
+msgid "Edit Service"
+msgstr "Uredi uslugu"
+
+# @ birchschedule
+#: classes/birs-services-view.php:23
+msgid "New Service"
+msgstr "Nova usluga"
+
+# @ birchschedule
+#: classes/birs-services-view.php:24
+#: classes/birs-services-view.php:25
+msgid "View Service"
+msgstr "vidi uslugu"
+
+# @ birchschedule
+#: classes/birs-services-view.php:26
+msgid "Search Services"
+msgstr "Pretraživanje usluga"
+
+# @ birchschedule
+#: classes/birs-services-view.php:27
+msgid "No Services found"
+msgstr "Usluge nisu pronađene"
+
+# @ birchschedule
+#: classes/birs-services-view.php:28
+msgid "No Services found in trash"
+msgstr "Usluge nisu pronađene u smeću"
+
+# @ birchschedule
+#: classes/birs-services-view.php:29
+msgid "Parent Service"
+msgstr "Nadređena usluga"
+
+# @ birchschedule
+#: classes/birs-services-view.php:31
+msgid "This is where services are stored."
+msgstr "Ovdje su usluge spremljene."
+
+# @ birchschedule
+#: classes/birs-services-view.php:46
+msgid "minutes"
+msgstr "minute"
+
+# @ birchschedule
+#: classes/birs-services-view.php:47
+msgid "hours"
+msgstr "sati"
+
+# @ birchschedule
+#: classes/birs-services-view.php:48
+msgid "Before"
+msgstr "Prije"
+
+# @ birchschedule
+#: classes/birs-services-view.php:49
+msgid "After"
+msgstr "Poslije"
+
+# @ birchschedule
+#: classes/birs-services-view.php:50
+msgid "Before & After"
+msgstr "Prije i poslije"
+
+# @ birchschedule
+#: classes/birs-services-view.php:51
+msgid "Fixed"
+msgstr "Fiksno"
+
+# @ birchschedule
+#: classes/birs-services-view.php:52
+msgid "Free"
+msgstr "Slobodno"
+
+# @ birchschedule
+#: classes/birs-services-view.php:53
+msgid "Varies"
+msgstr "Promjenjivo"
+
+# @ birchschedule
+#: classes/birs-services-view.php:54
+msgid "Don't show"
+msgstr "Ne prikazuj"
+
+# @ birchschedule
+#: classes/birs-services-view.php:70
+#: classes/birs-services-view.php:73
+#: classes/birs-services-view.php:75
+msgid "Service updated."
+msgstr "Usluga ažurirana."
+
+# @ birchschedule
+#: classes/birs-services-view.php:74
+#, php-format
+msgid "Service restored to revision from %s"
+msgstr "Usluga obnovljena revizijom %s"
+
+# @ birchschedule
+#: classes/birs-services-view.php:76
+msgid "Service saved."
+msgstr "Usluga spremljena."
+
+# @ birchschedule
+#: classes/birs-services-view.php:77
+msgid "Service submitted."
+msgstr "Usluga poslana"
+
+# @ birchschedule
+#: classes/birs-services-view.php:78
+#, php-format
+msgid "Service scheduled for: <strong>%1$s</strong>."
+msgstr "Raspored usluge za: <strong>%1$s</strong>."
+
+# @ birchschedule
+#: classes/birs-services-view.php:79
+msgid "Service draft updated."
+msgstr "Ažurirana skica usluge."
+
+# @ birchschedule
+#: classes/birs-services-view.php:104
+msgid "Service Name"
+msgstr "Ime usluge"
+
+# @ birchschedule
+#: classes/birs-services-view.php:111
+msgid "Service Settings"
+msgstr "Postavke usluge"
+
+# @ birchschedule
+#: classes/birs-services-view.php:127
+msgid "Length"
+msgstr "Dužina"
+
+# @ birchschedule
+#: classes/birs-services-view.php:137
+msgid "Padding"
+msgstr "Čekanje"
+
+# @ birchschedule
+#: classes/birs-services-view.php:140
+msgid "mins padding time"
+msgstr "čekanje u minutama"
+
+# @ birchschedule
+#: classes/birs-services-view.php:147
+#: classes/birs-calendar-view.php:471
+msgid "Price"
+msgstr "Cijena"
+
+# @ birchschedule
+#: classes/birs-services-view.php:191
+msgid "Assign staff that can perform this service:"
+msgstr "Označi osobu koja može pružiti uslugu:"
+
+# @ birchschedule
+#: classes/birs-services-view.php:198
+#, php-format
+msgid "There is no staff to assign. Click %s here %s to add one."
+msgstr "Nema označene osobe. Klikni %s ovdje %s i dodaj jednu."
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:21
+msgid "Appointments"
+msgstr "Termini"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:22
+msgid "Appointment"
+msgstr "Termin"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:23
+#: classes/birs-calendar-view.php:62
+#: classes/birs-calendar-view.php:240
+msgid "Add Appointment"
+msgstr "Dodaj termin"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:24
+msgid "Add New Appointment"
+msgstr "Dodaj novi termin"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:26
+#: classes/birs-calendar-view.php:66
+msgid "Edit Appointment"
+msgstr "Uredi termin"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:27
+msgid "New Appointment"
+msgstr "Novi termin"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:28
+#: classes/birs-calendar-view.php:29
+msgid "View Appointment"
+msgstr "Vidi termin"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:30
+msgid "Search Appointments"
+msgstr "Pretraži termine"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:31
+msgid "No Appointments found"
+msgstr "Termin nije pronađen"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:32
+msgid "No Appointments found in trash"
+msgstr "Termin nije pronađen termin"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:33
+msgid "Parent Appointment"
+msgstr "Nadređeni termin"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:35
+msgid "This is where appointments are stored."
+msgstr "Ovdje su spremljeni termini."
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:79
+msgid "Loading..."
+msgstr "Učitavanje..."
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:80
+msgid "Loading appointments..."
+msgstr "Učitavanje termina..."
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:245
+msgid "Refresh"
+msgstr "Osvježi"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:419
+msgid "General Info"
+msgstr "Info općenito"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:420
+msgid "Appointment Details"
+msgstr "Pojedinosti termina"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:421
+msgid "Client Details"
+msgstr "Pojedinosti klijenta"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:673
+msgid "Please select a service and a "
+msgstr "Molimo označite uslugu i"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:676
+msgid "Date & time is required"
+msgstr "Datum i vrijeme su obavezni"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:684
+msgid "Date & time is incorrect"
+msgstr "Datum i vrijeme su nekorektni"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:697
+msgid "First name is required"
+msgstr "Ime je obavezno"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:700
+msgid "Last name is required"
+msgstr "Prezime je obavezno"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:703
+msgid "Email is required"
+msgstr "Email je obavezan"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:705
+msgid "Email is incorrect"
+msgstr "Email je nekorektan"
+
+# @ birchschedule
+#: classes/birs-calendar-view.php:708
+msgid "Phone is required"
+msgstr "Telefon je obavezan"
+
+# @ birchschedule
+#: addons/general-settings/classes/birs-addon-general-settings.php:44
+msgid "General Options"
+msgstr "Opće mogućnosti"
+
+# @ default
+#: addons/general-settings/classes/birs-addon-general-settings.php:46
+msgid "Timezone"
+msgstr "Vremenska zona"
+
+# @ default
+#: addons/general-settings/classes/birs-addon-general-settings.php:47
+msgid "Date Format, Time Format"
+msgstr "Format datuma, format vremena"
+
+#: addons/general-settings/classes/birs-addon-general-settings.php:48
+msgid "Week Starts On"
+msgstr ""
+
+# @ default
+#: addons/general-settings/classes/birs-addon-general-settings.php:49
+msgid "Currency"
+msgstr "Valuta"
+
+# @ default
+#: addons/general-settings/classes/birs-addon-general-settings.php:50
+msgid "Default Calendar View"
+msgstr "Zadani izgled kalendara"
+
+# @ birchschedule
+#: addons/general-settings/classes/birs-addon-general-settings.php:55
+msgid "General"
+msgstr "Opće"
+
+# @ birchschedule
+#: addons/general-settings/classes/birs-addon-general-settings.php:110
+#, php-format
+msgid "<label>Timezone settings are located <a href='%s'>here</a>.</label>"
+msgstr "<label>Postavke vrmenske zone su locirane <a href='%s'>ovdje</a>.</label>"
+
+# @ birchschedule
+#: addons/general-settings/classes/birs-addon-general-settings.php:117
+#, php-format
+msgid "<label>Date format, time format settings are located <a href='%s'>here</a>.</label>"
+msgstr "<label>Format datuma, format vremena su locirani <a href='%s'>ovdje</a>.</label>"
+
+# @ birchschedule
+#: addons/general-settings/classes/birs-addon-general-settings.php:124
+#, fuzzy, php-format
+msgid "<label>First day of week setting is located <a href='%s'>here</a>.</label>"
+msgstr "<label>Postavke vrmenske zone su locirane <a href='%s'>ovdje</a>.</label>"
+
+# @ birchschedule
+#: addons/general-settings/classes/birs-addon-general-settings.php:161
+msgid "Save changes"
+msgstr "Spremi promjene"
+
+# @ birchschedule
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:6
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:13
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:20
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:27
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:39
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:51
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:63
+#, fuzzy
+msgid "Untitled"
+msgstr "Naziv"
+
+# @ birchschedule
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:32
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:44
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:56
+#, fuzzy
+msgid "First Choice"
+msgstr "Ime"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:33
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:45
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:57
+msgid "Second Choice"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:34
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:46
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:58
+msgid "Third Choice"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:103
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:49
+msgid "Are you a new or returning user?"
+msgstr ""
+
+# @ birchschedule
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:104
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:50
+#, fuzzy
+msgid "New User"
+msgstr "Nova usluga"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:105
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:51
+msgid "Returning User"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:146
+msgid "Password"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:152
+msgid "Retype Password"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:213
+msgid "Lost your password?"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-selectable.php:13
+msgid "Choices"
+msgstr ""
+
+# @ birchschedule
+#: addons/form-builder/classes/birs-addon-fb-selectable.php:20
+#, fuzzy
+msgid "+ Add Choice"
+msgstr "Dodaj klijenta"
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:180
+msgid "Field Label"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:197
+msgid "The field is mandatory"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:211
+msgid "Visibility"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:220
+msgid "Customers and Admin"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:228
+msgid "Admin Only"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:242
+msgid "Cancel"
+msgstr ""
+
+# @ birchschedule
+#: addons/form-builder/classes/birs-addon-fb-field.php:252
+#, fuzzy
+msgid "This field is required"
+msgstr "Ime je obavezno"
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:305
+msgid "Predefined"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:69
+#: addons/form-builder/classes/birs-addon-form-builder.php:607
+msgid "Single Line Text"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:70
+#: addons/form-builder/classes/birs-addon-form-builder.php:610
+msgid "Paragraph Text"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:71
+#: addons/form-builder/classes/birs-addon-form-builder.php:613
+msgid "Drop Down"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:73
+#: addons/form-builder/classes/birs-addon-form-builder.php:616
+msgid "Checkboxes"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:74
+#: addons/form-builder/classes/birs-addon-form-builder.php:619
+msgid "Radio Buttons"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:75
+msgid "Section Break"
+msgstr ""
+
+# @ birchschedule
+#: addons/form-builder/classes/birs-addon-form-builder.php:453
+#, fuzzy
+msgid "Field Deleted"
+msgstr "Obrisano je prilagođeno polje."
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:479
+msgid "Add a Field"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:484
+msgid "Form Builder"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:586
+msgid "&nbsp"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:655
+msgid "Field Settings Updated"
+msgstr ""
+
+#: addons/form-builder/classes/birs-addon-fb-email.php:10
+msgid "Please input a valid email address"
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:74
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:23
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:21
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:79
+msgid "Labels"
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:89
+msgid "I am a new user."
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:97
+msgid "I am a returning user."
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:113
+msgid "Disable login"
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-email.php:37
+msgid "Email already exists. You may book using this email by selecting \"I am a returning user.\""
+msgstr ""
+
+# @ birchschedule
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:78
+#, fuzzy
+msgid "Password is required"
+msgstr "Telefon je obavezan"
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:83
+msgid "Password must be at least 6 digits."
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:86
+msgid "Both passwords should match"
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:96
+msgid "Email does not exist. You may book using this email by selecting \"I am a new user.\""
+msgstr ""
+
+# @ birchschedule
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:99
+#, fuzzy
+msgid "Email or password is incorrect."
+msgstr "Email je nekorektan"
+
+# @ birchschedule
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:38
+#, fuzzy
+msgid "Confirmation"
+msgstr "Lokacija"
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:46
+msgid "Text"
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:53
+msgid "Redirect"
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:59
+msgid "Appointment Details ('Location','Service','Staff' & 'Date&Time' fields are predefined, click 'edit' to change the labels)"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:127
+msgid "Additional Info"
+msgstr ""
+
+# @ birchschedule
+#: addons/email-notification/classes/birs-addon-email-notification.php:148
+#, fuzzy
+msgid "Email Address"
+msgstr "Adresa"
+
+# @ birchschedule
+#: addons/email-notification/classes/birs-addon-email-notification.php:161
+#, fuzzy
+msgid "Notifications"
+msgstr "Lokacija"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:170
+msgid "Notification to Staff"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:171
+msgid "Notification to Client"
+msgstr ""
+
+# @ birchschedule
+#: addons/email-notification/classes/birs-addon-email-notification.php:201
+#, fuzzy
+msgid "Notification Settings Updated"
+msgstr "Ažurirana skica lokacije."
+
+# @ birchschedule
+#: addons/email-notification/classes/birs-addon-email-notification.php:213
+#, fuzzy
+msgid "Appointment Modified"
+msgstr "Info termina"
+
+# @ birchschedule
+#: addons/email-notification/classes/birs-addon-email-notification.php:214
+#, fuzzy
+msgid "Appointment Cancelled"
+msgstr "Info termina"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:231
+msgid "Enable email notification to "
+msgstr ""
+
+# @ birchschedule
+#: addons/email-notification/classes/birs-addon-email-notification.php:235
+#, fuzzy
+msgid "From Name"
+msgstr "Ime"
+
+# @ birchschedule
+#: addons/email-notification/classes/birs-addon-email-notification.php:244
+#, fuzzy
+msgid "From Email"
+msgstr "Email"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:255
+msgid "Reply To"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:266
+msgid "BCC"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:279
+msgid "Edit Email Templates"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:315
+msgid "Subject"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:327
+msgid "Message"
+msgstr ""
+
+#: addons/multi-staff/classes/birs-addon-multi-staff.php:79
+msgid "[All]"
+msgstr ""
+
+# @ birchschedule
+#: addons/multi-staff/classes/birs-addon-multi-staff.php:87
+#, fuzzy
+msgid "Calendar Color"
+msgstr "Kalendar"
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:28
+msgid "BirchPress"
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:29
+msgid "Support License Key"
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:42
+msgid "Your license will expire on "
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:44
+msgid "Failed to connect to birchpress.com."
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:46
+msgid "Your license key is incorrect."
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:59
+#, php-format
+msgid "<a href=\"%s\">Purchase a license</a> to receive access to automatic upgrades and support."
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:62
+#, php-format
+msgid "Your license has expired. Please <a href=\"%s\">renew it</a> before you can receive access to automatic upgrades and support."
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:65
+#, php-format
+msgid "<a href=\"%s\">Fill out </a> the license key to receive access to automatic upgrades and support. <a href=\"$s\">Purchase here</a> if your don't have one."
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:146
+msgid "Change License Key"
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:211
+msgid "An Unexpected HTTP Error occurred during the API request.</p> <p><a href=\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:216
+msgid "An unknown error occurred"
+msgstr ""
+
+# @ birchschedule
+#: addons/booking-window/classes/birs-addon-booking-window.php:125
+#, fuzzy
+msgid "Start Date"
+msgstr "Spremi podatak"
+
+#: addons/booking-window/classes/birs-addon-booking-window.php:135
+#: addons/booking-window/classes/birs-addon-booking-window.php:149
+msgid "(Optional)"
+msgstr ""
+
+#: addons/booking-window/classes/birs-addon-booking-window.php:139
+msgid "End Date"
+msgstr ""
+
+#: addons/enhanced-admin/classes/birs-addon-enhanced-admin.php:77
+msgid "Select an Existing Client"
+msgstr ""
+
+#: addons/timeblocking/classes/birs-addon-timeblocking.php:26
+msgid "Days Off"
+msgstr ""
+
+# @ birchschedule
+#: addons/timeblocking/classes/birs-addon-timeblocking.php:201
+#, fuzzy
+msgid "Exceptions"
+msgstr "Lokacija"
+
+# @ birchschedule
+#: addons/timeblocking/classes/birs-addon-timeblocking.php:211
+#, fuzzy
+msgid "+ Add Exception"
+msgstr "Dodaj lokaciju"
+
+# @ birchschedule
+#: addons/service-enhanced/classes/birs-addon-service-enhanced.php:26
+#, fuzzy
+msgid " minutes"
+msgstr "minute"
+
+#: addons/service-enhanced/classes/birs-addon-service-enhanced.php:142
+#, php-format
+msgid "Enable flexible appointment start time with %s"
+msgstr ""
+
+# @ birchschedule
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:78
+#, fuzzy
+msgid "1 hour"
+msgstr "sati"
+
+# @ birchschedule
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:79
+#, fuzzy
+msgid "2 hours"
+msgstr "sati"
+
+# @ birchschedule
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:80
+#, fuzzy
+msgid "3 hours"
+msgstr "sati"
+
+# @ birchschedule
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:81
+#, fuzzy
+msgid "6 hours"
+msgstr "sati"
+
+# @ birchschedule
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:82
+#, fuzzy
+msgid "12 hours"
+msgstr "sati"
+
+# @ birchschedule
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:83
+#, fuzzy
+msgid "24 hours"
+msgstr "sati"
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:84
+msgid "2 days"
+msgstr ""
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:85
+msgid "3 days"
+msgstr ""
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:86
+msgid "4 days"
+msgstr ""
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:87
+msgid "5 days"
+msgstr ""
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:88
+msgid "7 days"
+msgstr ""
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:89
+msgid "10 days"
+msgstr ""
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:90
+msgid "14 days"
+msgstr ""
+
+# @ birchschedule
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:96
+#, fuzzy
+msgid "1 month"
+msgstr "Mjesec"
+
+# @ birchschedule
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:97
+#, fuzzy
+msgid "2 months"
+msgstr "Mjesec"
+
+# @ birchschedule
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:98
+#, fuzzy
+msgid "3 months"
+msgstr "Mjesec"
+
+# @ birchschedule
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:99
+#, fuzzy
+msgid "6 months"
+msgstr "Mjesec"
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:100
+msgid "12 months"
+msgstr ""
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:101
+msgid "24 months"
+msgstr ""
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:107
+msgid "Booking Preferences"
+msgstr ""
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:110
+msgid "Policies"
+msgstr ""
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:151
+#, php-format
+msgid "Clients can book appointments up to %s before start time"
+msgstr ""
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:155
+#, php-format
+msgid "Clients can book appointments up to %s in the future"
+msgstr ""
+
