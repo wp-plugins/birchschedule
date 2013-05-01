@@ -1,9 +1,9 @@
 === BirchPress Scheduler - Appointment Booking Calendar === 
 Contributors: birchpress
-Tags: appointment, appointment booking, appointment booking calendar, appointment calendar, appointment plugin, appointment scheduling calendar, appointments, Booking, Booking calendar, calendar, scheduling, scheduling plugin, wordpress appointment plugin, wordpress booking, scheduler
+Tags: appointment, appointment booking, appointment booking calendar, appointment calendar, appointment scheduling calendar, appointments, booking, Booking calendar, scheduling, booking form, reservation, scheduler
 Requires at least: 3.4
 Tested up to: 3.5.1
-Stable tag: 1.4.3.3
+Stable tag: 1.5.1
 
 BirchPress Scheduler is an appointment booking calendar that allows service businesses to take online bookings.
 
@@ -24,7 +24,7 @@ BirchPress Scheduler is an appointment booking calendar that allows service busi
 * Multiple-currency support
 * Config date and time format
 * Set the first day of the week
-* Supported languages: English, Dutch(by Edwin ten Brink), German (by Edwin ten Brink), Spanish (by Juan Viñas)
+* Supported languages: English, Dutch(by Edwin ten Brink), German (by Edwin ten Brink), Spanish (by Juan Viñas), Hungary(Ferenc Sarosi)
 
 = Desired Businesses =
 * Client scheduling (Beauty salon, Spa management, Hairdresser, Massage therapist, Acupuncture, Photographers,Personal Trainers, Wellness, Training Institutes, Sightseeing Services, Home Repair, Auto Repair, Tuition, Financial Services)
@@ -46,6 +46,8 @@ BirchPress Scheduler is an appointment booking calendar that allows service busi
 * Set how far in advance an appointment can be booked
 * Set the length of time slot
 * Set booking availability for a specific time period
+* Calendar Sync (iCal)
+* Pre-payment and PayPal Integration
 * and much more comming soon
 
 Please visit [our website](http://www.birchpress.com "WordPress Appointment Booking Calendar") for more info, or try our online [demo](http://www.birchpress.com/demo/ "BirchPress Scheduler Pro Demo") with all features.
@@ -76,6 +78,12 @@ To embed the booking form into a post/page, just insert the following shortcode:
 [bp-scheduler-bookingform]
 
 == Changelog ==
+= 1.5.1 =
+* Enhancement: Admin can select existing clients when adding appointments.
+* Enhancement: Add payment histroy tracking
+* Enhancement: Redesign the booking form to improve usability.
+* Enhancement: Admin can change the duration of the appointment.
+* Enhancement: Hide location when there is only one.
 
 = 1.4.3.3 =
 * Update select2 lib to make the booking form compatible to some themes.
