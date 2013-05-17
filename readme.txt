@@ -1,30 +1,32 @@
-=== BirchPress Scheduler - Appointment Booking Calendar === 
+=== BirchPress Scheduler - Appointment Booking & Online Scheduling === 
 Contributors: birchpress
-Tags: appointment, appointment booking, appointment booking calendar, appointment calendar, appointment scheduling calendar, appointments, booking, Booking calendar, scheduling, booking form, reservation, scheduler
+Tags: appointment, appointment booking, appointment booking calendar, appointment calendar, appointment scheduling, book appointment, booking calendar, scheduling, booking form, reservation, online scheduling
 Requires at least: 3.4
 Tested up to: 3.5.1
 Stable tag: 1.5.5
 
-BirchPress Scheduler is an appointment booking calendar that allows service businesses to take online bookings.
+BirchPress Scheduler is an appointment booking and online scheduling plugin that allows service businesses to take online bookings.
 
 == Description ==
 
-BirchPress Scheduler is an appointment booking calendar that allows service businesses such as spas, yoga studios, contractors and photographers to take online bookings. Merchants can embed a booking form in a page or post on the website, and customers can see service availability and book an appointment online directly. It is an effective tool to manage appointments and staffing schedules.
+BirchPress Scheduler is an appointment booking and online scheduling plugin that allows service businesses such as spas, yoga studios, contractors and photographers to take online appointment bookings. Merchants can embed a booking form in a page or post on the website, and customers can see service availability and book an appointment online directly. It is an effective tool to manage appointments and staffing schedules.
 
-= Feature: =
-* Customer booking for specific time in a day
+= Features: =
+* Customer booking appointments for specific time in a day
 * Optimize the booking form for responsive themes
 * Support multiple locations
 * Support multiple staff and services
-* Config service length, padding time and price
+* Configure service length, padding time and price
 * Assign your employees to different services
-* Powerful Admin Panel for booking management
-* Easily embed booking form into a webpage with shortcode
-* Show appointments in the daily, weekly or monthly view
+* Powerful Admin Panel for booking / appointment management
+* Easily embed booking form / calendar into a webpage with shortcode
+* Show appointments / schedules in the daily, weekly or monthly view
+* Easily add, edit or delete appointment in WP Admin
 * Client Management
 * Multiple-currency support
-* Config date and time format
+* Configure date and time format
 * Set the first day of the week
+* Track appointment payment history
 * Supported languages: English, Dutch(by Edwin ten Brink), German (by Edwin ten Brink), Spanish (by Juan Viñas), Hungary(Ferenc Sarosi), French(Jennifer ANSELME)
 
 = Desired Businesses =
@@ -32,26 +34,25 @@ BirchPress Scheduler is an appointment booking calendar that allows service busi
 * Meeting scheduling (Coaching, Phone advice, Consulting, Law Firms, Education)
 * Patient scheduling (Doctor, Clinic, Medical)
 
-
-= Extra features supported in BirchPress Scheduler Pro = 
-* Autofill info for existing customers in admin
-* Automated Email notifications to staff and clients
-* Custom email messages 
-* Display staff appointments in different colors 
-* Custom booking form based on business needs(add custom fields, visible/invisible to admin and customers, required/not required)
+= Extra features supported in BirchPress Scheduler Pro =
+* Auto fill info for existing customers in admin
+* Email notifications to staff and clients when your client books an appointment
+* Custom email messages with booking / appointment details
+* Display staff appointments/bookings in different colors
+* Custom booking form based on business needs(add custom fields about appointment or customer info, visible/invisible to admin and customers, required/not required)
 * Block busy time and holidays
-* Page redirection after booking
-* Returning user booking with email and password
+* Page redirection after booking an appointment
+* Returning user booking an appointment with email and password
 * WP user integration
 * Support minimum time requirement prior to booking
 * Set how far in advance an appointment can be booked
-* Set the length of time slot
-* Set booking availability for a specific time period
+* Set the length of time slot for each service
+* Set booking availability/schedule for a specific time period
 * Calendar Sync (iCal)
-* Pre-payment and PayPal Integration
-* and much more comming soon
+* Prepayment and PayPal Integration
+* and much more coming soon
 
-Please visit [our website](http://www.birchpress.com "WordPress Appointment Booking Calendar") for more info, or try our online [demo](http://www.birchpress.com/demo/ "BirchPress Scheduler Pro Demo") with all features.
+Please visit [our website](http://www.birchpress.com "WordPress Appointment Booking Calendar") for more info, or try our online appointment booking [demo](http://www.birchpress.com/demo/ "BirchPress Scheduler Pro Demo") with all features.
 
 == Installation ==
 
