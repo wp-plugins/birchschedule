@@ -4,7 +4,7 @@
   Plugin Name: BirchPress Scheduler
   Plugin URI: http://www.birchpress.com
   Description: An appointment booking and online scheduling plugin that allows service businesses to take online bookings.
-  Version: 1.5.6
+  Version: 1.5.7
   Author: BirchPress
   Author URI: http://www.birchpress.com
   License: GPLv2
@@ -40,7 +40,7 @@ if (!class_exists('Birchschedule')) :
         public $temp_data;
 
         public function __construct() {
-            $this->product_version = '1.5.6';
+            $this->product_version = '1.5.7';
             $this->product_name = 'BirchPress Scheduler';
             $this->product_code = 'birchschedule';
             $this->admin_capability = 'publish_pages';
@@ -48,9 +48,6 @@ if (!class_exists('Birchschedule')) :
             $this->includes();
 
             $this->util = BIRS_Util::get_instance();
-            if($this->util->ends_with($this->product_code, 'demo')) {
-                $this->admin_capability = 'publish_posts';
-            }
             $this->merge_fields = new BIRS_Merge_Fields();
             $this->settings_view = new BIRS_Settings_View();
             $this->help_view = new BIRS_Help_View();
@@ -234,6 +231,10 @@ if (!class_exists('Birchschedule')) :
             if ($this->plugin_url)
                 return $this->plugin_url;
             return $this->plugin_url = plugins_url(basename(plugin_dir_path(__FILE__)), basename(__FILE__));
+        }
+
+        public function plugin_file_path() {
+            return __FILE__;
         }
 
     }
