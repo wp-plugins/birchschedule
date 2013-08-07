@@ -4,7 +4,7 @@
   Plugin Name: BirchPress Scheduler
   Plugin URI: http://www.birchpress.com
   Description: An appointment booking and online scheduling plugin that allows service businesses to take online bookings.
-  Version: 1.5.7
+  Version: 1.6.2
   Author: BirchPress
   Author URI: http://www.birchpress.com
   License: GPLv2
@@ -40,7 +40,7 @@ if (!class_exists('Birchschedule')) :
         public $temp_data;
 
         public function __construct() {
-            $this->product_version = '1.5.7';
+            $this->product_version = '1.6.2';
             $this->product_name = 'BirchPress Scheduler';
             $this->product_code = 'birchschedule';
             $this->admin_capability = 'publish_pages';
@@ -48,7 +48,10 @@ if (!class_exists('Birchschedule')) :
             $this->includes();
 
             $this->util = BIRS_Util::get_instance();
-            $this->merge_fields = new BIRS_Merge_Fields();
+            BIRS_Calendar_Logic::get_instance();
+            $this->merge_fields = BIRS_Merge_Fields::get_instance();
+            $this->upgrader = new BIRS_Upgrader();
+            
             $this->settings_view = new BIRS_Settings_View();
             $this->help_view = new BIRS_Help_View();
             $this->locations_view = new BIRS_Locations_View();
@@ -62,7 +65,6 @@ if (!class_exists('Birchschedule')) :
             add_action('init', array($this, 'init'));
             add_action('plugins_loaded', array($this, 'load_i18n'));
             $this->addons = array();
-            $this->upgrader = new BIRS_Upgrader();
             $this->temp_data = array(
                 'shortcodes' => array()
             );
@@ -71,7 +73,6 @@ if (!class_exists('Birchschedule')) :
         public function init() {
             $this->register_common_scripts();
             $this->register_common_styles();
-            $this->upgrader->upgrade();
         }
 
         function load_i18n() {
@@ -80,35 +81,94 @@ if (!class_exists('Birchschedule')) :
 
         function register_common_scripts() {
             $version = $this->product_version;
-            wp_register_script('underscore', $this->plugin_url() . '/assets/js/underscore/underscore-min.js', array(), '1.4.2');
-            wp_register_script('moment', $this->plugin_url() . '/assets/js/moment/moment.min.js', array(), '1.7.0');
-            wp_register_script('select2', $this->plugin_url() . '/assets/js/select2/select2.min.js', array('jquery'), '3.3.2');
-            wp_register_script('jgrowl', $this->plugin_url() . '/assets/js/jgrowl/jquery.jgrowl.js', array('jquery'), '1.2.5');
-            wp_register_script('jscolor', $this->plugin_url() . '/assets/js/jscolor/jscolor.js', array(), '1.4.0');
-            wp_register_script('birs_lib_fullcalendar', $this->plugin_url() . '/assets/js/fullcalendar/fullcalendar.js', array('jquery-ui-draggable', 'jquery-ui-resizable',
+            wp_register_script('underscore', 
+                $this->plugin_url() . '/assets/js/underscore/underscore-min.js', 
+                array(), '1.4.2');
+            wp_register_script('moment', 
+                $this->plugin_url() . '/assets/js/moment/moment.min.js', 
+                array(), '1.7.0');
+            wp_register_script('select2', 
+                $this->plugin_url() . '/assets/js/select2/select2.min.js', 
+                array('jquery'), '3.3.2');
+            wp_register_script('jgrowl', 
+                $this->plugin_url() . '/assets/js/jgrowl/jquery.jgrowl.js', 
+                array('jquery'), '1.2.5');
+            wp_register_script('jscolor', 
+                $this->plugin_url() . '/assets/js/jscolor/jscolor.js', 
+                array(), '1.4.0');
+            wp_register_script('birs_lib_fullcalendar', 
+                $this->plugin_url() . '/assets/js/fullcalendar/fullcalendar.js', 
+                array('jquery-ui-draggable', 'jquery-ui-resizable',
                 'jquery-ui-dialog', 'jquery-ui-datepicker',
                 'jquery-ui-tabs', 'jquery-ui-autocomplete'), '1.5.4');
-            wp_register_script('birs_common', $this->plugin_url() . '/assets/js/common.js', array('jquery', 'underscore'), "$version");
-            wp_register_script('birs_admin_common', $this->plugin_url() . '/assets/js/admin/common.js', array('jquery', 'underscore', 'jgrowl', 'birs_common'), "$version");
-            wp_register_script('birs_admin_client', $this->plugin_url() . '/assets/js/admin/client.js', array('birs_admin_common'), "$version");
-            wp_register_script('birs_admin_location', $this->plugin_url() . '/assets/js/admin/location.js', array('birs_admin_common'), "$version");
-            wp_register_script('birs_admin_service', $this->plugin_url() . '/assets/js/admin/service.js', array('birs_admin_common'), "$version");
-            wp_register_script('birs_admin_staff', $this->plugin_url() . '/assets/js/admin/staff.js', array('jquery', 'jscolor'), "$version");
-            wp_register_script('birs_admin_calendar', $this->plugin_url() . '/assets/js/admin/calendar.js', array('birs_lib_fullcalendar', 'moment', 'birs_admin_common', 'select2'), "$version");
-            wp_register_script('birs_admin_appointment_edit', $this->plugin_url() . '/assets/js/admin/appointment-edit.js', array('birs_admin_calendar', 'select2'), "$version");
-            wp_register_script('birchschedule', $this->plugin_url() . '/assets/js/birchschedule.js', array('jquery-ui-datepicker', 'underscore', 'birs_common', 'select2'), "$version");
+            wp_register_script('birs_filedownload', 
+                $this->plugin_url() . '/assets/js/filedownload/jquery.fileDownload.js',
+                array('jquery'), '1.4.0');
+
+            wp_register_script('birs_common', 
+                $this->plugin_url() . '/assets/js/common.js', 
+                array('jquery', 'underscore'), "$version");
+            wp_register_script('birs_admin_common', 
+                $this->plugin_url() . '/assets/js/admin/common.js', 
+                array('jquery', 'underscore', 'jgrowl', 'birs_common'), "$version");
+            wp_register_script('birs_admin_client', 
+                $this->plugin_url() . '/assets/js/admin/client.js', 
+                array('birs_admin_common'), "$version");
+            wp_register_script('birs_admin_location', 
+                $this->plugin_url() . '/assets/js/admin/location.js', 
+                array('birs_admin_common'), "$version");
+            wp_register_script('birs_admin_service', 
+                $this->plugin_url() . '/assets/js/admin/service.js', 
+                array('birs_admin_common'), "$version");
+            wp_register_script('birs_admin_staff', 
+                $this->plugin_url() . '/assets/js/admin/staff.js', 
+                array('jquery', 'jscolor'), "$version");
+            wp_register_script('birs_admin_calendar', 
+                $this->plugin_url() . '/assets/js/admin/calendar.js', 
+                array('birs_lib_fullcalendar', 'moment', 'birs_admin_common', 'select2'), "$version");
+            wp_register_script('birs_admin_appointment_edit', 
+                $this->plugin_url() . '/assets/js/admin/appointment-edit.js', 
+                array('birs_admin_calendar', 'select2'), "$version");
+            wp_register_script('birchschedule', 
+                $this->plugin_url() . '/assets/js/birchschedule.js', 
+                array('jquery-ui-datepicker', 'underscore', 'birs_common', 'select2'), "$version");
         }
 
         function register_common_styles() {
             $version = $this->product_version;
-            wp_register_style('birs_lib_fullcalendar', $this->plugin_url() . '/assets/js/fullcalendar/fullcalendar.css', array(), '1.5.4');
-            wp_register_style('jquery-ui-bootstrap', $this->plugin_url() . '/assets/css/jquery-ui-bootstrap/jquery-ui-1.9.2.custom.css', array(), '0.22');
-            wp_register_style('jquery-ui-no-theme', $this->plugin_url() . '/assets/css/jquery-ui-no-theme/jquery-ui-1.9.2.custom.css', array(), '1.9.2');
-            wp_register_style('jquery-ui-smoothness', $this->plugin_url() . '/assets/css/jquery-ui-smoothness/jquery-ui-1.9.2.custom.css', array(), '1.9.2');
-            wp_register_style('jquery-wijmo-open', $this->plugin_url() . '/assets/css/jquery-ui-bootstrap/jquery.wijmo-open.1.5.0.css', array(), '1.5.0');
-            wp_register_style('select2', $this->plugin_url() . '/assets/js/select2/select2.css', array(), '3.3.2');
-            wp_register_style('jgrowl', $this->plugin_url() . '/assets/js/jgrowl/jquery.jgrowl.css', array(), '1.2.5');
-            wp_register_style('birchschedule_admin_styles', $this->plugin_url() . '/assets/css/admin.css', array('jgrowl', 'select2'), "$version");
+            wp_register_style('birs_lib_fullcalendar', 
+                $this->plugin_url() . '/assets/js/fullcalendar/fullcalendar.css', 
+                array(), '1.5.4');
+            wp_register_style('jquery-ui-bootstrap', 
+                $this->plugin_url() . '/assets/css/jquery-ui-bootstrap/jquery-ui-1.9.2.custom.css', 
+                array(), '0.22');
+            wp_register_style('jquery-ui-no-theme', 
+                $this->plugin_url() . '/assets/css/jquery-ui-no-theme/jquery-ui-1.9.2.custom.css', 
+                array(), '1.9.2');
+            wp_register_style('jquery-ui-smoothness', 
+                $this->plugin_url() . '/assets/css/jquery-ui-smoothness/jquery-ui-1.9.2.custom.css', 
+                array(), '1.9.2');
+            wp_register_style('jquery-wijmo-open', 
+                $this->plugin_url() . '/assets/css/jquery-ui-bootstrap/jquery.wijmo-open.1.5.0.css', 
+                array(), '1.5.0');
+            wp_register_style('select2', 
+                $this->plugin_url() . '/assets/js/select2/select2.css', 
+                array(), '3.3.2');
+            wp_register_style('jgrowl', 
+                $this->plugin_url() . '/assets/js/jgrowl/jquery.jgrowl.css', 
+                array(), '1.2.5');
+            wp_register_style('birchschedule_admin_styles', 
+                $this->plugin_url() . '/assets/css/admin.css', 
+                array('jgrowl', 'select2'), "$version");
+            wp_register_style('birchschedule_admin_calendar', 
+                $this->plugin_url() . '/assets/css/admin/calendar.css', 
+                array('jgrowl', 'select2'), "$version");
+            wp_register_style('birchschedule_admin_services', 
+                $this->plugin_url() . '/assets/css/admin/services.css', 
+                array('jgrowl', 'select2'), "$version");
+            wp_register_style('birchschedule_admin_staff', 
+                $this->plugin_url() . '/assets/css/admin/staff.css', 
+                array('jgrowl', 'select2'), "$version");
             wp_register_style('birchschedule_styles', 
                 $this->plugin_url() . '/assets/css/birchschedule.css',
                 array('select2', 'jquery-ui-no-theme'), "$version");
@@ -126,18 +186,20 @@ if (!class_exists('Birchschedule')) :
             require_once 'classes/model/birs-client.php';
             require_once 'classes/model/birs-appointment.php';
             require_once 'classes/model/birs-payment.php';
-            require_once 'classes/birs-merge-fields.php';
-            require_once 'classes/birs-admin-view.php';
-            require_once 'classes/birs-content-view.php';
-            require_once 'classes/birs-settings-view.php';
-            require_once 'classes/birs-help-view.php';
-            require_once 'classes/birs-locations-view.php';
-            require_once 'classes/birs-services-view.php';
-            require_once 'classes/birs-staff-view.php';
-            require_once 'classes/birs-clients-view.php';
-            require_once 'classes/birs-calendar-view.php';
-            require_once 'classes/birs-payment-view.php';
-            require_once 'classes/birs-shortcode.php';
+            require_once 'classes/logic/birs-calendar-logic.php';
+            require_once 'classes/logic/birs-merge-fields.php';
+            require_once 'classes/view/birs-admin-view.php';
+            require_once 'classes/view/birs-content-view.php';
+            require_once 'classes/view/birs-settings-view.php';
+            require_once 'classes/view/birs-settings-tab-view.php';
+            require_once 'classes/view/birs-help-view.php';
+            require_once 'classes/view/birs-locations-view.php';
+            require_once 'classes/view/birs-services-view.php';
+            require_once 'classes/view/birs-staff-view.php';
+            require_once 'classes/view/birs-clients-view.php';
+            require_once 'classes/view/birs-calendar-view.php';
+            require_once 'classes/view/birs-payment-view.php';
+            require_once 'classes/view/birs-shortcode.php';
             require_once 'classes/birs-addon.php';
             require_once 'classes/birs-upgrader.php';
             $this->register_model_classes();
@@ -183,10 +245,21 @@ if (!class_exists('Birchschedule')) :
 
         private function create_menu_birchschedule($position) {
             $icon_url = $this->plugin_url . '/assets/images/birchschedule_16.png';
-            add_menu_page(__('Scheduler', 'birchschedule'), __('Scheduler', 'birchschedule'), 'edit_posts', 'birchschedule_schedule', '', $icon_url, $position);
-            $this->calendar_view->page_hook = add_submenu_page('birchschedule_schedule', __('Calendar', 'birchschedule'), __('Calendar', 'birchschedule'), 'edit_posts', 'birchschedule_calendar', array(&$this->calendar_view, 'render_admin_page'));
-            $this->settings_view->page_hook = add_submenu_page('birchschedule_schedule', __('BirchPress Scheduler Settings', 'birchschedule'), __('Settings', 'birchschedule'), $this->admin_capability, 'birchschedule_settings', array(&$this->settings_view, 'render_admin_page'));
-            add_submenu_page('birchschedule_schedule', __('Help', 'birchschedule'), __('Help', 'birchschedule'), 'edit_posts', 'birchschedule_help', array(&$this->help_view, 'render_admin_page'));
+            add_menu_page(__('Scheduler', 'birchschedule'), 
+                __('Scheduler', 'birchschedule'), 'edit_posts', 
+                'birchschedule_schedule', '', $icon_url, $position);
+            $this->calendar_view->page_hook = 
+                add_submenu_page('birchschedule_schedule', __('Calendar', 'birchschedule'), 
+                    __('Calendar', 'birchschedule'), 'edit_posts', 'birchschedule_calendar', 
+                    array(&$this->calendar_view, 'render_admin_page'));
+            $this->settings_view->page_hook = 
+                add_submenu_page('birchschedule_schedule', 
+                    __('BirchPress Scheduler Settings', 'birchschedule'), 
+                    __('Settings', 'birchschedule'), $this->admin_capability, 
+                    'birchschedule_settings', array(&$this->settings_view, 'render_admin_page'));
+            add_submenu_page('birchschedule_schedule', 
+                __('Help', 'birchschedule'), __('Help', 'birchschedule'), 
+                'edit_posts', 'birchschedule_help', array(&$this->help_view, 'render_admin_page'));
             remove_submenu_page('birchschedule_schedule', 'birchschedule_schedule');
         }
 
@@ -241,5 +314,6 @@ if (!class_exists('Birchschedule')) :
 
     $GLOBALS['birchschedule'] = new Birchschedule();
     $GLOBALS['birchschedule']->load_addons();
+    $GLOBALS['birchschedule']->upgrader->upgrade();
 
 endif;
