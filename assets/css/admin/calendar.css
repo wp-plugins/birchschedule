@@ -1,0 +1,125 @@
+#birs_general_section_appointment table {
+    width: 100%;
+}
+
+.select2-drop, .select2-search {
+    z-index: 1300000;
+}
+
+.select2-drop-mask {
+    z-index: 1200000;
+}
+
+.ui-dialog {
+    z-index: 1100000;
+}
+
+
+#birs_calendar_toolbar {
+    margin-bottom: 8px;
+}
+
+#birs_calendar_filter {
+    float: right;
+    padding-top: 9px;
+}
+
+#birs_calendar_filter select {
+    margin-left: 2px;
+    margin-right: 12px;
+    padding: 2px;
+    height: 2em;
+    min-width: 10em;
+}
+
+#birs_calendar_filter label {
+    display: inline-block;
+
+}
+
+#birs_calendar_filter .select2-container {
+    min-width: 140px
+}
+
+/* edit dialog */
+.ui-dialog .button-primary {
+    min-width: 70px;
+    text-align: center;
+}
+
+.ui-dialog-title span {
+    font-weight: normal;
+    margin-left: 120px;
+}
+
+.ui-tabs .ui-tabs-nav li {
+    margin-bottom: 0;
+}
+
+#birs_appointment_edit .splitter {
+    border-top: 1px #DFDFDF solid;
+    margin-bottom: 12px;
+}
+
+#birs_appointment_edit .birs_error {
+    display: none;
+    color: red;
+}
+
+#birs_appointment_edit .ui-tabs-panel > ul {
+    margin-top: 0;
+}
+
+#birs_appointment_edit .ui-tabs-panel .birs_form_field {
+    overflow: hidden;
+}
+
+#birs_appointment_edit .ui-tabs-panel .birs_form_field > label {
+    font-weight: bold;
+    float: left;
+    text-align: left;
+    width: 25%;
+    padding-top: 2px;
+}
+
+#birs_appointment_edit .ui-tabs-panel .birs_field_content {
+    float: left;
+    width: 74%;
+}
+
+#birs_appointment_edit .ui-tabs-panel .birs_field_content textarea {
+    width: 95%;
+}
+
+#birs_appointment_edit .ui-tabs-panel .birs_field_content input[type="text"],
+#birs_appointment_edit .ui-tabs-panel .birs_field_content select {
+    width: 80%;    
+}
+
+#birs_appointment_edit .row-actions {
+    visibility: visible;
+}
+
+#birs_appointment_edit .ui-tabs-panel .birs_field_content .birs_money {
+    display: inline-block;
+    margin: 2px 0 2px 6px;
+}
+
+#birs_appointment_edit .birs_disabled {
+    color: #999999;
+}
+
+.ui-dialog-titlebar .submitbox a {
+    font-family: sans-serif;
+    font-size: 12px;
+    font-weight: normal;
+    margin-left: 4px;
+}
+
+.birchschedule .fc-event {
+    cursor: pointer;
+}
+
+.fixed .column-author {
+    width: 13%;
+}
