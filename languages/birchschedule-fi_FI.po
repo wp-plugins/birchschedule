@@ -1,0 +1,1990 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BirchPress Scheduler\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2013-08-03 20:55-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: \n"
+"Language-Team: BirchPress Team <support@birchpress.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: birchschedule.php:192
+msgid "Scheduler"
+msgstr "Ajanvaraus"
+
+#: birchschedule.php:193 classes/view/birs-calendar-view.php:179
+msgid "Calendar"
+msgstr "Kalenteri"
+
+#: birchschedule.php:194
+msgid "BirchPress Scheduler Settings"
+msgstr "BirchPress-ajanvarauksen asetukset"
+
+#: birchschedule.php:194
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:150
+msgid "Settings"
+msgstr "Asetukset"
+
+#: birchschedule.php:195
+msgid "Help"
+msgstr "Apua"
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:49
+msgid "BirchPress"
+msgstr ""
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:50
+msgid "Support License Key"
+msgstr "Tuen lisenssiavain"
+
+#: addons/autoupdater/classes/birs-addon-autoupdater.php:134
+#, fuzzy
+msgid ""
+"Fill out the license key to receive access to automatic upgrades and support"
+msgstr ""
+"<a href=\"%s\">Ole hyvä ja osta lisenssi</a> automaattisia päivityksiä ja "
+"tukea varten."
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:60
+#, php-format
+msgid "%s hour"
+msgstr "%s tunti"
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:61
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:62
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:63
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:64
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:65
+#, php-format
+msgid "%s hours"
+msgstr "%s tuntia"
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:66
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:67
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:68
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:69
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:70
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:71
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:72
+#, php-format
+msgid "%s days"
+msgstr "%s päivää"
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:78
+#, php-format
+msgid "%s month"
+msgstr "%s kuukausi"
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:79
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:80
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:81
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:82
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:83
+#, php-format
+msgid "%s months"
+msgstr "%s kuukautta"
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:89
+msgid "Booking Preferences"
+msgstr "Ajanvaraamisen asetukset"
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:92
+msgid "Policies"
+msgstr "Ehdot"
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:133
+#, php-format
+msgid "Clients can book appointments up to %s before start time"
+msgstr "Asiakkaat voivat varata aikoja enintään %s ennen alkamisaikaa"
+
+#: addons/booking-preferences/classes/birs-addon-booking-preferences.php:137
+#, php-format
+msgid "Clients can book appointments up to %s in the future"
+msgstr "Asiakkaat voivat varata aikoja enintään %s tulevaisuuteen"
+
+#: addons/booking-window/classes/birs-addon-booking-window.php:126
+msgid "Start Date"
+msgstr "Alkamispäivä"
+
+#: addons/booking-window/classes/birs-addon-booking-window.php:136
+#: addons/booking-window/classes/birs-addon-booking-window.php:150
+msgid "(Optional)"
+msgstr "(Vapaaehtoinen)"
+
+#: addons/booking-window/classes/birs-addon-booking-window.php:140
+msgid "End Date"
+msgstr "Päättymispäivä"
+
+#: addons/calendar-integration/classes/birs-addon-calendar-integration-tab-view.php:6
+#: addons/calendar-integration/classes/birs-addon-calendar-integration.php:436
+msgid "Calendar Integration"
+msgstr "Integrointi kalenteriin"
+
+#: addons/calendar-integration/classes/birs-addon-calendar-integration-tab-view.php:15
+#, fuzzy
+msgid "Import Settings"
+msgstr "Asetukset"
+
+#: addons/calendar-integration/classes/birs-addon-calendar-integration-tab-view.php:20
+#, fuzzy
+msgid "Export Settings"
+msgstr "Asetukset"
+
+#: addons/calendar-integration/classes/birs-addon-calendar-integration.php:52
+msgid "Sync iCal Interval"
+msgstr ""
+
+#: addons/calendar-integration/classes/birs-addon-calendar-integration.php:180
+msgid "BLOCKED"
+msgstr "Estetty"
+
+#: addons/calendar-integration/classes/birs-addon-calendar-integration.php:469
+msgid "Calendar Address (iCal)"
+msgstr "Kalentrerin osoite (iCal)"
+
+#: addons/calendar-integration/classes/birs-addon-calendar-integration.php:482
+msgid "Import Calendars (iCal)"
+msgstr "Tuo kalenteri (iCal)"
+
+#: addons/calendar-integration/classes/birs-addon-calendar-integration.php:496
+msgid "+ Add by URL"
+msgstr "+ Lisää URL:n perusteella"
+
+#: addons/calendar-integration/classes/birs-addon-calendar-integration.php:533
+#: addons/form-builder/classes/birs-addon-fb-field.php:302
+#: addons/form-builder/classes/birs-addon-fb-selectable.php:58
+#: classes/view/birs-calendar-view.php:76
+#: classes/view/birs-content-view.php:144
+#: classes/view/birs-payment-view.php:249
+msgid "Delete"
+msgstr "Poista"
+
+#: addons/custom-code/classes/birs-addon-custom-code.php:33
+msgid "Custom Code"
+msgstr ""
+
+#: addons/custom-code/classes/birs-addon-custom-code.php:154
+#: addons/email-notification/classes/birs-addon-email-notification.php:545
+#: addons/general-settings/classes/birs-addon-general-settings.php:162
+#: addons/pre-payment/classes/birs-addon-pre-payment.php:221
+#: classes/view/birs-settings-tab-view.php:94
+msgid "Save changes"
+msgstr "Tallenna muutokset"
+
+#: addons/custom-code/classes/birs-addon-custom-code.php:168
+#: addons/email-notification/classes/birs-addon-email-notification.php:568
+#: addons/form-builder/classes/birs-addon-form-builder.php:681
+#: addons/pre-payment/classes/birs-addon-pre-payment.php:237
+#: classes/view/birs-settings-tab-view.php:110
+msgid "&nbsp"
+msgstr ""
+
+#: addons/custom-code/classes/birs-addon-custom-code.php:186
+#, fuzzy
+msgid "Custom Code Updated"
+msgstr "Oma kenttä päivitettiin."
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:66
+msgid "Client Reminder Interval"
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:118
+#, fuzzy
+msgid "Appointment Reminder"
+msgstr "Ajanvarauksen tiedot"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:139
+#, php-format
+msgid "Send alerts to clients %s Hrs prior to their appointment."
+msgstr ""
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:257
+msgid "Additional Info"
+msgstr "Lisätiedot"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:278
+msgid "Email Address"
+msgstr "Sähköpostiosoite"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:291
+msgid "Notifications"
+msgstr "Ilmoitukset"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:302
+msgid "Notification to Staff"
+msgstr "Ilmoitukset Henkilökunnalle"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:305
+msgid "Notification to Client"
+msgstr "Ilmoitukset Asiakkaalle"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:346
+msgid "Notification Settings Updated"
+msgstr "Ilmoitusasetukset päivitettiin"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:357
+#: classes/view/birs-calendar-view.php:44
+msgid "New Appointment"
+msgstr "Uusi ajanvaraus"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:358
+msgid "Appointment Modified"
+msgstr "Ajanvarausta muutettiin"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:359
+msgid "Appointment Cancelled"
+msgstr "Ajanvaraus peruutettiin"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:378
+msgid "Enable email notification to "
+msgstr "Kytke päälle sähköposti-ilmoitukset osoitteeseen"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:382
+msgid "From Name"
+msgstr "Lähettäjän nimi"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:391
+msgid "From Email"
+msgstr "Lähettäjän sähköpostiosoite"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:402
+msgid "Reply To"
+msgstr "Vastausosoite"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:413
+msgid "BCC"
+msgstr "Piilokopio"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:427
+msgid "Edit Email Templates"
+msgstr "Muokkaa sähköpostimalleja"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:463
+msgid "Subject"
+msgstr "Aihe"
+
+#: addons/email-notification/classes/birs-addon-email-notification.php:475
+msgid "Message"
+msgstr "Viesti"
+
+#: addons/enhanced-admin/classes/birs-addon-enhanced-admin.php:79
+msgid "Duration"
+msgstr "Kesto"
+
+#: addons/enhanced-admin/classes/birs-addon-enhanced-admin.php:85
+#: classes/view/birs-shortcode.php:183
+msgid "mins"
+msgstr "minuuttia"
+
+#: addons/enhanced-admin/classes/birs-addon-enhanced-admin.php:100
+msgid "Select an Existing Client"
+msgstr "Valitse olemassaoleva asiakas"
+
+#: addons/enhanced-admin/classes/birs-addon-enhanced-admin.php:123
+#: classes/view/birs-calendar-view.php:99
+msgid "Loading..."
+msgstr "Lataa..."
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:36
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:256
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:118
+#: classes/view/birs-calendar-view.php:442
+#: classes/view/birs-payment-view.php:188 classes/view/birs-shortcode.php:343
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:37
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:257
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:122
+#: classes/view/birs-calendar-view.php:452 classes/view/birs-shortcode.php:352
+msgid "Time"
+msgstr "Aika"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:93
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:74
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:102
+#: classes/view/birs-shortcode.php:318
+msgid "Appointment Info"
+msgstr "Ajanvarauksen tiedot"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:99
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:80
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:106
+#: addons/public-calendar/classes/birs-addon-public-calendar.php:75
+#: classes/view/birs-calendar-view.php:193
+#: classes/view/birs-calendar-view.php:410
+#: classes/view/birs-locations-view.php:18 classes/view/birs-shortcode.php:321
+msgid "Location"
+msgstr "Paikka"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:100
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:81
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:110
+#: classes/view/birs-calendar-view.php:421
+#: classes/view/birs-services-view.php:18 classes/view/birs-shortcode.php:328
+msgid "Service"
+msgstr "Palvelu"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:101
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:82
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:114
+#: classes/view/birs-shortcode.php:335
+msgid "Service Provider"
+msgstr "Palveluntarjoaja"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:102
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:83
+msgid "Date & Time"
+msgstr "Päivämäärä & aika"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:110
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:97
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:122
+#: classes/view/birs-shortcode.php:368
+msgid "Your Info"
+msgstr "Omat tiedot"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:116
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:103
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:126
+msgid "Are you a new or returning user?"
+msgstr "Oletko uusi vai palaava käyttäjä?"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:117
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:104
+msgid "New User"
+msgstr "Uusi käyttäjä"
+
+#: addons/form-builder/classes/birs-addon-fb-db-upgrader.php:118
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:105
+msgid "Returning User"
+msgstr "Palaava käyttäjä"
+
+#: addons/form-builder/classes/birs-addon-fb-email.php:10
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-email.php:23
+msgid "Please input a valid email address"
+msgstr "Ole hyvä ja anna kelvollinen sähköpostiosoite"
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:185
+msgid "Field Label"
+msgstr "Kentän nimi"
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:202
+msgid "The field is mandatory"
+msgstr "Kenttä on pakollinen"
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:216
+msgid "Visibility"
+msgstr "Näkyvyys"
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:225
+msgid "Customers and Admin"
+msgstr "Asiakkaat ja hallinta"
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:233
+msgid "Admin Only"
+msgstr "Vain hallinta"
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:246
+#: classes/view/birs-calendar-view.php:102
+#: classes/view/birs-content-view.php:140
+msgid "Save"
+msgstr "Tallenna"
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:247
+msgid "Cancel"
+msgstr "Peruuta"
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:257
+#: addons/form-builder/classes/predefined/birs-addon-fb-address.php:39
+msgid "This field is required"
+msgstr "Kenttä on pakollinen"
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:299
+#: classes/view/birs-calendar-view.php:42
+#: classes/view/birs-clients-view.php:21
+#: classes/view/birs-locations-view.php:21
+#: classes/view/birs-payment-view.php:18
+#: classes/view/birs-services-view.php:21 classes/view/birs-staff-view.php:66
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: addons/form-builder/classes/birs-addon-fb-field.php:313
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:84
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:5
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:5
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:5
+msgid "Predefined"
+msgstr "Esiasetus"
+
+#: addons/form-builder/classes/birs-addon-fb-selectable.php:21
+#: addons/form-builder/classes/predefined/birs-addon-fb-country.php:7
+msgid "Choices"
+msgstr "Vaihtoehdot"
+
+#: addons/form-builder/classes/birs-addon-fb-selectable.php:28
+msgid "+ Add Choice"
+msgstr "Lisää vaihtoehto"
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:83
+#: addons/form-builder/classes/birs-addon-form-builder.php:702
+msgid "Single Line Text"
+msgstr "Yhden rivin teksti"
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:84
+#: addons/form-builder/classes/birs-addon-form-builder.php:705
+msgid "Paragraph Text"
+msgstr "Kappaleteksti"
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:85
+#: addons/form-builder/classes/birs-addon-form-builder.php:708
+msgid "Drop Down"
+msgstr "Pudotusvalikko"
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:86
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:138
+#: classes/view/birs-calendar-view.php:500
+#: classes/view/birs-clients-view.php:58
+#: classes/view/birs-clients-view.php:240 classes/view/birs-shortcode.php:387
+msgid "Email"
+msgstr "Sähköposti"
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:87
+#: addons/form-builder/classes/birs-addon-form-builder.php:711
+msgid "Checkboxes"
+msgstr "Valintaruudut"
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:88
+#: addons/form-builder/classes/birs-addon-form-builder.php:714
+msgid "Radio Buttons"
+msgstr "Radio-valinnat"
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:89
+msgid "Section Break"
+msgstr "Osion vaihtuminen"
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:526
+msgid "Field Deleted"
+msgstr "Kenttä poistettiin"
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:554
+msgid "Add a Field"
+msgstr "Lisää kenttä"
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:561
+msgid "Form Builder"
+msgstr "Lomakkeenrakennustyökalu"
+
+#: addons/form-builder/classes/birs-addon-form-builder.php:751
+msgid "Field Settings Updated"
+msgstr "Kentän asetukset päivitettiin"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:6
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:13
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:20
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:27
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:39
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:51
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:63
+msgid "Untitled"
+msgstr "Nimeämätön"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:32
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:44
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:56
+msgid "First Choice"
+msgstr "Ensisijainen vaihtoehto"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:33
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:45
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:57
+msgid "Second Choice"
+msgstr "Toissijainen vaihtoehto"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:34
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:46
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:58
+msgid "Third Choice"
+msgstr "Kolmas vaihtoehto"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:89
+#: classes/view/birs-calendar-view.php:305
+#: classes/view/birs-payment-view.php:191 classes/view/birs-shortcode.php:361
+msgid "Notes"
+msgstr "Huomiot"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:112
+#: classes/view/birs-calendar-view.php:236
+#: classes/view/birs-clients-view.php:207
+msgid "Title"
+msgstr "Otsikko"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:122
+#: classes/view/birs-calendar-view.php:484
+#: classes/view/birs-clients-view.php:217 classes/view/birs-shortcode.php:371
+msgid "First Name"
+msgstr "Etunimi"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:130
+#: classes/view/birs-calendar-view.php:492
+#: classes/view/birs-clients-view.php:224 classes/view/birs-shortcode.php:379
+msgid "Last Name"
+msgstr "Sukunimi"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:146
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:26
+msgid "Password"
+msgstr "Salasana"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:152
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:30
+msgid "Retype Password"
+msgstr "Salasana uudelleen"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:157
+#: classes/view/birs-calendar-view.php:508
+#: classes/view/birs-clients-view.php:57 classes/view/birs-shortcode.php:395
+msgid "Phone"
+msgstr "Puhelinnumero"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:165
+#: classes/view/birs-calendar-view.php:245
+#: classes/view/birs-clients-view.php:59
+#: classes/view/birs-clients-view.php:248
+#: classes/view/birs-locations-view.php:57
+#: classes/view/birs-locations-view.php:156
+msgid "Address"
+msgstr "Osoite"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:173
+#: classes/view/birs-calendar-view.php:254
+#: classes/view/birs-clients-view.php:260
+#: classes/view/birs-locations-view.php:58
+#: classes/view/birs-locations-view.php:166
+msgid "City"
+msgstr "Postitoimipaikka"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:181
+#: classes/view/birs-calendar-view.php:261
+#: classes/view/birs-clients-view.php:268
+#: classes/view/birs-locations-view.php:59
+#: classes/view/birs-locations-view.php:173
+msgid "State/Province"
+msgstr "Osavaltio/maakunta"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:189
+#: classes/view/birs-calendar-view.php:272
+#: classes/view/birs-clients-view.php:280
+#: classes/view/birs-locations-view.php:183
+msgid "Country"
+msgstr "Maa"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:199
+#: classes/view/birs-calendar-view.php:283
+#: classes/view/birs-clients-view.php:289
+#: classes/view/birs-locations-view.php:191
+msgid "Zip Code"
+msgstr "Postinumero"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:207
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:24
+#: classes/view/birs-shortcode.php:406
+msgid "Submit"
+msgstr "Lähetä"
+
+#: addons/form-builder/classes/birs-addon-form-builder_init_default.php:213
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:28
+msgid "Lost your password?"
+msgstr "Unohditko salasanasi?"
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:78
+msgid ""
+"Appointment Details ('Location','Service','Staff' & 'Date&Time' fields are "
+"predefined, click 'edit' to change the labels)"
+msgstr ""
+"Ajanvarauksen yksityiskohdat (paikka-, palvelu-, henkilökunta- sekä aika- ja "
+"päivämääräkentät on esiasetettu, klikkaa \"muokkaa\" kenttänimien "
+"muuttamiseksi)"
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-appointment-section.php:99
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:119
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:23
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:21
+msgid "Labels"
+msgstr "Kenttänimet"
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-email.php:19
+#: classes/logic/birs-calendar-logic.php:380
+msgid "Email is required"
+msgstr "Sähköpostiosoite vaaditaan"
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-email.php:37
+msgid ""
+"Email already exists. You may book using this email by selecting \"I am a "
+"returning user.\""
+msgstr ""
+"Sähköpostiosoite on jo rekisteröity. Voit varata ajan tällä "
+"sähköpostiosoitteella valitsemalla \"Olen palaava käyttäjä.\""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-email.php:61
+msgid ""
+"Email does not exist. Please contact the administrator to create a user "
+"account."
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-email.php:64
+msgid ""
+"Email does not exist. You may book using this email by selecting \"I am a "
+"new user.\""
+msgstr ""
+"Sähköpostiosoitetta ei ole vielä rekisteröity. Voit varata ajan tällä "
+"sähköpostiosoitteella valitsemalla \"Olen uusi käyttäjä.\""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-email.php:68
+msgid "Email or password is incorrect."
+msgstr "Sähköpostiosoite tai salasana on väärin."
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:40
+#, php-format
+msgid "Logged in as %s."
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:44
+msgid "Log out?"
+msgstr ""
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:134
+msgid "I am a new user."
+msgstr "Olen uusi käyttäjä."
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:142
+msgid "I am a returning user."
+msgstr "Olen palaava käyttäjä."
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:164
+msgid "Enable user login"
+msgstr "Salli käyttäjien kirjautua sisään."
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-client-section.php:176
+msgid "Enable new user registration"
+msgstr "Salli uusien käyttäjien rekisteröityminen."
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:78
+msgid "Password is required"
+msgstr "Salasana vaaditaan."
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:83
+msgid "Password must be at least 6 digits."
+msgstr "Salasanan pituuden on oltava vähintään 6 merkkiä."
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-password.php:86
+msgid "Both passwords should match"
+msgstr "Salasanojen pitää täsmätä keskenään."
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:38
+msgid "Confirmation"
+msgstr "Vahvistus."
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:46
+msgid "Text"
+msgstr "Teksti"
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:53
+msgid "Redirect"
+msgstr "Edelleenohjaus"
+
+#: addons/form-builder/classes/predefined/birs-addon-fb-submit.php:92
+#: classes/view/birs-shortcode.php:404
+msgid "Please wait..."
+msgstr "Hetkinen..."
+
+#: addons/general-settings/classes/birs-addon-general-settings.php:38
+msgid "General Options"
+msgstr "Yleisasetukset"
+
+#: addons/general-settings/classes/birs-addon-general-settings.php:40
+msgid "Timezone"
+msgstr "Aikavyöhyke"
+
+#: addons/general-settings/classes/birs-addon-general-settings.php:41
+msgid "Date Format, Time Format"
+msgstr "Ajan ja päivämäärän muoto"
+
+#: addons/general-settings/classes/birs-addon-general-settings.php:42
+msgid "Week Starts On"
+msgstr "Viikon ensimmäinen päivä"
+
+#: addons/general-settings/classes/birs-addon-general-settings.php:43
+msgid "Currency"
+msgstr "Rahayksikkö"
+
+#: addons/general-settings/classes/birs-addon-general-settings.php:44
+msgid "Default Calendar View"
+msgstr "Oletuskalenterinäkymä"
+
+#: addons/general-settings/classes/birs-addon-general-settings.php:49
+msgid "General"
+msgstr "Yleinen"
+
+#: addons/general-settings/classes/birs-addon-general-settings.php:111
+#, php-format
+msgid "<label>Timezone settings are located <a href='%s'>here</a>.</label>"
+msgstr "<label>Aikavyöheasetukset sijaitsevat <a href='%s'>täällä</a>.</label>"
+
+#: addons/general-settings/classes/birs-addon-general-settings.php:118
+#, php-format
+msgid ""
+"<label>Date format, time format settings are located <a href='%s'>here</a>.</"
+"label>"
+msgstr ""
+"<label>Ajan ja päivämäärän muotoiluasetukset sijaitsevat <a "
+"href='%s'>täällä</a>.</label>"
+
+#: addons/general-settings/classes/birs-addon-general-settings.php:125
+#, php-format
+msgid ""
+"<label>First day of week setting is located <a href='%s'>here</a>.</label>"
+msgstr ""
+"<label>Viikon ensimmäisen päivän asetus sijaitsee <a href='%s'>täällä</a>.</"
+"label>"
+
+#: addons/location-based-services/classes/birs-addon-location-based-services.php:25
+#: classes/view/birs-locations-view.php:17
+msgid "Locations"
+msgstr "Paikat"
+
+#: addons/location-based-services/classes/birs-addon-location-based-services.php:84
+msgid "Assign locations that can perform this service:"
+msgstr "Määrittele paikat, joissa tämä palvelu voidaan suorittaa:"
+
+#: addons/location-based-services/classes/birs-addon-location-based-services.php:91
+#, php-format
+msgid "There is no location to assign. Click %s here %s to add one."
+msgstr "Ei paikkoja. Klikkaa  %s tästä %s lisätäksesi."
+
+#: addons/multi-staff/classes/birs-addon-multi-staff.php:86
+#: classes/logic/birs-calendar-logic.php:166
+#: classes/logic/birs-calendar-logic.php:234
+msgid "[All]"
+msgstr "[Kaikki]"
+
+#: addons/multi-staff/classes/birs-addon-multi-staff.php:111
+msgid "Calendar Color"
+msgstr "Kalenterin väri"
+
+#: addons/paypal-integration/classes/birs-addon-paypal-integration.php:20
+msgid "PayPal Integration"
+msgstr "PayPal-integrointi"
+
+#: addons/paypal-integration/classes/birs-addon-paypal-integration.php:77
+#, php-format
+msgid "PayPal Transaction ID: %s"
+msgstr "PayPal-siirron tunnus: %s"
+
+#: addons/paypal-integration/classes/birs-addon-paypal-integration.php:187
+msgid "Enable/Disable"
+msgstr "Päälle / Pois päältä"
+
+#: addons/paypal-integration/classes/birs-addon-paypal-integration.php:196
+msgid "Enable PayPal"
+msgstr "Kytke PayPal päälle"
+
+#: addons/paypal-integration/classes/birs-addon-paypal-integration.php:203
+msgid "PayPal Email"
+msgstr "PayPal-sähköpostiosoite"
+
+#: addons/pre-payment/classes/birs-addon-pre-payment-upgrader.php:25
+msgid "Please make a payment of {deposit} to hold your appointment."
+msgstr "Ole hyvä ja suorita {deposit} maksu pitääksesi varauksesi voimassa."
+
+#: addons/pre-payment/classes/birs-addon-pre-payment-upgrader.php:32
+#: classes/view/birs-shortcode.php:108
+msgid "Location:"
+msgstr "Paikka:"
+
+#: addons/pre-payment/classes/birs-addon-pre-payment-upgrader.php:36
+#: classes/view/birs-shortcode.php:112
+msgid "Service:"
+msgstr "Palvelu:"
+
+#: addons/pre-payment/classes/birs-addon-pre-payment-upgrader.php:40
+#: classes/view/birs-shortcode.php:116
+msgid "Time:"
+msgstr "Aika:"
+
+#: addons/pre-payment/classes/birs-addon-pre-payment.php:42
+#: classes/view/birs-calendar-view.php:333
+#: classes/view/birs-payment-view.php:14
+msgid "Payments"
+msgstr "Maksut"
+
+#: addons/pre-payment/classes/birs-addon-pre-payment.php:57
+#, fuzzy
+msgid "Prepayment Settings"
+msgstr "Ennakkomaksuasetukset"
+
+#: addons/pre-payment/classes/birs-addon-pre-payment.php:72
+#, fuzzy
+msgid "Prepayment Message"
+msgstr "Ennakkomaksuviesti"
+
+#: addons/pre-payment/classes/birs-addon-pre-payment.php:190
+msgid "Payments Settings Updated"
+msgstr "Maksuasetukset päivitetty"
+
+#: addons/pre-payment/classes/birs-addon-pre-payment.php:343
+#, fuzzy
+msgid "Enable prepayment"
+msgstr "Kytke ennakkomaksu päälle"
+
+#: addons/pre-payment/classes/birs-addon-pre-payment.php:357
+#, php-format
+msgid "Charge %s fixed booking fee."
+msgstr "Veloita %s vakiovaraustaksa."
+
+#: addons/pre-payment/classes/birs-addon-pre-payment.php:369
+#, php-format
+msgid "Charge %s percent of service value."
+msgstr "Veloita %s prosentin osuus palvelun hinnasta."
+
+#: addons/public-calendar/classes/birs-addon-public-calendar.php:78
+#: classes/view/birs-calendar-view.php:196
+#: classes/view/birs-calendar-view.php:431
+#: classes/view/birs-services-view.php:112 classes/view/birs-staff-view.php:62
+#: classes/view/birs-staff-view.php:63
+msgid "Staff"
+msgstr "Henkilökunta"
+
+#: addons/service-enhanced/classes/birs-addon-service-enhanced.php:32
+msgid " minutes"
+msgstr " minuuttia"
+
+#: addons/service-enhanced/classes/birs-addon-service-enhanced.php:125
+#, php-format
+msgid "Enable flexible appointment start time with %s"
+msgstr "Kytke päälle joustava tapaamisajan alku %s:n kanssa"
+
+#: addons/timeblocking/classes/birs-addon-timeblocking.php:26
+msgid "Days Off"
+msgstr "Vapaapäivät"
+
+#: addons/timeblocking/classes/birs-addon-timeblocking.php:106
+#: classes/view/birs-staff-view.php:151
+msgid "From"
+msgstr "Lähtien:"
+
+#: addons/timeblocking/classes/birs-addon-timeblocking.php:120
+#: classes/view/birs-staff-view.php:165
+msgid "To"
+msgstr "Asti:"
+
+#: addons/timeblocking/classes/birs-addon-timeblocking.php:202
+msgid "Exceptions"
+msgstr "Poikkeukset:"
+
+#: addons/timeblocking/classes/birs-addon-timeblocking.php:212
+msgid "+ Add Exception"
+msgstr "+ Lisää poikkeus"
+
+#: addons/user-integration/classes/birs-addon-user-integration.php:71
+msgid "User Synchronization"
+msgstr ""
+
+#: addons/user-integration/classes/birs-addon-user-integration.php:72
+msgid "Syncing clients with WP users..."
+msgstr ""
+
+#: classes/birs-util.php:201 classes/birs-util.php:662
+#: classes/birs-util.php:720
+msgid "Sun"
+msgstr "Su"
+
+#: classes/birs-util.php:202 classes/birs-util.php:663
+#: classes/birs-util.php:721
+msgid "Mon"
+msgstr "Ma"
+
+#: classes/birs-util.php:203 classes/birs-util.php:664
+#: classes/birs-util.php:722
+msgid "Tue"
+msgstr "Ti"
+
+#: classes/birs-util.php:204 classes/birs-util.php:665
+#: classes/birs-util.php:723
+msgid "Wed"
+msgstr "Ke"
+
+#: classes/birs-util.php:205 classes/birs-util.php:666
+#: classes/birs-util.php:724
+msgid "Thu"
+msgstr "To"
+
+#: classes/birs-util.php:206 classes/birs-util.php:667
+#: classes/birs-util.php:725
+msgid "Fri"
+msgstr "Pe"
+
+#: classes/birs-util.php:207 classes/birs-util.php:668
+#: classes/birs-util.php:726
+msgid "Sat"
+msgstr "La"
+
+#: classes/birs-util.php:213
+msgid "Month"
+msgstr "Kuukausi"
+
+#: classes/birs-util.php:214
+msgid "Week"
+msgstr "Viikko"
+
+#: classes/birs-util.php:215
+msgid "Day"
+msgstr "Päivä"
+
+#: classes/birs-util.php:523
+msgid "U.S. Dollar"
+msgstr ""
+
+#: classes/birs-util.php:524
+msgid "Euro"
+msgstr ""
+
+#: classes/birs-util.php:525
+msgid "Pounds Sterling"
+msgstr ""
+
+#: classes/birs-util.php:526
+msgid "Australian Dollar"
+msgstr ""
+
+#: classes/birs-util.php:527
+msgid "Brazilian Real"
+msgstr ""
+
+#: classes/birs-util.php:528
+msgid "Canadian Dollar"
+msgstr ""
+
+#: classes/birs-util.php:529
+msgid "Chinese RMB"
+msgstr ""
+
+#: classes/birs-util.php:530
+msgid "Czech Koruna"
+msgstr ""
+
+#: classes/birs-util.php:531
+msgid "Danish Krone"
+msgstr ""
+
+#: classes/birs-util.php:532
+msgid "Hong Kong Dollar"
+msgstr ""
+
+#: classes/birs-util.php:533
+msgid "Hungarian Forint"
+msgstr ""
+
+#: classes/birs-util.php:534
+msgid "Indian Rupee"
+msgstr ""
+
+#: classes/birs-util.php:535
+msgid "Israeli New Shekel"
+msgstr ""
+
+#: classes/birs-util.php:536
+msgid "Japanese Yen"
+msgstr ""
+
+#: classes/birs-util.php:537
+msgid "Malaysian Ringgit"
+msgstr ""
+
+#: classes/birs-util.php:538
+msgid "Mexican Peso"
+msgstr ""
+
+#: classes/birs-util.php:539
+msgid "New Zealand Dollar"
+msgstr ""
+
+#: classes/birs-util.php:540
+msgid "Norwegian Krone"
+msgstr ""
+
+#: classes/birs-util.php:541
+msgid "Philippine Peso"
+msgstr ""
+
+#: classes/birs-util.php:542
+msgid "Polish Zloty"
+msgstr ""
+
+#: classes/birs-util.php:543
+msgid "Singapore Dollar"
+msgstr ""
+
+#: classes/birs-util.php:544
+msgid "South Africa Rand"
+msgstr ""
+
+#: classes/birs-util.php:545
+msgid "Swedish Krona"
+msgstr ""
+
+#: classes/birs-util.php:546
+msgid "Swiss Franc"
+msgstr ""
+
+#: classes/birs-util.php:547
+msgid "Taiwan New Dollar"
+msgstr ""
+
+#: classes/birs-util.php:548
+msgid "Thai Baht"
+msgstr ""
+
+#: classes/birs-util.php:549
+msgid "Turkish Lira"
+msgstr ""
+
+#: classes/birs-util.php:550
+msgid "United Arab Emirates Dirham"
+msgstr ""
+
+#: classes/birs-util.php:596
+msgid "Mr"
+msgstr "Hra"
+
+#: classes/birs-util.php:597
+msgid "Mrs"
+msgstr "Rva"
+
+#: classes/birs-util.php:598
+msgid "Miss"
+msgstr "Nti"
+
+#: classes/birs-util.php:599
+msgid "Ms"
+msgstr "Nti"
+
+#: classes/birs-util.php:600
+msgid "Dr"
+msgstr "Tri"
+
+#: classes/birs-util.php:625 classes/birs-util.php:683
+msgid "January"
+msgstr "Tammikuu"
+
+#: classes/birs-util.php:626 classes/birs-util.php:684
+msgid "February"
+msgstr "Helmikuu"
+
+#: classes/birs-util.php:627 classes/birs-util.php:685
+msgid "March"
+msgstr "Maaliskuu"
+
+#: classes/birs-util.php:628 classes/birs-util.php:686
+msgid "April"
+msgstr "Huhtikuu"
+
+#: classes/birs-util.php:629 classes/birs-util.php:643
+#: classes/birs-util.php:687 classes/birs-util.php:701
+msgid "May"
+msgstr "Toukokuu"
+
+#: classes/birs-util.php:630 classes/birs-util.php:688
+msgid "June"
+msgstr "Kesäkuu"
+
+#: classes/birs-util.php:631 classes/birs-util.php:689
+msgid "July"
+msgstr "Heinäkuu"
+
+#: classes/birs-util.php:632 classes/birs-util.php:690
+msgid "August"
+msgstr "Elokuu"
+
+#: classes/birs-util.php:633 classes/birs-util.php:691
+msgid "September"
+msgstr "Syyskuu>"
+
+#: classes/birs-util.php:634 classes/birs-util.php:692
+msgid "October"
+msgstr "Lokakuu"
+
+#: classes/birs-util.php:635 classes/birs-util.php:693
+msgid "November"
+msgstr "Marraskuu"
+
+#: classes/birs-util.php:636 classes/birs-util.php:694
+msgid "December"
+msgstr "Joulukuu"
+
+#: classes/birs-util.php:639 classes/birs-util.php:697
+msgid "Jan"
+msgstr "Tammi"
+
+#: classes/birs-util.php:640 classes/birs-util.php:698
+msgid "Feb"
+msgstr "Helmi"
+
+#: classes/birs-util.php:641 classes/birs-util.php:699
+msgid "Mar"
+msgstr "Maalis"
+
+#: classes/birs-util.php:642 classes/birs-util.php:700
+msgid "Apr"
+msgstr "Huhti"
+
+#: classes/birs-util.php:644 classes/birs-util.php:702
+msgid "Jun"
+msgstr "Kesä"
+
+#: classes/birs-util.php:645 classes/birs-util.php:703
+msgid "Jul"
+msgstr "Heinä"
+
+#: classes/birs-util.php:646 classes/birs-util.php:704
+msgid "Aug"
+msgstr "Elo"
+
+#: classes/birs-util.php:647 classes/birs-util.php:705
+msgid "Sep"
+msgstr "Syys"
+
+#: classes/birs-util.php:648 classes/birs-util.php:706
+msgid "Oct"
+msgstr "Loka"
+
+#: classes/birs-util.php:649 classes/birs-util.php:707
+msgid "Nov"
+msgstr "Marras"
+
+#: classes/birs-util.php:650 classes/birs-util.php:708
+msgid "Dec"
+msgstr "Joulu"
+
+#: classes/birs-util.php:653 classes/birs-util.php:711
+msgid "Sunday"
+msgstr "Sunnuntai"
+
+#: classes/birs-util.php:654 classes/birs-util.php:712
+msgid "Monday"
+msgstr "Maanantai"
+
+#: classes/birs-util.php:655 classes/birs-util.php:713
+msgid "Tuesday"
+msgstr "Tiistai"
+
+#: classes/birs-util.php:656 classes/birs-util.php:714
+msgid "Wednesday"
+msgstr "Keskiviikko"
+
+#: classes/birs-util.php:657 classes/birs-util.php:715
+msgid "Thursday"
+msgstr "Torstai"
+
+#: classes/birs-util.php:658 classes/birs-util.php:716
+msgid "Friday"
+msgstr "Perjantai"
+
+#: classes/birs-util.php:659 classes/birs-util.php:717
+msgid "Saturday"
+msgstr "Lauantai"
+
+#: classes/birs-util.php:671
+msgid "today"
+msgstr "tänään"
+
+#: classes/birs-util.php:672
+msgid "month"
+msgstr "kuukausi"
+
+#: classes/birs-util.php:673
+msgid "week"
+msgstr "viikko"
+
+#: classes/birs-util.php:674
+msgid "day"
+msgstr "päivä"
+
+#: classes/birs-util.php:729
+msgid "Su"
+msgstr "Su"
+
+#: classes/birs-util.php:730
+msgid "Mo"
+msgstr "Ma"
+
+#: classes/birs-util.php:731
+msgid "Tu"
+msgstr "Ti"
+
+#: classes/birs-util.php:732
+msgid "We"
+msgstr "Ke"
+
+#: classes/birs-util.php:733
+msgid "Th"
+msgstr "To"
+
+#: classes/birs-util.php:734
+msgid "Fr"
+msgstr "Pe"
+
+#: classes/birs-util.php:735
+msgid "Sa"
+msgstr "La"
+
+#: classes/logic/birs-calendar-logic.php:343
+msgid "Please select a service and a staff"
+msgstr "Ole hyvä ja valitse palvelu ja henkilökunta"
+
+#: classes/logic/birs-calendar-logic.php:345
+msgid "Please select a service and a service provider"
+msgstr "Ole hyvä ja valitse palvelu ja palveluntarjoaja"
+
+#: classes/logic/birs-calendar-logic.php:349
+msgid "Date is required"
+msgstr "Päivämäärä vaaditaan"
+
+#: classes/logic/birs-calendar-logic.php:352
+#: classes/logic/birs-calendar-logic.php:394
+msgid "Time is required"
+msgstr "Aika vaaditaan"
+
+#: classes/logic/birs-calendar-logic.php:362
+msgid "Date & time is incorrect"
+msgstr "Aika ja päivämäärä ovat väärin"
+
+#: classes/logic/birs-calendar-logic.php:374
+msgid "First name is required"
+msgstr "Etunimi vaaditaan"
+
+#: classes/logic/birs-calendar-logic.php:377
+msgid "Last name is required"
+msgstr "Sukunimi vaaditaan"
+
+#: classes/logic/birs-calendar-logic.php:382
+msgid "Email is incorrect"
+msgstr "Sähköpostiosoite ei kelpaa"
+
+#: classes/logic/birs-calendar-logic.php:385
+msgid "Phone is required"
+msgstr "Puhelinnumero vaaditaan"
+
+#: classes/logic/birs-calendar-logic.php:403
+msgid "Time is unavaliable"
+msgstr "Aika ei ole saatavilla."
+
+#: classes/view/birs-calendar-view.php:38
+msgid "Appointments"
+msgstr "Ajanvaraukset"
+
+#: classes/view/birs-calendar-view.php:39
+#: classes/view/birs-payment-view.php:15
+msgid "Appointment"
+msgstr "Ajanvaraus"
+
+#: classes/view/birs-calendar-view.php:40
+#: classes/view/birs-calendar-view.php:79
+#: classes/view/birs-calendar-view.php:183
+msgid "Add Appointment"
+msgstr "Lisää ajanvaraus"
+
+#: classes/view/birs-calendar-view.php:41
+msgid "Add New Appointment"
+msgstr "Lisää uusi ajanvaraus"
+
+#: classes/view/birs-calendar-view.php:43
+#: classes/view/birs-calendar-view.php:83
+msgid "Edit Appointment"
+msgstr "Muokkaa varausta"
+
+#: classes/view/birs-calendar-view.php:45
+#: classes/view/birs-calendar-view.php:46
+msgid "View Appointment"
+msgstr "Tarkastele varausta"
+
+#: classes/view/birs-calendar-view.php:47
+msgid "Search Appointments"
+msgstr "Hae varauksia"
+
+#: classes/view/birs-calendar-view.php:48
+msgid "No Appointments found"
+msgstr "Varauksia ei löytynyt"
+
+#: classes/view/birs-calendar-view.php:49
+msgid "No Appointments found in trash"
+msgstr "Roskakorissa ei ollut ajanvarauksia"
+
+#: classes/view/birs-calendar-view.php:50
+msgid "Parent Appointment"
+msgstr "Ylempi varaus"
+
+#: classes/view/birs-calendar-view.php:52
+msgid "This is where appointments are stored."
+msgstr "Varaukset tallennetaan tänne."
+
+#: classes/view/birs-calendar-view.php:100
+msgid "Loading appointments..."
+msgstr "Lataa varauksia...."
+
+#: classes/view/birs-calendar-view.php:101
+#, fuzzy
+msgid "Saving..."
+msgstr "Lataa…"
+
+#: classes/view/birs-calendar-view.php:188
+msgid "Refresh"
+msgstr "Päivitä"
+
+#: classes/view/birs-calendar-view.php:330
+msgid "General Info"
+msgstr "Yleistiedot"
+
+#: classes/view/birs-calendar-view.php:331
+msgid "Appointment Details"
+msgstr "Varauksen yksityiskohdat"
+
+#: classes/view/birs-calendar-view.php:332
+msgid "Client Details"
+msgstr "Asiakkaan tiedot"
+
+#: classes/view/birs-clients-view.php:17
+msgid "Clients"
+msgstr "Asiakkaat"
+
+#: classes/view/birs-clients-view.php:18
+msgid "Client"
+msgstr "Asiakas"
+
+#: classes/view/birs-clients-view.php:19
+msgid "Add Client"
+msgstr "Lisää asiakas"
+
+#: classes/view/birs-clients-view.php:20
+msgid "Add New Client"
+msgstr "Lisää uusi asiakas"
+
+#: classes/view/birs-clients-view.php:22
+msgid "Edit Client"
+msgstr "Muokkaa asiakasta"
+
+#: classes/view/birs-clients-view.php:23
+msgid "New Client"
+msgstr "Uusi asiakas"
+
+#: classes/view/birs-clients-view.php:24 classes/view/birs-clients-view.php:25
+msgid "View Client"
+msgstr "Tarkastele asiakasta"
+
+#: classes/view/birs-clients-view.php:26
+msgid "Search Clients"
+msgstr "Etsi asiakkaista"
+
+#: classes/view/birs-clients-view.php:27
+msgid "No Clients found"
+msgstr "Asiakkaita ei löytynyt"
+
+#: classes/view/birs-clients-view.php:28
+msgid "No Clients found in trash"
+msgstr "Roskakorista ei löytynyt asiakkaita"
+
+#: classes/view/birs-clients-view.php:29
+msgid "Parent Client"
+msgstr "Ylempi asiakas"
+
+#: classes/view/birs-clients-view.php:31
+msgid "This is where clients are stored."
+msgstr "Asiakkaat tallennetaan tänne"
+
+#: classes/view/birs-clients-view.php:56
+msgid "Client Name"
+msgstr "Asiakkaan nimi"
+
+#: classes/view/birs-clients-view.php:110
+#: classes/view/birs-clients-view.php:113
+#: classes/view/birs-clients-view.php:115
+msgid "Client updated."
+msgstr "Asiakkaan tiedot päivitettiin."
+
+#: classes/view/birs-clients-view.php:111
+#: classes/view/birs-locations-view.php:109
+#: classes/view/birs-services-view.php:71 classes/view/birs-staff-view.php:43
+msgid "Custom field updated."
+msgstr "Oma kenttä päivitettiin."
+
+#: classes/view/birs-clients-view.php:112
+#: classes/view/birs-locations-view.php:110
+#: classes/view/birs-services-view.php:72 classes/view/birs-staff-view.php:44
+msgid "Custom field deleted."
+msgstr "Oma kenttä poistettiin."
+
+#: classes/view/birs-clients-view.php:114
+#, php-format
+msgid "Client restored to revision from %s"
+msgstr "Asiakkan tiedot palautettu %s päivättyyn versioon"
+
+#: classes/view/birs-clients-view.php:116
+msgid "Client saved."
+msgstr "Asiakas tallennettiin."
+
+#: classes/view/birs-clients-view.php:117
+msgid "Client submitted."
+msgstr "Asiakkaan tiedot lähetetty."
+
+#: classes/view/birs-clients-view.php:118
+#, php-format
+msgid "Client scheduled for: <strong>%1$s</strong>."
+msgstr "Asiakkaalle varattu aika: <strong>%1$s</strong>."
+
+#: classes/view/birs-clients-view.php:118
+#: classes/view/birs-locations-view.php:116
+#: classes/view/birs-services-view.php:78 classes/view/birs-staff-view.php:50
+msgid "M j, Y @ G:i"
+msgstr "j.n.Y H:i"
+
+#: classes/view/birs-clients-view.php:119
+msgid "Client draft updated."
+msgstr "Asiakkaan tiedot tallennettu luonnoksena."
+
+#: classes/view/birs-clients-view.php:129
+msgid "Client Info"
+msgstr "Asiakkaan tiedot"
+
+#: classes/view/birs-clients-view.php:151
+msgid "The email address isn’t correct."
+msgstr "Sähköpostisoite ei ole oikeellinen."
+
+#: classes/view/birs-clients-view.php:155
+msgid "Email already exists."
+msgstr "Sähköpostiosoite on jo rekisteröity."
+
+#: classes/view/birs-clients-view.php:231
+#: classes/view/birs-locations-view.php:149
+msgid "Phone Number"
+msgstr "Puhelinnumero"
+
+#: classes/view/birs-content-view.php:141
+msgid "Save Data"
+msgstr "Tallenna tiedot"
+
+#: classes/view/birs-help-view.php:14
+msgid "Help and Support"
+msgstr "Ohje ja tuki"
+
+#: classes/view/birs-help-view.php:17
+msgid "Versions"
+msgstr "Versiot"
+
+#: classes/view/birs-locations-view.php:19
+msgid "Add Location"
+msgstr "Lisää paikka"
+
+#: classes/view/birs-locations-view.php:20
+msgid "Add New Location"
+msgstr "Lisää uusi paikka"
+
+#: classes/view/birs-locations-view.php:22
+msgid "Edit Location"
+msgstr "Muokkaa paikkaa"
+
+#: classes/view/birs-locations-view.php:23
+msgid "New Location"
+msgstr "Uusi paikka"
+
+#: classes/view/birs-locations-view.php:24
+#: classes/view/birs-locations-view.php:25
+msgid "View Location"
+msgstr "Tarkastele paikkaa"
+
+#: classes/view/birs-locations-view.php:26
+msgid "Search Locations"
+msgstr "Etsi paikoista"
+
+#: classes/view/birs-locations-view.php:27
+msgid "No Locations found"
+msgstr "Paikkoja ei löytynyt"
+
+#: classes/view/birs-locations-view.php:28
+msgid "No Locations found in trash"
+msgstr "Roskakorissa ei ole paikkoja"
+
+#: classes/view/birs-locations-view.php:29
+msgid "Parent Location"
+msgstr "Ylempi paikka"
+
+#: classes/view/birs-locations-view.php:31
+msgid "This is where locations are stored."
+msgstr "Paikat tallennetaan tänne."
+
+#: classes/view/birs-locations-view.php:56
+msgid "Location Name"
+msgstr "Paikan nimi"
+
+#: classes/view/birs-locations-view.php:108
+#: classes/view/birs-locations-view.php:111
+#: classes/view/birs-locations-view.php:113
+msgid "Location updated."
+msgstr "Paikka päivitettiin."
+
+#: classes/view/birs-locations-view.php:112
+#, php-format
+msgid "Location restored to revision from %s"
+msgstr "Paikka palautettiin %s päivättyn versioon"
+
+#: classes/view/birs-locations-view.php:114
+msgid "Location saved."
+msgstr "Paikka tallenettiin."
+
+#: classes/view/birs-locations-view.php:115
+msgid "Location submitted."
+msgstr "Paikan tiedot lähetettiin."
+
+#: classes/view/birs-locations-view.php:116
+#, php-format
+msgid "Location scheduled for: <strong>%1$s</strong>."
+msgstr "Paikka varattu ajalle <strong>%1$s</strong>."
+
+#: classes/view/birs-locations-view.php:117
+msgid "Location draft updated."
+msgstr "Paikan luonnos päivitettiin."
+
+#: classes/view/birs-locations-view.php:125
+msgid "Location Details"
+msgstr "Paikan yksityiskohdat"
+
+#: classes/view/birs-payment-view.php:16
+#: classes/view/birs-payment-view.php:172
+msgid "Add Payment"
+msgstr "Lisää maksu"
+
+#: classes/view/birs-payment-view.php:17
+msgid "Add New Payment"
+msgstr "Lisää uusi maksu"
+
+#: classes/view/birs-payment-view.php:19
+msgid "Edit Payment"
+msgstr "Muokkaa maksua"
+
+#: classes/view/birs-payment-view.php:20
+msgid "New Payment"
+msgstr "Uusi maksu"
+
+#: classes/view/birs-payment-view.php:21 classes/view/birs-payment-view.php:22
+msgid "View Payment"
+msgstr "Tarkastele maksua"
+
+#: classes/view/birs-payment-view.php:23
+msgid "Search Payments"
+msgstr "Etsi maksuista"
+
+#: classes/view/birs-payment-view.php:24
+msgid "No Payments found"
+msgstr "Maksuja ei löytynyt"
+
+#: classes/view/birs-payment-view.php:25
+msgid "No Payments found in trash"
+msgstr "Maksuja ei löytynyt roskakorista"
+
+#: classes/view/birs-payment-view.php:26
+msgid "Parent Payment"
+msgstr "Ylempi maksu"
+
+#: classes/view/birs-payment-view.php:28
+msgid "This is where payments are stored."
+msgstr "Maksut tallennetaan tänne"
+
+#: classes/view/birs-payment-view.php:48
+msgid "Credit Card"
+msgstr "Luottokortti"
+
+#: classes/view/birs-payment-view.php:49
+msgid "Cash"
+msgstr "Käteinen"
+
+#: classes/view/birs-payment-view.php:111
+#: classes/view/birs-services-view.php:147
+msgid "Price"
+msgstr "Hinta"
+
+#: classes/view/birs-payment-view.php:121
+msgid "Paid"
+msgstr "Maksettu"
+
+#: classes/view/birs-payment-view.php:130
+msgid "Due"
+msgstr "Maksamatta"
+
+#: classes/view/birs-payment-view.php:142
+msgid "Amount to Pay"
+msgstr "Maksettava summa"
+
+#: classes/view/birs-payment-view.php:152
+msgid "Payment Type"
+msgstr "Maksun tyyppi"
+
+#: classes/view/birs-payment-view.php:162
+msgid "Payment Notes"
+msgstr "Huomiot maksun suhteen"
+
+#: classes/view/birs-payment-view.php:181
+#, fuzzy
+msgid "Payment History"
+msgstr "Maksuhistoria"
+
+#: classes/view/birs-payment-view.php:189
+msgid "Amount"
+msgstr "Summa"
+
+#: classes/view/birs-payment-view.php:190
+msgid "Type"
+msgstr "Tyyppi"
+
+#: classes/view/birs-services-view.php:17 classes/view/birs-staff-view.php:102
+msgid "Services"
+msgstr "Palvelut"
+
+#: classes/view/birs-services-view.php:19
+msgid "Add Service"
+msgstr "Lisää palvelu"
+
+#: classes/view/birs-services-view.php:20
+msgid "Add New Service"
+msgstr "Lisää uusi palvelu"
+
+#: classes/view/birs-services-view.php:22
+msgid "Edit Service"
+msgstr "Muokkaa palvelua"
+
+#: classes/view/birs-services-view.php:23
+msgid "New Service"
+msgstr "Uusi palvelu"
+
+#: classes/view/birs-services-view.php:24
+#: classes/view/birs-services-view.php:25
+msgid "View Service"
+msgstr "Tarkastele palvelua"
+
+#: classes/view/birs-services-view.php:26
+msgid "Search Services"
+msgstr "Etsi palveluista"
+
+#: classes/view/birs-services-view.php:27
+msgid "No Services found"
+msgstr "Palveluita ei löytynyt"
+
+#: classes/view/birs-services-view.php:28
+msgid "No Services found in trash"
+msgstr "Palveluita ei löytynyt roskakorista"
+
+#: classes/view/birs-services-view.php:29
+msgid "Parent Service"
+msgstr "Ylempi palvelu"
+
+#: classes/view/birs-services-view.php:31
+msgid "This is where services are stored."
+msgstr "Palvelut tallennetaan tänne"
+
+#: classes/view/birs-services-view.php:46
+msgid "minutes"
+msgstr "minuutit"
+
+#: classes/view/birs-services-view.php:47
+msgid "hours"
+msgstr "tunnit"
+
+#: classes/view/birs-services-view.php:48
+msgid "Before"
+msgstr "Ennen"
+
+#: classes/view/birs-services-view.php:49
+msgid "After"
+msgstr "Jälkeen"
+
+#: classes/view/birs-services-view.php:50
+msgid "Before & After"
+msgstr "Ennen ja jälkeen"
+
+#: classes/view/birs-services-view.php:51
+msgid "Fixed"
+msgstr "Vakio"
+
+#: classes/view/birs-services-view.php:52
+msgid "Free"
+msgstr "Ilmainen"
+
+#: classes/view/birs-services-view.php:53
+msgid "Varies"
+msgstr "Vaihtelee"
+
+#: classes/view/birs-services-view.php:54
+msgid "Don't show"
+msgstr "Älä näytä"
+
+#: classes/view/birs-services-view.php:70
+#: classes/view/birs-services-view.php:73
+#: classes/view/birs-services-view.php:75
+msgid "Service updated."
+msgstr "Palvelu päivitetty."
+
+#: classes/view/birs-services-view.php:74
+#, php-format
+msgid "Service restored to revision from %s"
+msgstr "Palvelu palautettu %s päivättyyn versioon."
+
+#: classes/view/birs-services-view.php:76
+msgid "Service saved."
+msgstr "Palvelu tallennettiin."
+
+#: classes/view/birs-services-view.php:77
+msgid "Service submitted."
+msgstr "Palvelun tiedot lähetettiin."
+
+#: classes/view/birs-services-view.php:78
+#, php-format
+msgid "Service scheduled for: <strong>%1$s</strong>."
+msgstr "Palvelu varattu ajalle <strong>%1$s</strong>."
+
+#: classes/view/birs-services-view.php:79
+msgid "Service draft updated."
+msgstr "Palvelun luonnos tallennettiin."
+
+#: classes/view/birs-services-view.php:104
+msgid "Service Name"
+msgstr "Palvelun nimi"
+
+#: classes/view/birs-services-view.php:105 classes/view/birs-staff-view.php:33
+msgid "Description"
+msgstr "Kuvaus"
+
+#: classes/view/birs-services-view.php:111
+msgid "Service Settings"
+msgstr "Palvelun asetukset"
+
+#: classes/view/birs-services-view.php:127
+msgid "Length"
+msgstr "Pituus"
+
+#: classes/view/birs-services-view.php:137
+msgid "Padding"
+msgstr "Ajantarve ennen ja jälkeen"
+
+#: classes/view/birs-services-view.php:140
+msgid "mins padding time"
+msgstr "ajantarve minuuteissa"
+
+#: classes/view/birs-services-view.php:191
+msgid "Assign staff that can perform this service:"
+msgstr "Määritä henkilökunta joka voi suorittaa tämän palvelun:"
+
+#: classes/view/birs-services-view.php:198
+#, php-format
+msgid "There is no staff to assign. Click %s here %s to add one."
+msgstr "Ei ole henkilökuntaa. Klikkaa %s tästä %s lisätäksesi."
+
+#: classes/view/birs-settings-tab-view.php:59
+msgid "Updated"
+msgstr ""
+
+#: classes/view/birs-shortcode.php:104
+msgid "Your appointment has been booked successfully."
+msgstr "Ajanvaraus onnistui."
+
+#: classes/view/birs-shortcode.php:158
+msgid "Booking appointment failed"
+msgstr "Ajanvaraus epäonnistui."
+
+#: classes/view/birs-shortcode.php:163
+msgid "Please refresh the page and book again."
+msgstr "Ole hyvä ja päivitä sivu ja yritä uudelleen."
+
+#: classes/view/birs-shortcode.php:200
+msgid "There are no available times."
+msgstr "Vapaita aikoja ei ole."
+
+#: classes/view/birs-staff-view.php:32
+msgid "Staff Name"
+msgstr "Henkilökunnan nimi"
+
+#: classes/view/birs-staff-view.php:42 classes/view/birs-staff-view.php:45
+#: classes/view/birs-staff-view.php:47
+msgid "Staff updated."
+msgstr "Henkilökunta päivitetty."
+
+#: classes/view/birs-staff-view.php:46
+#, php-format
+msgid "Staff restored to revision from %s"
+msgstr "Henkilökunta palautettu %s päivättyyn versioon"
+
+#: classes/view/birs-staff-view.php:48
+msgid "Staff saved."
+msgstr "Henkilökunta tallennettiin."
+
+#: classes/view/birs-staff-view.php:49
+msgid "Staff submitted."
+msgstr "Henkilökunnan tiedot lähetettiin."
+
+#: classes/view/birs-staff-view.php:50
+#, php-format
+msgid "Staff scheduled for: <strong>%1$s</strong>."
+msgstr "Henkilökunnalle tehtiin ajanvaraus ajalle <strong>%1$s</strong>."
+
+#: classes/view/birs-staff-view.php:51
+msgid "Staff draft updated."
+msgstr "Henkilökunnan luonnos tallennettiin."
+
+#: classes/view/birs-staff-view.php:64
+msgid "Add Staff"
+msgstr "Lisää henkilökuntaa"
+
+#: classes/view/birs-staff-view.php:65
+msgid "Add New Staff"
+msgstr "Lisää uutta henkilökuntaa"
+
+#: classes/view/birs-staff-view.php:67
+msgid "Edit Staff"
+msgstr "Muokkaa henkilökuntaa"
+
+#: classes/view/birs-staff-view.php:68
+msgid "New Staff"
+msgstr "Uusi henkilökunta"
+
+#: classes/view/birs-staff-view.php:69 classes/view/birs-staff-view.php:70
+msgid "View Staff"
+msgstr "Tarkastele henkilökuntaa"
+
+#: classes/view/birs-staff-view.php:71
+msgid "Search Staff"
+msgstr "Etsi henkilökunnasta"
+
+#: classes/view/birs-staff-view.php:72
+msgid "No Staff found"
+msgstr "Henkilökuntaa ei löytynyt"
+
+#: classes/view/birs-staff-view.php:73
+msgid "No Staff found in trash"
+msgstr "Roskakorista ei löytynyt henkilökuntaa"
+
+#: classes/view/birs-staff-view.php:74
+msgid "Parent Staff"
+msgstr "Ylempi henkilökunta"
+
+#: classes/view/birs-staff-view.php:76
+msgid "This is where staff are stored."
+msgstr "Henkilökunta tallennetaan tänne"
+
+#: classes/view/birs-staff-view.php:101
+msgid "Work Schedule"
+msgstr "Työaikataulu"
+
+#: classes/view/birs-staff-view.php:254
+msgid "+ Add Schedule"
+msgstr "+ Lisää aikataulu"
+
+#: classes/view/birs-staff-view.php:315
+#, php-format
+msgid "There is no locations. Click %s here %s to add one."
+msgstr "Ei ole paikkoja. Klikkaa %s tästä %s lisätäksesi sellaisen."
+
+#: classes/view/birs-staff-view.php:354
+msgid "Assign services that this staff can perform:"
+msgstr "Lisää palvelut jotka tämä henkilökunta voi suorittaa:"
+
+#: classes/view/birs-staff-view.php:361
+#, php-format
+msgid "There is no services to assign. Click %s here %s to add one."
+msgstr "Ei ole palveluita.  Klikkaa %s tästä %s lisätäksesi sellaisen."
+
+#~ msgid "3 hours"
+#~ msgstr "3 tuntia"
+
+#~ msgid "6 hours"
+#~ msgstr "6 tuntia"
+
+#~ msgid "12 hours"
+#~ msgstr "12 tuntia"
+
+#~ msgid "24 hours"
+#~ msgstr "24 tuntia"
+
+#~ msgid "3 days"
+#~ msgstr "3 päivää"
+
+#~ msgid "4 days"
+#~ msgstr "4 päivää"
+
+#~ msgid "5 days"
+#~ msgstr "5 päivää"
+
+#~ msgid "7 days"
+#~ msgstr "7 päivää"
+
+#~ msgid "10 days"
+#~ msgstr "10 päivää"
+
+#~ msgid "14 days"
+#~ msgstr "14 päivää"
+
+#~ msgid "3 months"
+#~ msgstr "3 kuukautta"
+
+#~ msgid "6 months"
+#~ msgstr "6 kuukautta"
+
+#~ msgid "12 months"
+#~ msgstr "12 kuukautta"
+
+#~ msgid "24 months"
+#~ msgstr "24 kuukautta"
+
+#~ msgid "Your license will expire on "
+#~ msgstr "Lisenssisi vanhenee"
+
+#~ msgid "Failed to connect to birchpress.com."
+#~ msgstr "Yhdistäminen osoitteeseen birchpress.com epäonnistui."
+
+#~ msgid "Your license key is incorrect."
+#~ msgstr "Lisenssiavain ei kelpaa."
+
+#~ msgid ""
+#~ "Your license has expired. Please <a href=\"%s\">renew it</a> before you "
+#~ "can receive access to automatic upgrades and support."
+#~ msgstr ""
+#~ "Lisenssisi on vanhentunut. Ole hyvä ja <a href=\"%s\">uusi se</a> "
+#~ "automaattisia päivityksiä ja tukea varten."
+
+#~ msgid ""
+#~ "<a href=\"%s\">Fill out </a> the license key to receive access to "
+#~ "automatic upgrades and support. <a href=\"$s\">Purchase here</a> if your "
+#~ "don't have one."
+#~ msgstr ""
+#~ "<a href=\"%s\">Kirjoita kenttään</a> lisenssiavain automaattisia "
+#~ "päivityksiä ja tukea varten. Jos sinulla ei ole sellaista, <a href=\"$s"
+#~ "\">voit ostaa sen täältä</a>."
+
+#~ msgid "Change License Key"
+#~ msgstr "Muuta lisenssiavain"
+
+#~ msgid ""
+#~ "An Unexpected HTTP Error occurred during the API request.</p> <p><a href="
+#~ "\"?\" onclick=\"document.location.reload(); return false;\">Try again</a>"
+#~ msgstr ""
+#~ "Odottamaton HTTP-virhe tapahtui API-pyynnön aikana.</p> <p><a href=\"?\" "
+#~ "onclick=\"document.location.reload(); return false;\">Ole hyvä ja yritä "
+#~ "uudelleen</a>"
+
+#~ msgid "An unknown error occurred"
+#~ msgstr "Tuntematon virhe tapahtui"
