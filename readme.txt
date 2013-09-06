@@ -81,6 +81,12 @@ To embed the booking form into a post/page, just insert the following shortcode:
 [bp-scheduler-bookingform]
 
 == Changelog ==
+= 1.6.4 =
+* Improvement: Update the German .po file
+* Improvement: Support adding shortcode to a pageline section
+* Improvement: Delete ‘undefined’ text in front end dropdown list
+* Bug Fix: Customer’s name not updated in the calendar
+
 = 1.6.3 =
 * Bug Fix: WordPress 3.6 compatibilty bugs
 * Bug Fix: WP Admin appointments loading bugs
