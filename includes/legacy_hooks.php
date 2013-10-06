@@ -1,0 +1,9 @@
+<?php
+
+birchschedule_validate_booking_form_info
+birchschedule_booking_preferences_future_time
+birchschedule_notification_has_attachement
+birchschedule_notification_appointment_changed
+birchschedule_datetime_separator
+birchschedule_staff_busy_time
+birchschedule_booking_time_options
