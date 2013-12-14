@@ -2,8 +2,8 @@
 Contributors: birchpress
 Tags: appointment, appointment booking, appointment booking calendar, appointment calendar, appointment scheduling, book appointment, booking calendar, scheduling, booking form, reservation, online scheduling
 Requires at least: 3.4
-Tested up to: 3.6.1
-Stable tag: 1.6.5.5
+Tested up to: 3.8
+Stable tag: 1.6.10
 
 BirchPress Scheduler is an appointment booking and online scheduling plugin that allows service businesses to take online bookings.
 
@@ -38,6 +38,7 @@ BirchPress Scheduler is an appointment booking and online scheduling plugin that
 * Auto fill info for existing customers in admin
 * Email notifications to staff and clients when your client books an appointment
 * Custom email messages with booking / appointment details
+* Appointments reschedule and cancellation by customers
 * Display staff appointments/bookings in different colors
 * Custom booking form based on business needs(add custom fields about appointment or customer info, visible/invisible to admin and customers, required/not required)
 * Block busy time and holidays
@@ -50,6 +51,7 @@ BirchPress Scheduler is an appointment booking and online scheduling plugin that
 * Set booking availability/schedule for a specific time period
 * Calendar Sync (iCal)
 * Prepayment and PayPal Integration
+* WooCommerce Integration
 * and much more coming soon
 
 Please visit [our website](http://www.birchpress.com "WordPress Appointment Booking Calendar") for more info, or try our online appointment booking [demo](http://www.birchpress.com/demo/ "BirchPress Scheduler Pro Demo") with all features.
@@ -81,6 +83,13 @@ To embed the booking form into a post/page, just insert the following shortcode:
 [bp-scheduler-bookingform]
 
 == Changelog ==
+
+= 1.6.10 =
+* Improvement: Support selectable provinces of Canada and several other countries.
+* Improvement: Support BHD currency.
+* Improvement: Support showing 'All' in location dropdown list in Admin calendar.
+* Bug Fix: Fix the bug of deleting customers
+
 
 = 1.6.5 =
 * Refactoring code with the new architecture to make the plugin more flexible and extensible.
