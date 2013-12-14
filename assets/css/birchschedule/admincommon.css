@@ -1,0 +1,17 @@
+#submitdiv #minor-publishing{
+}
+
+.birchschedule .form-field input[type="text"] {
+    width: 50%;
+}
+
+.birchschedule .form-table textarea {
+    width: 80%;
+    margin-bottom: 6px;
+}
+
+div.jGrowl div.jGrowl-notification, div.jGrowl div.jGrowl-closer {
+    background-color: #E4F2FD; 
+    background-image: none;
+    font-weight: bold;
+}

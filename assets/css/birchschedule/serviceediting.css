@@ -1,0 +1,11 @@
+.birchschedule #birs_service_length, 
+.birchschedule #birs_service_padding,
+.birchschedule #birs_service_price {
+    width: 20%;
+}
+
+#birchschedule-staff-services input,
+#birchschedule-service-staff input, 
+#birchschedule-service-locations input {
+    margin-right: 4px;
+}
