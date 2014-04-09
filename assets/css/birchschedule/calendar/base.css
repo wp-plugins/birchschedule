@@ -1,0 +1,28 @@
+.fc-event {
+  cursor: pointer;
+}
+.birs_scene {
+  background: white;
+}
+#birs_calendar_scene .navbar-brand {
+  padding: 8px;
+}
+#birs_calendar_scene .navbar-collapse {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+#birs_edit_appointment_scene .navbar-brand {
+  padding: 8px;
+}
+#birs_edit_appointment_scene #birs_appointment_details {
+  padding: 10px 15px 10px 18px;
+  width: 100%;
+}
+#birs_edit_appointment_scene .btn-link {
+  padding: 0;
+}
+#birs_edit_appointment_scene td.birs_actions {
+  padding-top: 0;
+  padding-bottom: 0;
+  border: none;
+}
