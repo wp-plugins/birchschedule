@@ -2,8 +2,8 @@
 Contributors: birchpress
 Tags: appointment, appointment booking, appointment booking calendar, appointment calendar, appointment scheduling, book appointment, booking calendar, scheduling, booking form, reservation, online scheduling
 Requires at least: 3.4
-Tested up to: 3.8
-Stable tag: 1.6.11
+Tested up to: 3.8.1
+Stable tag: 1.7.1
 
 BirchPress Scheduler is an appointment booking and online scheduling plugin that allows service businesses to take online bookings.
 
@@ -50,6 +50,10 @@ BirchPress Scheduler is an appointment booking and online scheduling plugin that
 * Set the length of time slot for each service
 * Set booking availability/schedule for a specific time period
 * Calendar Sync (iCal)
+* Group booking(accepting multiple clients on the same time slot)
+* Add a 'no preference' option to the staff member dropdown list in the frontend booking form
+* Support only showing available time slots when booking via WP Admin
+* Create new WP roles and capabilities to manage access control for staff members
 * Prepayment and PayPal Integration
 * WooCommerce Integration
 * and much more coming soon
@@ -67,13 +71,12 @@ Please visit [our website](http://www.birchpress.com "WordPress Appointment Book
 2. Frontend booking form on Laptop
 3. Admin calendar view
 4. New appointment from admin
-5. Multiple locations
-6. Staff info
-7. Staff work schedule
-8. Service info
-9. Service settings
-10. Client info
-11. Currency and other settings
+5. Edit appointment from admin
+6. Multiple locations
+7. Staff settings
+8. Service settings
+9. Client info
+10. Currency and other settings
 
 == Frequently Asked Questions ==
 
@@ -83,6 +86,11 @@ To embed the booking form into a post/page, just insert the following shortcode:
 [bp-scheduler-bookingform]
 
 == Changelog ==
+
+= 1.7.0 =
+* Improvement: Implement a new UI of booking in WP Admin
+* Improvement: Add Polish translation file
+* Improvement: Improve the plugin performance
 
 = 1.6.11 =
 * Bug Fix: fix the bug of double booking at same time slot on different locations
