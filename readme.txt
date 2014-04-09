@@ -87,7 +87,7 @@ To embed the booking form into a post/page, just insert the following shortcode:
 
 == Changelog ==
 
-= 1.7.0 =
+= 1.7.1 =
 * Improvement: Implement a new UI of booking in WP Admin
 * Improvement: Add Polish translation file
 * Improvement: Improve the plugin performance
