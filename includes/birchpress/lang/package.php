@@ -132,9 +132,7 @@ if(!class_exists('Birchpress_Lang')) {
         }
 
         private function call_real_func_array($real_function, $arguments) {
-            if(is_array($real_function)) {
-                $real_function_str = implode('|', $real_function);
-                birch_assert(sizeof($real_function) === 2, $real_function_str . ' is an invalid class function.');
+            if(is_array($real_function) && sizeof($real_function) > 1) {
                 if(is_string($real_function[0])) {
                     class_exists($real_function[0]);
                 }
