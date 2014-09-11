@@ -1,9 +1,9 @@
 === BirchPress Scheduler - Appointment Booking & Online Scheduling === 
 Contributors: birchpress
 Tags: appointment, appointment booking, appointment booking calendar, appointment calendar, appointment scheduling, book appointment, booking calendar, scheduling, booking form, reservation, online scheduling
-Requires at least: <%= wpVersionRequires %>
-Tested up to: <%= wpVersionTested %>
-Stable tag: <%= productVersion %>
+Requires at least: 3.7
+Tested up to: 4.0
+Stable tag: 1.8.1
 
 BirchPress Scheduler is an appointment booking and online scheduling plugin that allows service businesses to take online bookings.
 
@@ -34,8 +34,9 @@ BirchPress Scheduler is an appointment booking and online scheduling plugin that
 * Meeting scheduling (Coaching, Phone advice, Consulting, Law Firms, Education)
 * Patient scheduling (Doctor, Clinic, Medical)
 
-Extra features are supported in [premium editions](http://www.birchpress.com "WordPress Appointment Plugin")
+There are more features supported in [premium editions](http://www.birchpress.com "WordPress Appointment Plugin")
 
+= Extra Features =
 * Auto fill info for existing customers in admin
 * Email notifications to staff and clients when your client books an appointment
 * Custom email messages with booking / appointment details
