@@ -2,8 +2,8 @@
 Contributors: birchpress
 Tags: appointment, appointment booking, appointment booking calendar, appointment calendar, appointment scheduling, book appointment, booking calendar, scheduling, booking form, reservation, online scheduling
 Requires at least: 3.7
-Tested up to: 3.9.1
-Stable tag: 1.7.6
+Tested up to: 4.0
+Stable tag: 1.8.1
 
 BirchPress Scheduler is an appointment booking and online scheduling plugin that allows service businesses to take online bookings.
 
@@ -27,14 +27,14 @@ BirchPress Scheduler is an appointment booking and online scheduling plugin that
 * Configure date and time format
 * Set the first day of the week
 * Track appointment payment history
-* Supported languages: English, Dutch(by Edwin ten Brink), German (by Edwin ten Brink), Spanish (by Juan Viñas), Hungary(Ferenc Sarosi), French(Jennifer ANSELME)
+* Supported languages: English, German, French, Dutch, Norwegian, Danish, Finnish, Spanish, Portuguese, Swedish
 
 = Desired Businesses =
 * Client scheduling (Beauty salon, Spa management, Hairdresser, Massage therapist, Acupuncture, Photographers,Personal Trainers, Wellness, Training Institutes, Sightseeing Services, Home Repair, Auto Repair, Tuition, Financial Services)
 * Meeting scheduling (Coaching, Phone advice, Consulting, Law Firms, Education)
 * Patient scheduling (Doctor, Clinic, Medical)
 
-= Extra features supported in BirchPress Scheduler Pro =
+= Extra features supported in [premium editions](http://www.birchpress.com "WordPress Appointment Plugin") =
 * Auto fill info for existing customers in admin
 * Email notifications to staff and clients when your client books an appointment
 * Custom email messages with booking / appointment details
@@ -55,10 +55,11 @@ BirchPress Scheduler is an appointment booking and online scheduling plugin that
 * Support only showing available time slots when booking via WP Admin
 * Create new WP roles and capabilities to manage access control for staff members
 * Prepayment and PayPal Integration
+* Authorize.net Integration
 * WooCommerce Integration
 * and much more coming soon
 
-Please visit [our website](http://www.birchpress.com "WordPress Appointment Booking Calendar") for more info, or try our online appointment booking [demo](http://www.birchpress.com/demo/ "BirchPress Scheduler Pro Demo") with all features.
+Please visit [our website](http://www.birchpress.com "WordPress Appointment Plugin") for more info, or try our online appointment booking [demo](http://www.birchpress.com/demo/ "BirchPress Scheduler Demo") with all features.
 
 == Installation ==
 
@@ -83,9 +84,15 @@ Please visit [our website](http://www.birchpress.com "WordPress Appointment Book
 = How can I embed the booking form into a post/page? =
 
 To embed the booking form into a post/page, just insert the following shortcode:
-[bp-scheduler-bookingform]
+[bpscheduler_booking_form]
 
 == Changelog ==
+
+= 1.8 =
+* Enhancement: Implement some UI changes to improve user experience
+* Enhancement: Support up to 10 languages: English, German, French, Dutch, Norwegian, Danish, Finnish, Spanish, Portuguese, Swedish
+* Enhancement: Allow the administrator to modify service, location or duration when rescheduling appointments
+* Enhancement: Support WordPress 4.0
 
 = 1.7.6 =
 * Bug Fix: Conflict with other plugins which use the lessphp lib.
