@@ -4,28 +4,33 @@
   Plugin Name: BirchPress Scheduler
   Plugin URI: http://www.birchpress.com
   Description: An appointment booking and online scheduling plugin that allows service businesses to take online bookings.
-  Version: 1.9
+  Version: 1.10
   Author: BirchPress
   Author URI: http://www.birchpress.com
   License: GPLv2
  */
 
-if (!defined('ABSPATH'))
-    exit;
+if ( defined( 'ABSPATH' ) && !defined( 'BIRCHSCHEDULE' ) ) {
 
-require_once 'framework/includes/birchpress.inc.php';
+	define( 'BIRCHSCHEDULE', true );
 
-require_once 'includes/package.php';
-require_once 'includes/legacy_hooks.php';
+	require_once 'lib/vendor/autoload.php';
 
-global $birchschedule, $birchpress;
+	require_once 'framework/includes/birchpress.inc.php';
 
-$birchschedule->set_plugin_file_path(__FILE__);
-$birchpress->set_plugin_url($birchschedule->plugin_url());
+	require_once 'includes/legacy_hooks.php';
 
-$birchschedule->product_version = '1.9';
-$birchschedule->product_name = 'BirchPress Scheduler';
-$birchschedule->product_code = 'birchschedule';
+	require_once 'includes/package.php';
 
-$birchschedule->run();
+	global $birchschedule, $birchpress;
 
+	$birchschedule->set_plugin_file_path( __FILE__ );
+	$birchpress->set_plugin_url( $birchschedule->plugin_url() );
+
+	$birchschedule->set_product_version( '1.10' );
+	$birchschedule->set_product_name( 'BirchPress Scheduler' );
+	$birchschedule->set_product_code( 'birchschedule' );
+
+	$birchschedule->run();
+
+}
