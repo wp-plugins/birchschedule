@@ -1,0 +1,2239 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: BirchPress Scheduler\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2014-09-05 19:28-0800\n"
+"PO-Revision-Date: \n"
+"Last-Translator: BirchPress <support@birchpress.com>\n"
+"Language-Team: BirchPress Team <support@birchpress.com>\n"
+"Language: en_US\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__;esc_attr__;esc_attr_e;esc_html__;esc_html_e;_x;"
+"_ex;esc_attr_x;esc_html_x;_n;_nx;_n_noop;_nx_noop\n"
+"X-Poedit-Basepath: ../\n"
+"X-Generator: Poedit 1.5.5\n"
+"X-Poedit-SearchPath-0: .\n"
+
+#: birchpress/includes/birchpress/util/imp.php:214
+#: birchpress/includes/birchpress/util/imp.php:343
+#: birchpress/includes/birchpress/util/imp.php:352
+#: birchpress/includes/birchpress/util/imp.php:424
+msgid "Sun"
+msgstr "Su"
+
+#: birchpress/includes/birchpress/util/imp.php:215
+#: birchpress/includes/birchpress/util/imp.php:344
+#: birchpress/includes/birchpress/util/imp.php:353
+#: birchpress/includes/birchpress/util/imp.php:425
+msgid "Mon"
+msgstr "Ma"
+
+#: birchpress/includes/birchpress/util/imp.php:216
+#: birchpress/includes/birchpress/util/imp.php:345
+#: birchpress/includes/birchpress/util/imp.php:354
+#: birchpress/includes/birchpress/util/imp.php:426
+msgid "Tue"
+msgstr "Ti"
+
+#: birchpress/includes/birchpress/util/imp.php:217
+#: birchpress/includes/birchpress/util/imp.php:346
+#: birchpress/includes/birchpress/util/imp.php:355
+#: birchpress/includes/birchpress/util/imp.php:427
+msgid "Wed"
+msgstr "Ke"
+
+#: birchpress/includes/birchpress/util/imp.php:218
+#: birchpress/includes/birchpress/util/imp.php:347
+#: birchpress/includes/birchpress/util/imp.php:356
+#: birchpress/includes/birchpress/util/imp.php:428
+msgid "Thu"
+msgstr "To"
+
+#: birchpress/includes/birchpress/util/imp.php:219
+#: birchpress/includes/birchpress/util/imp.php:348
+#: birchpress/includes/birchpress/util/imp.php:357
+#: birchpress/includes/birchpress/util/imp.php:429
+msgid "Fri"
+msgstr "Pe"
+
+#: birchpress/includes/birchpress/util/imp.php:220
+#: birchpress/includes/birchpress/util/imp.php:349
+#: birchpress/includes/birchpress/util/imp.php:358
+#: birchpress/includes/birchpress/util/imp.php:430
+msgid "Sat"
+msgstr "La"
+
+#: birchpress/includes/birchpress/util/imp.php:226
+#: includes/birchschedule/view/calendar/imp.php:256
+msgid "Month"
+msgstr "Kuukausi"
+
+#: birchpress/includes/birchpress/util/imp.php:227
+#: includes/birchschedule/view/calendar/imp.php:260
+msgid "Week"
+msgstr "Viikko"
+
+#: birchpress/includes/birchpress/util/imp.php:228
+#: includes/birchschedule/view/calendar/imp.php:264
+msgid "Day"
+msgstr "Päivä"
+
+#: birchpress/includes/birchpress/util/imp.php:280
+msgid "Mr"
+msgstr "Hra"
+
+#: birchpress/includes/birchpress/util/imp.php:281
+msgid "Mrs"
+msgstr "Rva"
+
+#: birchpress/includes/birchpress/util/imp.php:282
+msgid "Miss"
+msgstr "Nti"
+
+#: birchpress/includes/birchpress/util/imp.php:283
+msgid "Ms"
+msgstr "Nti"
+
+#: birchpress/includes/birchpress/util/imp.php:284
+msgid "Dr"
+msgstr "Tri"
+
+#: birchpress/includes/birchpress/util/imp.php:315
+#: birchpress/includes/birchpress/util/imp.php:329
+#: birchpress/includes/birchpress/util/imp.php:401
+msgid "Jan"
+msgstr "Tammi"
+
+#: birchpress/includes/birchpress/util/imp.php:316
+#: birchpress/includes/birchpress/util/imp.php:330
+#: birchpress/includes/birchpress/util/imp.php:402
+msgid "Feb"
+msgstr "Helmi"
+
+#: birchpress/includes/birchpress/util/imp.php:317
+#: birchpress/includes/birchpress/util/imp.php:331
+#: birchpress/includes/birchpress/util/imp.php:403
+msgid "Mar"
+msgstr "Maalis"
+
+#: birchpress/includes/birchpress/util/imp.php:318
+#: birchpress/includes/birchpress/util/imp.php:332
+#: birchpress/includes/birchpress/util/imp.php:404
+msgid "Apr"
+msgstr "Huhti"
+
+#: birchpress/includes/birchpress/util/imp.php:319
+#: birchpress/includes/birchpress/util/imp.php:333
+#: birchpress/includes/birchpress/util/imp.php:391
+#: birchpress/includes/birchpress/util/imp.php:405
+msgid "May"
+msgstr "Touko"
+
+#: birchpress/includes/birchpress/util/imp.php:320
+#: birchpress/includes/birchpress/util/imp.php:334
+#: birchpress/includes/birchpress/util/imp.php:406
+msgid "Jun"
+msgstr "Kesä"
+
+#: birchpress/includes/birchpress/util/imp.php:321
+#: birchpress/includes/birchpress/util/imp.php:335
+#: birchpress/includes/birchpress/util/imp.php:407
+msgid "Jul"
+msgstr "Heinä"
+
+#: birchpress/includes/birchpress/util/imp.php:322
+#: birchpress/includes/birchpress/util/imp.php:336
+#: birchpress/includes/birchpress/util/imp.php:408
+msgid "Aug"
+msgstr "Elo"
+
+#: birchpress/includes/birchpress/util/imp.php:323
+#: birchpress/includes/birchpress/util/imp.php:337
+#: birchpress/includes/birchpress/util/imp.php:409
+msgid "Sep"
+msgstr "Syys"
+
+#: birchpress/includes/birchpress/util/imp.php:324
+#: birchpress/includes/birchpress/util/imp.php:338
+#: birchpress/includes/birchpress/util/imp.php:410
+msgid "Oct"
+msgstr "Loka"
+
+#: birchpress/includes/birchpress/util/imp.php:325
+#: birchpress/includes/birchpress/util/imp.php:339
+#: birchpress/includes/birchpress/util/imp.php:411
+msgid "Nov"
+msgstr "Marras"
+
+#: birchpress/includes/birchpress/util/imp.php:326
+#: birchpress/includes/birchpress/util/imp.php:340
+#: birchpress/includes/birchpress/util/imp.php:412
+msgid "Dec"
+msgstr "Joulu"
+
+#: birchpress/includes/birchpress/util/imp.php:361
+msgid "today"
+msgstr "tänään"
+
+#: birchpress/includes/birchpress/util/imp.php:362
+msgid "month"
+msgstr "kuukausi"
+
+#: birchpress/includes/birchpress/util/imp.php:363
+msgid "week"
+msgstr "viikko"
+
+#: birchpress/includes/birchpress/util/imp.php:364
+msgid "day"
+msgstr "päivä"
+
+#: birchpress/includes/birchpress/util/imp.php:387
+msgid "January"
+msgstr "Tammikuu"
+
+#: birchpress/includes/birchpress/util/imp.php:388
+msgid "February"
+msgstr "Helmikuu"
+
+#: birchpress/includes/birchpress/util/imp.php:389
+msgid "March"
+msgstr "Maaliskuu"
+
+#: birchpress/includes/birchpress/util/imp.php:390
+msgid "April"
+msgstr "Huhtikuu"
+
+#: birchpress/includes/birchpress/util/imp.php:392
+msgid "June"
+msgstr "Kesäkuu"
+
+#: birchpress/includes/birchpress/util/imp.php:393
+msgid "July"
+msgstr "Heinäkuu"
+
+#: birchpress/includes/birchpress/util/imp.php:394
+msgid "August"
+msgstr "Elokuu"
+
+#: birchpress/includes/birchpress/util/imp.php:395
+msgid "September"
+msgstr "Syyskuu"
+
+#: birchpress/includes/birchpress/util/imp.php:396
+msgid "October"
+msgstr "Lokakuu"
+
+#: birchpress/includes/birchpress/util/imp.php:397
+msgid "November"
+msgstr "Marraskuu"
+
+#: birchpress/includes/birchpress/util/imp.php:398
+msgid "December"
+msgstr "Joulukuu"
+
+#: birchpress/includes/birchpress/util/imp.php:415
+msgid "Sunday"
+msgstr "Sunnuntai"
+
+#: birchpress/includes/birchpress/util/imp.php:416
+msgid "Monday"
+msgstr "Maanantai"
+
+#: birchpress/includes/birchpress/util/imp.php:417
+msgid "Tuesday"
+msgstr "Tiistai"
+
+#: birchpress/includes/birchpress/util/imp.php:418
+msgid "Wednesday"
+msgstr "Keskiviikko"
+
+#: birchpress/includes/birchpress/util/imp.php:419
+msgid "Thursday"
+msgstr "Torstai"
+
+#: birchpress/includes/birchpress/util/imp.php:420
+msgid "Friday"
+msgstr "Perjantai"
+
+#: birchpress/includes/birchpress/util/imp.php:421
+msgid "Saturday"
+msgstr "Lauantai"
+
+#: birchpress/includes/birchpress/util/imp.php:433
+msgid "Su"
+msgstr "Su"
+
+#: birchpress/includes/birchpress/util/imp.php:434
+msgid "Mo"
+msgstr "Ma"
+
+#: birchpress/includes/birchpress/util/imp.php:435
+msgid "Tu"
+msgstr "Ti"
+
+#: birchpress/includes/birchpress/util/imp.php:436
+msgid "We"
+msgstr "Ke"
+
+#: birchpress/includes/birchpress/util/imp.php:437
+msgid "Th"
+msgstr "To"
+
+#: birchpress/includes/birchpress/util/imp.php:438
+msgid "Fr"
+msgstr "Pe"
+
+#: birchpress/includes/birchpress/util/imp.php:439
+msgid "Sa"
+msgstr "La"
+
+#: includes/birchschedule/model/booking/imp.php:42
+#, php-format
+msgid "%s Clients"
+msgstr "% Asiakkaita"
+
+#: includes/birchschedule/model/booking/imp.php:166
+#: includes/birchschedule/model/booking/imp.php:186
+#: includes/birchschedule/model/booking/imp.php:222
+#: includes/birchschedule/model/booking/imp.php:533
+#: includes/birchschedule/model/booking/imp.php:562
+#: includes/birchschedule/model/booking/imp.php:613
+#: includes/birchschedule/model/booking/imp.php:630
+#: includes/birchschedule/model/booking/imp.php:786
+msgid "The appointment does not exist."
+msgstr "Tapaamista ei löydy."
+
+#: includes/birchschedule/model/booking/imp.php:817
+msgid "Credit Card"
+msgstr "Luottokortti"
+
+#: includes/birchschedule/model/booking/imp.php:818
+msgid "Cash"
+msgstr "Käteinen"
+
+#: includes/birchschedule/view/imp.php:287
+#: includes/birchschedule/view/imp.php:288
+msgid "Business"
+msgstr "Bisnes"
+
+#: includes/birchschedule/view/imp.php:292
+#: includes/birchschedule/view/imp.php:293
+msgid "Calendar"
+msgstr "Kalenteri"
+
+#: includes/birchschedule/view/imp.php:299
+msgid "BirchPress Scheduler Settings"
+msgstr "BirchPress Scheduler -asetukset"
+
+#: includes/birchschedule/view/imp.php:300
+#: modules/fbuilder/field/predefined/clientsection_imp.php:158
+msgid "Settings"
+msgstr "Asetukset"
+
+#: includes/birchschedule/view/imp.php:305
+msgid "Help"
+msgstr "Apua"
+
+#: includes/birchschedule/view/imp.php:357
+msgid "Loading..."
+msgstr "Ladataan..."
+
+#: includes/birchschedule/view/imp.php:358
+msgid "Loading appointments..."
+msgstr "Haetaan tapaamiset..."
+
+#: includes/birchschedule/view/imp.php:359
+msgid "Saving..."
+msgstr "Talletetaan"
+
+#: includes/birchschedule/view/imp.php:360
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:141
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:304
+#: modules/fbuilder/field/imp.php:353 modules/gbooking/imp.php:261
+msgid "Save"
+msgstr "Tallenna"
+
+#: includes/birchschedule/view/imp.php:361
+#: includes/birchschedule/view/appointments/new/imp.php:259
+#: includes/birchschedule/view/bookingform/imp.php:710
+#: modules/fbuilder/field/predefined/submit_imp.php:108
+#: modules/gbooking/imp.php:250 modules/wintegration/wc_imp.php:727
+msgid "Please wait..."
+msgstr "Odota hetki..."
+
+#: includes/birchschedule/view/imp.php:362
+#: includes/birchschedule/view/appointments/new/imp.php:267
+msgid "Schedule"
+msgstr "Sovi aika"
+
+#: includes/birchschedule/view/imp.php:363
+msgid "Are you sure you want to cancel this appointment?"
+msgstr "Oletko varma, että haluat peruuttaa tämän tapaamisen?"
+
+#: includes/birchschedule/view/imp.php:364
+msgid "Your appointment has been cancelled successfully."
+msgstr "Tapaamisesi peruutettiin onnistuneesti."
+
+#: includes/birchschedule/view/imp.php:365
+msgid "The appointment doesn't exist or has been cancelled."
+msgstr "Tapaamista ei löydy tai se on peruutettu."
+
+#: includes/birchschedule/view/imp.php:366
+msgid "Your appointment has been rescheduled successfully."
+msgstr "Tapaamisesi aikaa muutettiin onnistuneesti."
+
+#: includes/birchschedule/view/imp.php:367
+msgid ""
+"Your appointment can not be cancelled now according to our booking policies."
+msgstr "Tapaamistasi ei voi enää peruuttaa varauskäytäntöjemme mukaisesti."
+
+#: includes/birchschedule/view/imp.php:368
+msgid ""
+"Your appointment can not be rescheduled now according to our booking "
+"policies."
+msgstr "Tapaamistasi ei voi enää muuttaa varauskäytäntöjemme mukaisesti."
+
+#: includes/birchschedule/view/imp.php:369
+msgid "There are no available times."
+msgstr "Vapaita aikoja ei löytynyt."
+
+#: includes/birchschedule/view/imp.php:370
+msgid "(Deposit)"
+msgstr "(Talleta)"
+
+#: includes/birchschedule/view/imp.php:371
+#: includes/birchschedule/view/appointments/edit/imp.php:294
+#: modules/aportal/imp.php:625
+msgid "Reschedule"
+msgstr "Muuta aikaa"
+
+#: includes/birchschedule/view/imp.php:372 modules/eadmin/imp.php:195
+#: modules/gbooking/imp.php:199
+msgid "Change"
+msgstr "Muuta"
+
+#: includes/birchschedule/view/imp.php:373
+msgid "No Preference"
+msgstr "Ei merkitystä"
+
+#: includes/birchschedule/view/appointments/imp.php:33
+#: modules/cmanager/imp.php:30
+msgid "Appointments"
+msgstr "Tapaamiset"
+
+#: includes/birchschedule/view/appointments/imp.php:34
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:44
+msgid "Appointment"
+msgstr "Tapaaminen"
+
+#: includes/birchschedule/view/appointments/imp.php:35
+#: includes/birchschedule/view/appointments/imp.php:36
+#: includes/birchschedule/view/appointments/imp.php:39
+#: includes/birchschedule/view/calendar/imp.php:240
+#: modules/enotification/imp.php:392
+msgid "New Appointment"
+msgstr "Uusi tapaaminen"
+
+#: includes/birchschedule/view/appointments/imp.php:37
+#: includes/birchschedule/view/appointments/imp.php:70
+#: includes/birchschedule/view/appointments/edit/clientlist/imp.php:56
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:47
+#: includes/birchschedule/view/clients/imp.php:35
+#: includes/birchschedule/view/locations/imp.php:36
+#: includes/birchschedule/view/services/imp.php:37
+#: includes/birchschedule/view/staff/imp.php:38
+#: modules/fbuilder/field/imp.php:412 modules/wcredit/imp.php:114
+msgid "Edit"
+msgstr "Muokkaa"
+
+#: includes/birchschedule/view/appointments/imp.php:38
+msgid "Edit Appointment"
+msgstr "Muokkaa tapaamista"
+
+#: includes/birchschedule/view/appointments/imp.php:40
+#: includes/birchschedule/view/appointments/imp.php:41
+msgid "View Appointment"
+msgstr "Näytä tapaaminen"
+
+#: includes/birchschedule/view/appointments/imp.php:42
+msgid "Search Appointments"
+msgstr "Hae tapaamisia"
+
+#: includes/birchschedule/view/appointments/imp.php:43
+msgid "No Appointments found"
+msgstr "Tapaamisia ei löytynyt"
+
+#: includes/birchschedule/view/appointments/imp.php:44
+msgid "No Appointments found in trash"
+msgstr "Tapaamisia ei löytynyt roskakorista"
+
+#: includes/birchschedule/view/appointments/imp.php:45
+msgid "Parent Appointment"
+msgstr "Päätapaaminen"
+
+#: includes/birchschedule/view/appointments/imp.php:47
+msgid "This is where appointments are stored."
+msgstr "Tänne tapaamiset talletetaan."
+
+#: includes/birchschedule/view/appointments/imp.php:66
+msgid "One-on-one appointments"
+msgstr "Henkilökohtaiset tapaamiset"
+
+#: includes/birchschedule/view/appointments/imp.php:67
+msgid "One-on-one appointment"
+msgstr "Henkilökohtainen tapaaminen"
+
+#: includes/birchschedule/view/appointments/imp.php:68
+#: includes/birchschedule/view/appointments/imp.php:69
+#: includes/birchschedule/view/appointments/imp.php:72
+msgid "New One-on-one Appointment"
+msgstr "Uusi henkilökohtainen tapaaminen"
+
+#: includes/birchschedule/view/appointments/imp.php:71
+msgid "Edit One-on-one Appointment"
+msgstr "Muokkaa henkilökohtaista tapaamista"
+
+#: includes/birchschedule/view/appointments/imp.php:73
+#: includes/birchschedule/view/appointments/imp.php:74
+msgid "View One-on-one Appointment"
+msgstr "Näytä henkilökohtainen tapaaminen"
+
+#: includes/birchschedule/view/appointments/imp.php:75
+msgid "Search One-on-one Appointments"
+msgstr "Hae henkillökohtaisia tapaamisia"
+
+#: includes/birchschedule/view/appointments/imp.php:76
+msgid "No One-on-one Appointments found"
+msgstr "Henkilökohtaisia tapaamisia ei löytynyt"
+
+#: includes/birchschedule/view/appointments/imp.php:77
+msgid "No One-on-one Appointments found in trash"
+msgstr "Henkilökohtaisia tapaamisia ei löytynyt roskakorista"
+
+#: includes/birchschedule/view/appointments/imp.php:78
+msgid "Parent One-on-one Appointment"
+msgstr "Pää-henkilökohtainen tapaaminen"
+
+#: includes/birchschedule/view/appointments/imp.php:80
+msgid "This is where one-on-one appointments are stored."
+msgstr "Tänne henkilökohtaiset tapaamiset talletetaan."
+
+#: includes/birchschedule/view/appointments/imp.php:104
+#: includes/birchschedule/view/appointments/imp.php:107
+#: includes/birchschedule/view/appointments/imp.php:109
+msgid "Appointment updated."
+msgstr "Tapaaminen päivitetty."
+
+#: includes/birchschedule/view/appointments/imp.php:105
+#: includes/birchschedule/view/clients/imp.php:147
+#: includes/birchschedule/view/locations/imp.php:81
+#: includes/birchschedule/view/services/imp.php:133
+#: includes/birchschedule/view/staff/imp.php:126
+msgid "Custom field updated."
+msgstr "Oma kenttä päivitetty."
+
+#: includes/birchschedule/view/appointments/imp.php:106
+#: includes/birchschedule/view/clients/imp.php:148
+#: includes/birchschedule/view/locations/imp.php:82
+#: includes/birchschedule/view/services/imp.php:134
+#: includes/birchschedule/view/staff/imp.php:127
+msgid "Custom field deleted."
+msgstr "Oma kenttä poistettu."
+
+#: includes/birchschedule/view/appointments/imp.php:108
+#, php-format
+msgid "Appointment restored to revision from %s"
+msgstr "Tapaamistiedot palautettu versiosta %s"
+
+#: includes/birchschedule/view/appointments/imp.php:110
+msgid "Appointment saved."
+msgstr "Tapaaminen talletettu."
+
+#: includes/birchschedule/view/appointments/imp.php:111
+msgid "Appointment submitted."
+msgstr "Tapaaminen lähetetty."
+
+#: includes/birchschedule/view/appointments/imp.php:112
+#, php-format
+msgid "Appointment scheduled for: <strong>%1$s</strong>."
+msgstr "Tapaaminen sovittu tiedoille: <strong>%1$s</strong>."
+
+#: includes/birchschedule/view/appointments/imp.php:113
+msgid "Appointment draft updated."
+msgstr "Tapaamisen luonnos päivitetty."
+
+#: includes/birchschedule/view/appointments/edit/imp.php:141
+msgid "Please select a provider"
+msgstr "Valitse toimittaja"
+
+#: includes/birchschedule/view/appointments/edit/imp.php:144
+#: includes/birchschedule/view/appointments/new/imp.php:296
+#: includes/birchschedule/view/bookingform/imp.php:186
+#: modules/aportal/imp.php:684
+msgid "Date is required"
+msgstr "Päivämäärä on pakollinen"
+
+#: includes/birchschedule/view/appointments/edit/imp.php:147
+#: includes/birchschedule/view/appointments/new/imp.php:299
+#: includes/birchschedule/view/bookingform/imp.php:189
+#: includes/birchschedule/view/bookingform/imp.php:230
+#: modules/aportal/imp.php:687
+msgid "Time is required"
+msgstr "Aika on pakollinen"
+
+#: includes/birchschedule/view/appointments/edit/imp.php:157
+#: includes/birchschedule/view/appointments/new/imp.php:309
+#: includes/birchschedule/view/bookingform/imp.php:199
+msgid "Date & time is incorrect"
+msgstr "Päivämäärä ja aika ovat väärin"
+
+#: includes/birchschedule/view/appointments/edit/imp.php:224
+#: includes/birchschedule/view/appointments/new/imp.php:127
+#: includes/birchschedule/view/bookingform/imp.php:626
+#: modules/fbuilder/upgrader.php:27 modules/fbuilder/upgrader.php:349
+#: modules/fbuilder/field/predefined/appointmentsection_imp.php:94
+#: modules/wintegration/wc_imp.php:556
+msgid "Appointment Info"
+msgstr "Tapaamisen tiedot"
+
+#: includes/birchschedule/view/appointments/edit/imp.php:226
+#: includes/birchschedule/view/appointments/new/imp.php:129
+msgid "Actions"
+msgstr "Toiminnot"
+
+#: includes/birchschedule/view/appointments/edit/imp.php:249
+#: includes/birchschedule/view/appointments/new/imp.php:280
+msgid "Back to Calendar"
+msgstr "Takaisin kalenteriin"
+
+#: includes/birchschedule/view/appointments/edit/imp.php:264
+msgid "Cancel Appointment"
+msgstr "Peru tapaaminen"
+
+#: includes/birchschedule/view/appointments/edit/imp.php:326
+#: includes/birchschedule/view/appointments/new/imp.php:167
+#: includes/birchschedule/view/bookingform/imp.php:292
+#: includes/birchschedule/view/bookingform/imp.php:553
+#: includes/birchschedule/view/bookingform/imp.php:605
+#: includes/birchschedule/view/locations/imp.php:33
+#: modules/fbuilder/upgrader.php:33 modules/fbuilder/upgrader.php:355
+#: modules/fbuilder/field/predefined/appointmentsection_imp.php:98
+#: modules/pcalendar/imp.php:196 modules/ppayment/upgrader.php:42
+msgid "Location"
+msgstr "Sijainti"
+
+#: includes/birchschedule/view/appointments/edit/imp.php:337
+#: includes/birchschedule/view/appointments/new/imp.php:177
+#: includes/birchschedule/view/bookingform/imp.php:296
+#: includes/birchschedule/view/bookingform/imp.php:557
+#: includes/birchschedule/view/bookingform/imp.php:606
+#: includes/birchschedule/view/services/imp.php:34
+#: modules/fbuilder/upgrader.php:34 modules/fbuilder/upgrader.php:356
+#: modules/fbuilder/field/predefined/appointmentsection_imp.php:102
+#: modules/ppayment/upgrader.php:46
+msgid "Service"
+msgstr "Palvelu"
+
+#: includes/birchschedule/view/appointments/edit/imp.php:348
+#: includes/birchschedule/view/appointments/new/imp.php:187
+#: includes/birchschedule/view/bookingform/imp.php:607
+#: includes/birchschedule/view/staff/imp.php:35
+#: modules/fbuilder/upgrader.php:35 modules/fbuilder/upgrader.php:357
+#: modules/fbuilder/field/predefined/appointmentsection_imp.php:106
+#: modules/pcalendar/imp.php:199 modules/ppayment/upgrader.php:50
+msgid "Provider"
+msgstr "Toimittaja"
+
+#: includes/birchschedule/view/appointments/edit/imp.php:359
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:262
+#: includes/birchschedule/view/appointments/new/imp.php:198
+#: includes/birchschedule/view/bookingform/imp.php:608
+#: modules/fbuilder/upgrader.php:209 modules/fbuilder/upgrader.php:292
+#: modules/fbuilder/field/predefined/appointmentsection_imp.php:110
+#: modules/wcredit/imp.php:187
+msgid "Date"
+msgstr "Päivämäärä"
+
+#: includes/birchschedule/view/appointments/edit/imp.php:369
+#: includes/birchschedule/view/appointments/new/imp.php:209
+#: includes/birchschedule/view/bookingform/imp.php:300
+#: includes/birchschedule/view/bookingform/imp.php:561
+#: includes/birchschedule/view/bookingform/imp.php:609
+#: modules/fbuilder/upgrader.php:210 modules/fbuilder/upgrader.php:293
+#: modules/fbuilder/field/predefined/appointmentsection_imp.php:114
+#: modules/ppayment/upgrader.php:54
+msgid "Time"
+msgstr "Aika"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/imp.php:38
+#: includes/birchschedule/view/appointments/new/imp.php:233
+#: includes/birchschedule/view/clients/imp.php:108
+msgid "Client Info"
+msgstr "Asiakkaan tiedot"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/imp.php:57
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:43
+#: modules/ppayment/imp.php:87
+msgid "Payments"
+msgstr "Maksut"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/imp.php:58
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:145
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:308
+#: modules/fbuilder/field/imp.php:354 modules/gbooking/imp.php:265
+msgid "Cancel"
+msgstr "Peru"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:101
+#: includes/birchschedule/view/clients/imp.php:215
+msgid "Email already exists."
+msgstr "Sähköpostiosoite on jo olemassa."
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:109
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:112
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:120
+#: includes/birchschedule/view/appointments/new/imp.php:318
+#: includes/birchschedule/view/appointments/new/imp.php:321
+#: includes/birchschedule/view/appointments/new/imp.php:329
+#: modules/fbuilder/field/imp.php:364
+#: modules/fbuilder/field/predefined/address_imp.php:50
+msgid "This field is required"
+msgstr "Tämä kenttä on pakollinen"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:115
+#: includes/birchschedule/view/appointments/new/imp.php:324
+#: includes/birchschedule/view/bookingform/imp.php:214
+#: modules/fbuilder/field/predefined/clientemail_imp.php:30
+msgid "Email is required"
+msgstr "Sähköposti on pakollinen"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:117
+#: includes/birchschedule/view/appointments/new/imp.php:326
+#: includes/birchschedule/view/bookingform/imp.php:216
+msgid "Email is incorrect"
+msgstr "Sähköposti on väärin"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:162
+#: includes/birchschedule/view/clients/imp.php:36
+msgid "Edit Client"
+msgstr "Muokkaa asiakasta"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:206
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:265
+#: includes/birchschedule/view/bookingform/imp.php:610
+#: modules/fbuilder/upgrader.php:42 modules/wcredit/imp.php:189
+msgid "Notes"
+msgstr "Muistiinpanot"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:249
+#: includes/birchschedule/view/clients/imp.php:262
+#: modules/fbuilder/upgrader.php:65
+msgid "Title"
+msgstr "Titteli"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:260
+#: includes/birchschedule/view/bookingform/imp.php:611
+#: includes/birchschedule/view/clients/imp.php:272
+#: modules/fbuilder/upgrader.php:75
+msgid "First Name"
+msgstr "Etunimi"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:269
+#: includes/birchschedule/view/bookingform/imp.php:612
+#: includes/birchschedule/view/clients/imp.php:279
+#: modules/fbuilder/upgrader.php:83
+msgid "Last Name"
+msgstr "Sukunimi"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:278
+#: includes/birchschedule/view/bookingform/imp.php:613
+#: includes/birchschedule/view/clients/imp.php:118
+#: includes/birchschedule/view/clients/imp.php:295 modules/fbuilder/imp.php:35
+#: modules/fbuilder/upgrader.php:91
+msgid "Email"
+msgstr "Sähköposti"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:287
+#: includes/birchschedule/view/bookingform/imp.php:614
+#: includes/birchschedule/view/clients/imp.php:117
+#: modules/fbuilder/upgrader.php:110
+msgid "Phone"
+msgstr "Puhelinnumero"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:296
+#: includes/birchschedule/view/clients/imp.php:119
+#: includes/birchschedule/view/clients/imp.php:303
+#: includes/birchschedule/view/locations/imp.php:69
+#: includes/birchschedule/view/locations/imp.php:214
+#: modules/fbuilder/upgrader.php:118
+msgid "Address"
+msgstr "Osoite"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:307
+#: includes/birchschedule/view/clients/imp.php:315
+#: includes/birchschedule/view/locations/imp.php:70
+#: includes/birchschedule/view/locations/imp.php:224
+#: modules/fbuilder/upgrader.php:126
+msgid "City"
+msgstr "Kaupunki"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:316
+#: includes/birchschedule/view/clients/imp.php:323
+#: includes/birchschedule/view/locations/imp.php:71
+#: includes/birchschedule/view/locations/imp.php:231
+#: modules/fbuilder/upgrader.php:134
+msgid "State/Province"
+msgstr "Osavaltio/Kunta"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:332
+#: includes/birchschedule/view/clients/imp.php:338
+#: includes/birchschedule/view/locations/imp.php:241
+#: modules/fbuilder/upgrader.php:142
+msgid "Country"
+msgstr "Maa"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/edit/imp.php:343
+#: includes/birchschedule/view/clients/imp.php:347
+#: includes/birchschedule/view/locations/imp.php:249
+#: modules/fbuilder/upgrader.php:152
+msgid "Zip Code"
+msgstr "Postinumero"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:45
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:246
+msgid "Add Payment"
+msgstr "Lisää maksu"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:46
+msgid "Add New Payment"
+msgstr "Lisää uusi maksu"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:48
+msgid "Edit Payment"
+msgstr "Muokkaa maksua"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:49
+msgid "New Payment"
+msgstr "Uusi maksu"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:50
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:51
+msgid "View Payment"
+msgstr "Näytä maksu"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:52
+msgid "Search Payments"
+msgstr "Hae maksuja"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:53
+msgid "No Payments found"
+msgstr "Maksuja ei löytynyt"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:54
+msgid "No Payments found in trash"
+msgstr "Maksuja ei löytynyt roskakorista"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:55
+msgid "Parent Payment"
+msgstr "Päämaksu"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:57
+msgid "This is where payments are stored."
+msgstr "Tänne maksut talletetaan."
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:181
+#: includes/birchschedule/view/services/imp.php:229
+msgid "Price"
+msgstr "Hinta"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:192
+msgid "Paid"
+msgstr "Maksettu"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:201
+msgid "Due"
+msgstr "Eräpäivä"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:213
+msgid "Amount to Pay"
+msgstr "Maksettava määrä"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:223
+msgid "Payment Type"
+msgstr "Maksutapa"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:233
+msgid "Payment Notes"
+msgstr "Maksun lisätiedot"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:255
+msgid "Payment History"
+msgstr "Maksuhistoria"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:263
+#: modules/wcredit/imp.php:188
+msgid "Amount"
+msgstr "Summa"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:264
+msgid "Type"
+msgstr "Tyyppi"
+
+#: includes/birchschedule/view/appointments/edit/clientlist/payments/imp.php:349
+#: modules/cintegration/imp.php:659 modules/fbuilder/field/imp.php:416
+#: modules/fbuilder/field/selectable_imp.php:69
+#: modules/wintegration/imp.php:357
+msgid "Delete"
+msgstr "Poista"
+
+#: includes/birchschedule/view/appointments/new/imp.php:249
+#: modules/enotification/imp.php:290 modules/gbooking/imp.php:240
+msgid "Additional Info"
+msgstr "Lisätiedot"
+
+#: includes/birchschedule/view/appointments/new/imp.php:293
+#: includes/birchschedule/view/bookingform/imp.php:183
+msgid "Please select a service and a provider"
+msgstr "Valitse palvelu ja toimittaja"
+
+#: includes/birchschedule/view/bookingform/imp.php:208
+msgid "First name is required"
+msgstr "Etunimi on pakollinen"
+
+#: includes/birchschedule/view/bookingform/imp.php:211
+msgid "Last name is required"
+msgstr "Sukunimi on pakollinen"
+
+#: includes/birchschedule/view/bookingform/imp.php:219
+msgid "Phone is required"
+msgstr "Puhelinnumero on pakollinen"
+
+#: includes/birchschedule/view/bookingform/imp.php:239
+msgid "Time is unavaliable"
+msgstr "Aika on pakollinen"
+
+#: includes/birchschedule/view/bookingform/imp.php:285
+#: modules/eadmin/imp.php:153
+msgid "Duration"
+msgstr "Kesto"
+
+#: includes/birchschedule/view/bookingform/imp.php:285
+#: modules/eadmin/imp.php:187
+msgid "mins"
+msgstr "minuutit"
+
+#: includes/birchschedule/view/bookingform/imp.php:288
+#: includes/birchschedule/view/bookingform/imp.php:549
+msgid "Your appointment has been booked successfully."
+msgstr "Tapaamisesi varattiin onnistuneesti."
+
+#: includes/birchschedule/view/bookingform/imp.php:375
+msgid "Please refresh the page and book again."
+msgstr "Päivitä sivu ja tee varaus uudestaan. "
+
+#: includes/birchschedule/view/bookingform/imp.php:430
+msgid "Please select time..."
+msgstr "Valitse aika..."
+
+#: includes/birchschedule/view/bookingform/imp.php:544
+msgid "Your appointment has not been booked successfully due to some errors."
+msgstr "Tapaamistasi ei saatu varattua virheiden takia."
+
+#: includes/birchschedule/view/bookingform/imp.php:674
+#: modules/fbuilder/upgrader.php:50 modules/fbuilder/upgrader.php:366
+#: modules/fbuilder/field/predefined/clientsection_imp.php:134
+msgid "Your Info"
+msgstr "Tietosi"
+
+#: includes/birchschedule/view/bookingform/imp.php:712
+#: modules/fbuilder/upgrader.php:160
+#: modules/fbuilder/field/predefined/submit_imp.php:35
+msgid "Submit"
+msgstr "Lähetä"
+
+#: includes/birchschedule/view/calendar/imp.php:122
+msgid "All Locations"
+msgstr "Kaikki sijainnit"
+
+#: includes/birchschedule/view/calendar/imp.php:141
+#: modules/acontrol/imp.php:144 modules/mstaff/imp.php:104
+#: modules/pcalendar/imp.php:106
+msgid "All Providers"
+msgstr "Kaikki tarjoajat"
+
+#: includes/birchschedule/view/calendar/imp.php:250
+msgid "Today"
+msgstr "Tänään"
+
+#: includes/birchschedule/view/clients/imp.php:31
+msgid "Clients"
+msgstr "Asiakkaat"
+
+#: includes/birchschedule/view/clients/imp.php:32
+msgid "Client"
+msgstr "Asiakas"
+
+#: includes/birchschedule/view/clients/imp.php:33
+msgid "Add Client"
+msgstr "Lisää asiakas"
+
+#: includes/birchschedule/view/clients/imp.php:34
+msgid "Add New Client"
+msgstr "Lisää uusi asiakas"
+
+#: includes/birchschedule/view/clients/imp.php:37
+msgid "New Client"
+msgstr "Uusi asiakas"
+
+#: includes/birchschedule/view/clients/imp.php:38
+#: includes/birchschedule/view/clients/imp.php:39
+msgid "View Client"
+msgstr "Näytä asiakas"
+
+#: includes/birchschedule/view/clients/imp.php:40
+msgid "Search Clients"
+msgstr "Hae asiakkaita"
+
+#: includes/birchschedule/view/clients/imp.php:41
+msgid "No Clients found"
+msgstr "Asiakkaita ei löytynyt"
+
+#: includes/birchschedule/view/clients/imp.php:42
+msgid "No Clients found in trash"
+msgstr "Asiakkaita ei löytynyt roskakorista"
+
+#: includes/birchschedule/view/clients/imp.php:43
+msgid "Parent Client"
+msgstr "Pääasiakas"
+
+#: includes/birchschedule/view/clients/imp.php:45
+msgid "This is where clients are stored."
+msgstr "Tänne asiakkaat talletetaan."
+
+#: includes/birchschedule/view/clients/imp.php:116
+msgid "Client Name"
+msgstr "Asiakkaan nimi"
+
+#: includes/birchschedule/view/clients/imp.php:146
+#: includes/birchschedule/view/clients/imp.php:149
+#: includes/birchschedule/view/clients/imp.php:151
+msgid "Client updated."
+msgstr "Asiakas päivitetty"
+
+#: includes/birchschedule/view/clients/imp.php:150
+#, php-format
+msgid "Client restored to revision from %s"
+msgstr "Asiakastiedot palautettu versiosta %s"
+
+#: includes/birchschedule/view/clients/imp.php:152
+msgid "Client saved."
+msgstr "Asiakas talletettu."
+
+#: includes/birchschedule/view/clients/imp.php:153
+msgid "Client submitted."
+msgstr "Asiakas lähetetty."
+
+#: includes/birchschedule/view/clients/imp.php:154
+#, php-format
+msgid "Client scheduled for: <strong>%1$s</strong>."
+msgstr "Asiakas sovittu tiedolle: <strong>%1$s</strong>."
+
+#: includes/birchschedule/view/clients/imp.php:155
+msgid "Client draft updated."
+msgstr "Asiakasluonnos päivitetty"
+
+#: includes/birchschedule/view/clients/imp.php:212
+msgid "The email address isn’t correct."
+msgstr "Sähköpostiosoite ei ole oikein."
+
+#: includes/birchschedule/view/clients/imp.php:286
+#: includes/birchschedule/view/locations/imp.php:207
+msgid "Phone Number"
+msgstr "Puhelinnumero"
+
+#: includes/birchschedule/view/help/imp.php:35
+msgid "Help and Support"
+msgstr "Apu ja tuki"
+
+#: includes/birchschedule/view/help/imp.php:38
+msgid "Versions"
+msgstr "Versiot"
+
+#: includes/birchschedule/view/locations/imp.php:32
+#: modules/lbservices/imp.php:42 modules/wintegration/imp.php:368
+msgid "Locations"
+msgstr "Sijannit"
+
+#: includes/birchschedule/view/locations/imp.php:34
+msgid "Add Location"
+msgstr "Lisää sijainti"
+
+#: includes/birchschedule/view/locations/imp.php:35
+msgid "Add New Location"
+msgstr "Lisää uusi sijainti"
+
+#: includes/birchschedule/view/locations/imp.php:37
+msgid "Edit Location"
+msgstr "Muokkaa sijaintia"
+
+#: includes/birchschedule/view/locations/imp.php:38
+msgid "New Location"
+msgstr "Uusi sijainti"
+
+#: includes/birchschedule/view/locations/imp.php:39
+#: includes/birchschedule/view/locations/imp.php:40
+msgid "View Location"
+msgstr "Näytä sijainti"
+
+#: includes/birchschedule/view/locations/imp.php:41
+msgid "Search Locations"
+msgstr "Hae sijainteja"
+
+#: includes/birchschedule/view/locations/imp.php:42
+msgid "No Locations found"
+msgstr "Sijainteja ei löytynyt"
+
+#: includes/birchschedule/view/locations/imp.php:43
+msgid "No Locations found in trash"
+msgstr "Sijanteja ei löytynyt roskakorista"
+
+#: includes/birchschedule/view/locations/imp.php:44
+msgid "Parent Location"
+msgstr "Pääsijainti"
+
+#: includes/birchschedule/view/locations/imp.php:46
+msgid "This is where locations are stored."
+msgstr "Tänne sijainnit talletetaan."
+
+#: includes/birchschedule/view/locations/imp.php:68
+msgid "Location Name"
+msgstr "Sijainnin nimi"
+
+#: includes/birchschedule/view/locations/imp.php:80
+#: includes/birchschedule/view/locations/imp.php:83
+#: includes/birchschedule/view/locations/imp.php:85
+msgid "Location updated."
+msgstr "Sijainti päivitetty."
+
+#: includes/birchschedule/view/locations/imp.php:84
+#, php-format
+msgid "Location restored to revision from %s"
+msgstr "Sijaintitiedot palautettu versiosta %s"
+
+#: includes/birchschedule/view/locations/imp.php:86
+msgid "Location saved."
+msgstr "Sijainti talletettu."
+
+#: includes/birchschedule/view/locations/imp.php:87
+msgid "Location submitted."
+msgstr "Sijainti lähetetty."
+
+#: includes/birchschedule/view/locations/imp.php:88
+#, php-format
+msgid "Location scheduled for: <strong>%1$s</strong>."
+msgstr "Sijainti sovittu tiedolle: <strong>%1$s</strong>."
+
+#: includes/birchschedule/view/locations/imp.php:89
+msgid "Location draft updated."
+msgstr "Sijaintiluonnos päivitetty."
+
+#: includes/birchschedule/view/locations/imp.php:174
+msgid "Location Details"
+msgstr "Sijainnin tiedot"
+
+#: includes/birchschedule/view/services/imp.php:33
+#: includes/birchschedule/view/staff/imp.php:148
+#: modules/wintegration/imp.php:381
+msgid "Services"
+msgstr "Palvelut"
+
+#: includes/birchschedule/view/services/imp.php:35
+msgid "Add Service"
+msgstr "Lisää palvelu"
+
+#: includes/birchschedule/view/services/imp.php:36
+msgid "Add New Service"
+msgstr "Lisää uusi palvelu"
+
+#: includes/birchschedule/view/services/imp.php:38
+msgid "Edit Service"
+msgstr "Muokkaa palvelua"
+
+#: includes/birchschedule/view/services/imp.php:39
+msgid "New Service"
+msgstr "Uusi palvelu"
+
+#: includes/birchschedule/view/services/imp.php:40
+#: includes/birchschedule/view/services/imp.php:41
+msgid "View Service"
+msgstr "Näytä palvelu"
+
+#: includes/birchschedule/view/services/imp.php:42
+msgid "Search Services"
+msgstr "Hae palveluita"
+
+#: includes/birchschedule/view/services/imp.php:43
+msgid "No Services found"
+msgstr "Palveluita ei löytynyt"
+
+#: includes/birchschedule/view/services/imp.php:44
+msgid "No Services found in trash"
+msgstr "Palveluita ei löytynyt roskakorista"
+
+#: includes/birchschedule/view/services/imp.php:45
+msgid "Parent Service"
+msgstr "Pääpalvelu"
+
+#: includes/birchschedule/view/services/imp.php:47
+msgid "This is where services are stored."
+msgstr "Tänne palvelut talletetaan."
+
+#: includes/birchschedule/view/services/imp.php:69
+msgid "Service Name"
+msgstr "Palvelun nimi"
+
+#: includes/birchschedule/view/services/imp.php:70
+#: includes/birchschedule/view/staff/imp.php:104
+msgid "Description"
+msgstr "Selitys"
+
+#: includes/birchschedule/view/services/imp.php:121
+msgid "Service Settings"
+msgstr "Palveluasetukset"
+
+#: includes/birchschedule/view/services/imp.php:123
+#: includes/birchschedule/view/staff/imp.php:34
+#: modules/wintegration/imp.php:395
+msgid "Providers"
+msgstr "Toimittajat"
+
+#: includes/birchschedule/view/services/imp.php:132
+#: includes/birchschedule/view/services/imp.php:135
+#: includes/birchschedule/view/services/imp.php:137
+msgid "Service updated."
+msgstr "Palvelu päivitetty."
+
+#: includes/birchschedule/view/services/imp.php:136
+#, php-format
+msgid "Service restored to revision from %s"
+msgstr "Palvelutiedot palautettu versiosta %s"
+
+#: includes/birchschedule/view/services/imp.php:138
+msgid "Service saved."
+msgstr "Palvelu talletettu."
+
+#: includes/birchschedule/view/services/imp.php:139
+msgid "Service submitted."
+msgstr "Palvelu lähetetty,"
+
+#: includes/birchschedule/view/services/imp.php:140
+#, php-format
+msgid "Service scheduled for: <strong>%1$s</strong>."
+msgstr "Palvelu sovittu tiedolle: <strong>%1$s</strong>."
+
+#: includes/birchschedule/view/services/imp.php:141
+msgid "Service draft updated."
+msgstr "Palveluluonnos päivitetty."
+
+#: includes/birchschedule/view/services/imp.php:149
+msgid "minutes"
+msgstr "minuutit"
+
+#: includes/birchschedule/view/services/imp.php:150
+msgid "hours"
+msgstr "tunnit"
+
+#: includes/birchschedule/view/services/imp.php:156
+msgid "Before"
+msgstr "Ennen"
+
+#: includes/birchschedule/view/services/imp.php:157
+msgid "After"
+msgstr "Jälkeen"
+
+#: includes/birchschedule/view/services/imp.php:158
+msgid "Before & After"
+msgstr "Ennen & jälkeen"
+
+#: includes/birchschedule/view/services/imp.php:164
+msgid "Fixed"
+msgstr "Sovittu"
+
+#: includes/birchschedule/view/services/imp.php:165
+msgid "Varies"
+msgstr "Vaihteluväli"
+
+#: includes/birchschedule/view/services/imp.php:208
+msgid "Length"
+msgstr "Pituus"
+
+#: includes/birchschedule/view/services/imp.php:219
+msgid "Padding"
+msgstr "Joustoaika"
+
+#: includes/birchschedule/view/services/imp.php:222
+msgid "mins padding time"
+msgstr "minuuttia joustoaikaa"
+
+#: includes/birchschedule/view/services/imp.php:272
+msgid "Assign providers that can perform this service:"
+msgstr "Liitä toimittajat, jotka voivat toimittaa tämän palvelun:"
+
+#: includes/birchschedule/view/services/imp.php:279
+#, php-format
+msgid "There is no providers to assign. Click %s here %s to add one."
+msgstr "Liitettäviä toimittajia ei ole. Klikkaa %s tässä %s lisätäksesi."
+
+#: includes/birchschedule/view/settings/imp.php:176 modules/ccode/imp.php:233
+#: modules/enotification/imp.php:614 modules/gsettings/imp.php:148
+#: modules/ppayment/imp.php:315
+msgid "Save changes"
+msgstr "Talleta muutokset"
+
+#: includes/birchschedule/view/settings/imp.php:193 modules/ccode/imp.php:247
+#: modules/enotification/imp.php:637 modules/fbuilder/imp.php:800
+#: modules/ppayment/imp.php:331
+msgid "&nbsp"
+msgstr "&nbsp"
+
+#: includes/birchschedule/view/staff/imp.php:36
+msgid "Add Provider"
+msgstr "Lisää toimittaja"
+
+#: includes/birchschedule/view/staff/imp.php:37
+msgid "Add New Provider"
+msgstr "Lisää uusi toimittaja"
+
+#: includes/birchschedule/view/staff/imp.php:39
+msgid "Edit Provider"
+msgstr "Muokkaa toimittajaa"
+
+#: includes/birchschedule/view/staff/imp.php:40
+msgid "New Provider"
+msgstr "Uusi toimittaja"
+
+#: includes/birchschedule/view/staff/imp.php:41
+#: includes/birchschedule/view/staff/imp.php:42
+msgid "View Provider"
+msgstr "Näytä toimittaja"
+
+#: includes/birchschedule/view/staff/imp.php:43
+msgid "Search Providers"
+msgstr "Hae toimittajia"
+
+#: includes/birchschedule/view/staff/imp.php:44
+msgid "No Providers found"
+msgstr "Toimittajia ei löytynyt"
+
+#: includes/birchschedule/view/staff/imp.php:45
+msgid "No Providers found in trash"
+msgstr "Toimittajia ei löytynyt roskakorista"
+
+#: includes/birchschedule/view/staff/imp.php:46
+msgid "Parent Provider"
+msgstr "Päätoimittaja"
+
+#: includes/birchschedule/view/staff/imp.php:48
+msgid "This is where provider are stored."
+msgstr "Tänne toimittajat talletetaan."
+
+#: includes/birchschedule/view/staff/imp.php:103
+msgid "Provider Name"
+msgstr "Toimittajan nimi"
+
+#: includes/birchschedule/view/staff/imp.php:125
+#: includes/birchschedule/view/staff/imp.php:128
+#: includes/birchschedule/view/staff/imp.php:130
+msgid "Provider updated."
+msgstr "Toimittaja päivitetty."
+
+#: includes/birchschedule/view/staff/imp.php:129
+#, php-format
+msgid "Provider restored to revision from %s"
+msgstr "Toimittajatiedot palautettu versiosta %s"
+
+#: includes/birchschedule/view/staff/imp.php:131
+msgid "Provider saved."
+msgstr "Toimittaja talletettu."
+
+#: includes/birchschedule/view/staff/imp.php:132
+msgid "Provider submitted."
+msgstr "Toimittaja lähetetty."
+
+#: includes/birchschedule/view/staff/imp.php:133
+#, php-format
+msgid "Provider scheduled for: <strong>%1$s</strong>."
+msgstr "Toimittaja sovittu tiedolle: <strong>%1$s</strong>."
+
+#: includes/birchschedule/view/staff/imp.php:134
+msgid "Provider draft updated."
+msgstr "Toimittajaluonnos päivitetty."
+
+#: includes/birchschedule/view/staff/imp.php:146
+msgid "Work Schedule"
+msgstr "Työaikataulu"
+
+#: includes/birchschedule/view/staff/imp.php:219 modules/tblocking/imp.php:120
+msgid "From"
+msgstr "Lähtien"
+
+#: includes/birchschedule/view/staff/imp.php:233 modules/tblocking/imp.php:134
+msgid "To"
+msgstr "Asti"
+
+#: includes/birchschedule/view/staff/imp.php:323
+msgid "+ Add Schedule"
+msgstr "+ Lisää aikataulu"
+
+#: includes/birchschedule/view/staff/imp.php:384
+#, php-format
+msgid "There is no locations. Click %s here %s to add one."
+msgstr "Sijainteja ei löydy Klikkaa %s tässä %s lisätäksesi."
+
+#: includes/birchschedule/view/staff/imp.php:423
+msgid "Assign services that this provider can perform:"
+msgstr "Liitä palvelut, joita tämä toimittaja tarjoaa:"
+
+#: includes/birchschedule/view/staff/imp.php:430
+#, php-format
+msgid "There is no services to assign. Click %s here %s to add one."
+msgstr "Liitettäviä palveluita ei ole. Klikkaa %s tässä %s lisätäksesi."
+
+#: modules/acontrol/imp.php:294
+msgid "Staff Member"
+msgstr "Henkilökunnan jäsen"
+
+#: modules/acontrol/imp.php:316
+msgid "Business Manager"
+msgstr "Liiketoimintajohtaja"
+
+#: modules/aportal/imp.php:150
+msgid "Cancel Page"
+msgstr "Peru sivu"
+
+#: modules/aportal/imp.php:157
+msgid "This page should contain shortcode [bpscheduler_cancel_appointment]."
+msgstr "Tämän sivun pitäisi sisältää pikakoodi [bpscheduler_cancel_appointment]."
+
+#: modules/aportal/imp.php:163
+msgid "Reschedule Page"
+msgstr "Muuta sivun aikaa"
+
+#: modules/aportal/imp.php:170
+msgid ""
+"This page should contain shortcode [bpscheduler_reschedule_appointment]."
+msgstr "Tämän sivun pitäisi sisältää pikakoodi [bpscheduler_reschedule_appointment]."
+
+#: modules/aportal/imp.php:236
+#, php-format
+msgid "Clients can cancel appointments %s in advance."
+msgstr "Asiakkaat voivat perua tapaamisen %s etukäteen."
+
+#: modules/aportal/imp.php:240
+#, php-format
+msgid "Clients can reschedule appointments %s in advance."
+msgstr "Asiakkaat voivat muuttaa tapaamista %s etukäteen."
+
+#: modules/aportal/imp.php:353
+msgid "Yes, cancel this appointment"
+msgstr "Kyllä, peru tämä tapaaminen"
+
+#: modules/autoupdater/imp.php:74
+msgid "BirchPress"
+msgstr "BirchPress"
+
+#: modules/autoupdater/imp.php:76
+msgid "Support License Key"
+msgstr "Tuen lisenssiavain"
+
+#: modules/autoupdater/imp.php:168 modules/autoupdater/imp.php:174
+msgid "Expiration Date: "
+msgstr "Voimassaolopäivämäärä "
+
+#: modules/autoupdater/imp.php:177
+msgid "Invalid license"
+msgstr "Virheellinen lisenssiavain"
+
+#: modules/autoupdater/imp.php:181
+msgid ""
+"Fill out the license key to receive access to automatic upgrades and support"
+msgstr "Täytä lisenssiavain saadaksesi päivitykset automaattisesti sekä tuotetuen"
+
+#: modules/bpreferences/imp.php:72
+#, php-format
+msgid "%s hour"
+msgstr "%s tunti"
+
+#: modules/bpreferences/imp.php:73 modules/bpreferences/imp.php:74
+#: modules/bpreferences/imp.php:75 modules/bpreferences/imp.php:76
+#: modules/bpreferences/imp.php:77
+#, php-format
+msgid "%s hours"
+msgstr "%s tuntia"
+
+#: modules/bpreferences/imp.php:78 modules/bpreferences/imp.php:79
+#: modules/bpreferences/imp.php:80 modules/bpreferences/imp.php:81
+#: modules/bpreferences/imp.php:82 modules/bpreferences/imp.php:83
+#: modules/bpreferences/imp.php:84
+#, php-format
+msgid "%s days"
+msgstr "%s päivää"
+
+#: modules/bpreferences/imp.php:90
+#, php-format
+msgid "%s month"
+msgstr "%s kuukausi"
+
+#: modules/bpreferences/imp.php:91 modules/bpreferences/imp.php:92
+#: modules/bpreferences/imp.php:93 modules/bpreferences/imp.php:94
+#: modules/bpreferences/imp.php:95
+#, php-format
+msgid "%s months"
+msgstr "%s kuukaudet"
+
+#: modules/bpreferences/imp.php:104
+msgid "Booking Preferences"
+msgstr "Varauksen ominaisuudet"
+
+#: modules/bpreferences/imp.php:108
+msgid "Policies"
+msgstr "Käytännöt"
+
+#: modules/bpreferences/imp.php:157
+#, php-format
+msgid "Clients can book appointments up to %s before start time"
+msgstr "Asiakkaat voivat varata tapaamisia %s ennen aloitusaikaa"
+
+#: modules/bpreferences/imp.php:161
+#, php-format
+msgid "Clients can book appointments up to %s in the future"
+msgstr "Asiakkaat voivat varata tapaamisia %s tulevaisuuteen"
+
+#: modules/bwindow/imp.php:129
+msgid "Start Date"
+msgstr "Aloituspäivämäärä"
+
+#: modules/bwindow/imp.php:139 modules/bwindow/imp.php:153
+msgid "(Optional)"
+msgstr "(Vapaaehtoinen)"
+
+#: modules/bwindow/imp.php:143
+msgid "End Date"
+msgstr "Päättymispäivämäärä"
+
+#: modules/ccode/imp.php:51
+msgid "Custom Code"
+msgstr "Oma koodi"
+
+#: modules/ccode/imp.php:267
+msgid "Custom Code Updated"
+msgstr "Oma koodi päivitetty"
+
+#: modules/cintegration/imp.php:96
+msgid "Sync iCal Interval"
+msgstr "iCal-kalenterin päivitysväli"
+
+#: modules/cintegration/imp.php:297
+msgid "BLOCKED"
+msgstr "BLOKATTU"
+
+#: modules/cintegration/imp.php:556
+msgid "Calendar Integration"
+msgstr "Kalenteri-integraatio"
+
+#: modules/cintegration/imp.php:595
+msgid "Calendar Address (iCal)"
+msgstr "Kalenterin osoite (iCal)"
+
+#: modules/cintegration/imp.php:608
+msgid "Import Calendars (iCal)"
+msgstr "Tuo kalenterit (iCal)"
+
+#: modules/cintegration/imp.php:622
+msgid "+ Add by URL"
+msgstr "+ Lisää URL:n perusteella"
+
+#: modules/cmanager/imp.php:43
+msgid "View"
+msgstr "Näytä"
+
+#: modules/eadmin/imp.php:128
+msgid "Search for an existing client"
+msgstr "Hae nykyistä asiakasta"
+
+#: modules/enotification/imp.php:85
+msgid "Client Reminder Interval"
+msgstr "Asiakkaan muistutusaikaväli"
+
+#: modules/enotification/imp.php:174
+#, php-format
+msgid "Send alerts to clients %s Hrs prior to their appointment."
+msgstr "Lähetä muistutukset asiakkaille %s tuntia ennen tapaamista."
+
+#: modules/enotification/imp.php:312
+msgid "Email Address"
+msgstr "Sähköpostiosoite"
+
+#: modules/enotification/imp.php:325
+msgid "Notifications"
+msgstr "Notifikaatiot"
+
+#: modules/enotification/imp.php:335
+msgid "Notification to Provider"
+msgstr "Notifikaatio toimittajalle"
+
+#: modules/enotification/imp.php:338
+msgid "Notification to Client"
+msgstr "Notifikaatio asiakkaalle"
+
+#: modules/enotification/imp.php:380
+msgid "Notification Settings Updated"
+msgstr "Notifikaatioasetukset päivitetty"
+
+#: modules/enotification/imp.php:393
+msgid "Appointment Modified"
+msgstr "Tapaamista muokattu"
+
+#: modules/enotification/imp.php:394
+msgid "Appointment Cancelled"
+msgstr "Tapaaminen peruttu"
+
+#: modules/enotification/imp.php:397
+msgid "Appointment Reminder"
+msgstr "Tapaamisen muistutus"
+
+#: modules/enotification/imp.php:405
+msgid "From Name"
+msgstr "Nimeltä"
+
+#: modules/enotification/imp.php:414
+msgid "From Email"
+msgstr "Sähköpostista"
+
+#: modules/enotification/imp.php:425
+msgid "Reply To"
+msgstr "Vastaa "
+
+#: modules/enotification/imp.php:436
+msgid "BCC"
+msgstr "BCC"
+
+#: modules/enotification/imp.php:454
+msgid "Edit Email Templates"
+msgstr "Muokkaa sähköpostimalleja"
+
+#: modules/enotification/imp.php:491
+msgid "Subject"
+msgstr "Aihe"
+
+#: modules/enotification/imp.php:503
+msgid "Message"
+msgstr "Viesti"
+
+#: modules/enotification/imp.php:560
+#, php-format
+msgid "Enable email notification to %s"
+msgstr "Ota käyttöön sähköpostinotifikaatio seuraavalle: %s"
+
+#: modules/enotification/imp.php:571
+msgid "providers"
+msgstr "toimittajat"
+
+#: modules/enotification/imp.php:575
+msgid "clients"
+msgstr "asiakkaat"
+
+#: modules/fbuilder/imp.php:32 modules/fbuilder/imp.php:821
+msgid "Single Line Text"
+msgstr "Yhden rivin teksti"
+
+#: modules/fbuilder/imp.php:33 modules/fbuilder/imp.php:824
+msgid "Paragraph Text"
+msgstr "Kappaleen teksti"
+
+#: modules/fbuilder/imp.php:34 modules/fbuilder/imp.php:827
+msgid "Drop Down"
+msgstr "Alasvetovalikko"
+
+#: modules/fbuilder/imp.php:36 modules/fbuilder/imp.php:830
+msgid "Checkboxes"
+msgstr "Valintaruudut"
+
+#: modules/fbuilder/imp.php:37 modules/fbuilder/imp.php:833
+msgid "Radio Buttons"
+msgstr "Valintanapit"
+
+#: modules/fbuilder/imp.php:38
+msgid "Section Break"
+msgstr "Aluejako"
+
+#: modules/fbuilder/imp.php:647
+msgid "Field Deleted"
+msgstr "Kenttä poistettu"
+
+#: modules/fbuilder/imp.php:677
+msgid "Add a Field"
+msgstr "Lisää kenttä"
+
+#: modules/fbuilder/imp.php:684
+msgid "Form Builder"
+msgstr "Lomakerakentaja"
+
+#: modules/fbuilder/imp.php:923
+msgid "Field Settings Updated"
+msgstr "Kenttäasetukset päivitetty"
+
+#: modules/fbuilder/upgrader.php:36 modules/fbuilder/upgrader.php:358
+msgid "Date & Time"
+msgstr "Päivämäärä ja aika"
+
+#: modules/fbuilder/upgrader.php:56 modules/fbuilder/upgrader.php:372
+#: modules/fbuilder/field/predefined/clientsection_imp.php:140
+msgid "Are you a new or returning user?"
+msgstr "Oletko uusi vai palaava käyttäjä?"
+
+#: modules/fbuilder/upgrader.php:57 modules/fbuilder/upgrader.php:373
+msgid "New User"
+msgstr "Uusi käyttäjä?"
+
+#: modules/fbuilder/upgrader.php:58 modules/fbuilder/upgrader.php:374
+msgid "Returning User"
+msgstr "Palaava käyttäjä"
+
+#: modules/fbuilder/upgrader.php:99
+#: modules/fbuilder/field/predefined/password_imp.php:38
+msgid "Password"
+msgstr "Salasana"
+
+#: modules/fbuilder/upgrader.php:105
+#: modules/fbuilder/field/predefined/password_imp.php:42
+msgid "Retype Password"
+msgstr "Salasana uudestaan"
+
+#: modules/fbuilder/upgrader.php:166
+#: modules/fbuilder/field/predefined/submit_imp.php:39
+msgid "Lost your password?"
+msgstr "Salasana kadonnut?"
+
+#: modules/fbuilder/field/email_imp.php:22
+#: modules/fbuilder/field/predefined/clientemail_imp.php:34
+msgid "Please input a valid email address"
+msgstr "Anna oikea sähköpostiosoite"
+
+#: modules/fbuilder/field/imp.php:18 modules/fbuilder/field/imp.php:25
+#: modules/fbuilder/field/imp.php:32 modules/fbuilder/field/imp.php:39
+#: modules/fbuilder/field/imp.php:51 modules/fbuilder/field/imp.php:63
+#: modules/fbuilder/field/imp.php:75
+msgid "Untitled"
+msgstr "Nimetön"
+
+#: modules/fbuilder/field/imp.php:44 modules/fbuilder/field/imp.php:56
+#: modules/fbuilder/field/imp.php:68
+msgid "First Choice"
+msgstr "Ensimmäinen valinta"
+
+#: modules/fbuilder/field/imp.php:45 modules/fbuilder/field/imp.php:57
+#: modules/fbuilder/field/imp.php:69
+msgid "Second Choice"
+msgstr "Toinen valinta"
+
+#: modules/fbuilder/field/imp.php:46 modules/fbuilder/field/imp.php:58
+#: modules/fbuilder/field/imp.php:70
+msgid "Third Choice"
+msgstr "Kolmas valinta"
+
+#: modules/fbuilder/field/imp.php:288
+msgid "Field Label"
+msgstr "Kentän nimi"
+
+#: modules/fbuilder/field/imp.php:305
+msgid "The field is mandatory"
+msgstr "Tämä kenttä on pakollinen"
+
+#: modules/fbuilder/field/imp.php:319
+msgid "Visibility"
+msgstr "Näkyvyys"
+
+#: modules/fbuilder/field/imp.php:328
+msgid "Customers and Admin"
+msgstr "Asiakkaat ja admin"
+
+#: modules/fbuilder/field/imp.php:336
+msgid "Admin Only"
+msgstr "Vain admin"
+
+#: modules/fbuilder/field/imp.php:429
+#: modules/fbuilder/field/predefined/appointmentsection_imp.php:76
+#: modules/fbuilder/field/predefined/clientsection_imp.php:17
+#: modules/fbuilder/field/predefined/password_imp.php:17
+#: modules/fbuilder/field/predefined/submit_imp.php:17
+msgid "Predefined"
+msgstr "Esimääritelty"
+
+#: modules/fbuilder/field/selectable_imp.php:32
+msgid "Choices"
+msgstr "Valinnat"
+
+#: modules/fbuilder/field/selectable_imp.php:39
+msgid "+ Add Choice"
+msgstr "+ Lisää valinta"
+
+#: modules/fbuilder/field/predefined/appointmentsection_imp.php:70
+msgid ""
+"Appointment Details ('Location','Service','Provider' & 'Date&Time' fields "
+"are predefined, click 'edit' to change the labels)"
+msgstr "Tapaamisen tiedoista ('Sijainti','Palvelu','Toimittaja' & 'Päivämäärä&Aika' -kentät on esimääritelty, kilkkaa "muokkaa" muuttaaksesi kenttien nimiä)"
+
+#: modules/fbuilder/field/predefined/appointmentsection_imp.php:91
+#: modules/fbuilder/field/predefined/clientsection_imp.php:131
+#: modules/fbuilder/field/predefined/password_imp.php:35
+#: modules/fbuilder/field/predefined/submit_imp.php:32
+msgid "Labels"
+msgstr "Kenttien nimet"
+
+#: modules/fbuilder/field/predefined/clientemail_imp.php:47
+msgid ""
+"Email already exists. You may book using this email by selecting \"I am a "
+"returning user.\""
+msgstr "Sähköpostiosoite on jo olemassa. Voit sopia tapaamisen tällä sähköpostilla valitsemalla \"Olen palaava käyttäjä.\""
+
+#: modules/fbuilder/field/predefined/clientemail_imp.php:70
+msgid ""
+"Email does not exist. Please contact the administrator to create a user "
+"account."
+msgstr "Sähköpostia ei löydy. Ota yhteyttä pääkäyttäjään luodaksesi käyttäjätilin."
+
+#: modules/fbuilder/field/predefined/clientemail_imp.php:73
+msgid ""
+"Email does not exist. You may book using this email by selecting \"I am a "
+"new user.\""
+msgstr "Sähköpostia ei löydy. Voit sopia tapaamisen tällä sähköpostilla valitsemalla \"Olen uusi käyttäjä.\""
+
+#: modules/fbuilder/field/predefined/clientemail_imp.php:78
+msgid "Email or password is incorrect."
+msgstr "Sähköposti tai salasana väärin."
+
+#: modules/fbuilder/field/predefined/clientsection_imp.php:58
+#, php-format
+msgid "Logged in as %s."
+msgstr "Kirjauduttu sisään tunnuksella %s."
+
+#: modules/fbuilder/field/predefined/clientsection_imp.php:62
+msgid "Log out?"
+msgstr "Kirjaudu ulos?"
+
+#: modules/fbuilder/field/predefined/clientsection_imp.php:146
+msgid "I am a new user."
+msgstr "Olen uusi käyttäjä."
+
+#: modules/fbuilder/field/predefined/clientsection_imp.php:152
+msgid "I am a returning user."
+msgstr "Olen palaava käyttäjä."
+
+#: modules/fbuilder/field/predefined/clientsection_imp.php:165
+msgid "Enable user login"
+msgstr "Salli käyttäjän sisäänkirjautuminen."
+
+#: modules/fbuilder/field/predefined/clientsection_imp.php:172
+msgid "Enable new user registration"
+msgstr "Salli uusien käyttäjien rekisteröinti."
+
+#: modules/fbuilder/field/predefined/country_imp.php:39
+msgid "Default Country"
+msgstr "Oletusmaa"
+
+#: modules/fbuilder/field/predefined/password_imp.php:88
+msgid "Password is required"
+msgstr "Salana on pakollinen"
+
+#: modules/fbuilder/field/predefined/password_imp.php:93
+msgid "Password must be at least 6 digits."
+msgstr "Salasanan pitää olla vähintään 6-merkkinen"
+
+#: modules/fbuilder/field/predefined/password_imp.php:96
+msgid "Both passwords should match"
+msgstr "Salasanojen on täsmättävä"
+
+#: modules/fbuilder/field/predefined/state_imp.php:73
+msgid "Default State/Province"
+msgstr "Oletusosavaltio/-kunta"
+
+#: modules/fbuilder/field/predefined/submit_imp.php:47
+msgid "Confirmation"
+msgstr "Vahvistus"
+
+#: modules/fbuilder/field/predefined/submit_imp.php:55
+msgid "Text"
+msgstr "Teksti"
+
+#: modules/fbuilder/field/predefined/submit_imp.php:62
+msgid "Redirect"
+msgstr "Uudelleenohjaus"
+
+#: modules/fdadmin/imp.php:67
+msgid "Show all time slots"
+msgstr "Näytä kaikki ajankohdat"
+
+#: modules/gbooking/imp.php:61 modules/gbooking/imp.php:169
+msgid "Capacity"
+msgstr "Kapasiteetti"
+
+#: modules/gbooking/imp.php:211 modules/gbooking/imp.php:221
+msgid "+ Add Client"
+msgstr "+ Lisää asiakas"
+
+#: modules/gbooking/imp.php:320
+msgid "This client has been added."
+msgstr "Tämä asiakas on lisätty."
+
+#: modules/gsettings/imp.php:38
+msgid "General"
+msgstr "Yleistä"
+
+#: modules/gsettings/imp.php:50
+msgid "General Options"
+msgstr "Yleiset asetukset"
+
+#: modules/gsettings/imp.php:56
+msgid "Timezone"
+msgstr "Aikavyöhyke"
+
+#: modules/gsettings/imp.php:58
+msgid "Date Format, Time Format"
+msgstr "Päivämääräformaatti, aikaformaatti"
+
+#: modules/gsettings/imp.php:60
+msgid "Week Starts On"
+msgstr "Viikon aloituspäivä"
+
+#: modules/gsettings/imp.php:62
+msgid "Currency"
+msgstr "Valuutta"
+
+#: modules/gsettings/imp.php:64
+msgid "Default Calendar View"
+msgstr "Oletuskalenterinäkymä"
+
+#: modules/gsettings/imp.php:90
+#, php-format
+msgid "<label>Timezone settings are located <a href='%s'>here</a>.</label>"
+msgstr "<label>Aikavyöhykeasetukset sijaitsevat <a href='%s'>tässä</a>.</label>"
+
+#: modules/gsettings/imp.php:97
+#, php-format
+msgid ""
+"<label>Date format, time format settings are located <a href='%s'>here</a>.</"
+"label>"
+msgstr "<label>Päivämäärä- ja aikaformaattiasetukset sijaitsevat <a href='%s'>tässä</a>.</label>"
+
+#: modules/gsettings/imp.php:104
+#, php-format
+msgid ""
+"<label>First day of week setting is located <a href='%s'>here</a>.</label>"
+msgstr "<label>Viikon aloituspäivän asetukset sijaitsevat <a href='%s'>tässä</a>.</label>"
+
+#: modules/lbservices/imp.php:187
+msgid "Assign locations that can perform this service:"
+msgstr "Liitä sijainnit, missä tämä palvelu on mahdollinen:"
+
+#: modules/lbservices/imp.php:194
+#, php-format
+msgid "There is no location to assign. Click %s here %s to add one."
+msgstr "Liitettäviä sijainteja ei löytynyt. Klikkaa %s tässä %s lisätäksesi."
+
+#: modules/mstaff/imp.php:145
+msgid "Calendar Color"
+msgstr "Kalenterin väri"
+
+#: modules/pgauthorize/imp.php:50
+msgid "Authorize.net Integration"
+msgstr "Authorize.net -integraatio"
+
+#: modules/pgauthorize/imp.php:62
+msgid "Credit card (Authorize.net)"
+msgstr "Luottokortti (Authorize.net)"
+
+#: modules/pgauthorize/imp.php:63
+msgid "Pay with your credit card via Authorize.net"
+msgstr "Maksa luottokortilla Authorize.net -palvelun kautta"
+
+#: modules/pgauthorize/imp.php:102
+#, php-format
+msgid "Authorize.net Transaction ID: %s"
+msgstr "Authorize.netin transaktio-ID: %s"
+
+#: modules/pgauthorize/imp.php:116
+msgid "Click here if not redirected."
+msgstr "Klikkaa tästä, jos uudelleenohjaus ei toimi."
+
+#: modules/pgauthorize/imp.php:266 modules/pintegration/imp.php:265
+#: modules/wcredit/imp.php:380 modules/wintegration/imp.php:166
+msgid "Enable/Disable"
+msgstr "Salli/Estä"
+
+#: modules/pgauthorize/imp.php:275
+msgid "Enable Authorize.net"
+msgstr "Salli Authorize.net"
+
+#: modules/pgauthorize/imp.php:282
+msgid "Login ID"
+msgstr "Kirjaantumistunnus"
+
+#: modules/pgauthorize/imp.php:296
+msgid "Transation Key"
+msgstr "Transaktiotunnus"
+
+#: modules/pintegration/imp.php:38
+msgid "PayPal Integration"
+msgstr "PayPal -integraatio"
+
+#: modules/pintegration/imp.php:50
+msgid "PayPal"
+msgstr "PayPal"
+
+#: modules/pintegration/imp.php:52
+msgid ""
+"Pay via PayPal; you can pay with your credit card if you don’t have a PayPal "
+"account"
+msgstr "Maksa PayPal:in kautta; voit maksaa luottokortilla, jos sinulla ei ole PayPal-tiliä"
+
+#: modules/pintegration/imp.php:106
+#, php-format
+msgid "PayPal Transaction ID: %s"
+msgstr "PayPalin transaktio-ID: %s"
+
+#: modules/pintegration/imp.php:274
+msgid "Enable PayPal"
+msgstr "Salli Paypal"
+
+#: modules/pintegration/imp.php:281
+msgid "PayPal Email"
+msgstr "PayPal -sähköposti"
+
+#: modules/ppayment/imp.php:100
+msgid "Prepayment Settings"
+msgstr "Ennakkomaksuasetukset"
+
+#: modules/ppayment/imp.php:124
+msgid "Prepayment Message"
+msgstr "Ennakkomaksuviesti"
+
+#: modules/ppayment/imp.php:267
+msgid "Place order"
+msgstr "Lähetä tilaus"
+
+#: modules/ppayment/imp.php:284
+msgid "Payments Settings Updated"
+msgstr "Maksuasetukset päivitetty"
+
+#: modules/ppayment/imp.php:440
+msgid "Enable prepayment"
+msgstr "Salli ennakkomaksu"
+
+#: modules/ppayment/imp.php:455
+#, php-format
+msgid "Charge %s fixed booking fee."
+msgstr "Veloita %s kiinteä varausmaksu."
+
+#: modules/ppayment/imp.php:467
+#, php-format
+msgid "Charge %s percent of service value."
+msgstr "Veloita %s prosenttia palvelun arvosta."
+
+#: modules/ppayment/upgrader.php:35
+msgid "Please make a payment of {deposit} to hold your appointment."
+msgstr "Ole ystävällinen ja tee {deposit} suuruinen maksu tapaamisen pitämiseksi."
+
+#: modules/senhanced/imp.php:37
+msgid " minutes"
+msgstr " minuutit"
+
+#: modules/senhanced/imp.php:131
+#, php-format
+msgid "Enable flexible appointment start time with %s"
+msgstr "Anna joustava tapaamisen aloitusajankohta tiedolle %s"
+
+#: modules/tblocking/imp.php:43
+msgid "Days Off"
+msgstr "Poissaolopäivät"
+
+#: modules/tblocking/imp.php:205
+msgid "Exceptions"
+msgstr "Poikkeukset"
+
+#: modules/tblocking/imp.php:231
+msgid "+ Add Exception"
+msgstr "+ Lisää poikkeus"
+
+#: modules/uintegration/imp.php:135
+msgid "User Synchronization"
+msgstr "Käyttäjien synkronointi"
+
+#: modules/uintegration/imp.php:136
+msgid "Syncing clients with WP users..."
+msgstr "Synkronoidaan asiakkaat WP-käyttäjien kanssa..."
+
+#: modules/uintegration/imp.php:137
+msgid "synced"
+msgstr "synkronoitu"
+
+#: modules/wcredit/imp.php:39 modules/wcredit/imp.php:110
+#: modules/wcredit/imp.php:111 modules/wcredit/imp.php:156
+msgid "WooCommerce Credit"
+msgstr "WooCommerce -krediitit"
+
+#: modules/wcredit/imp.php:45
+msgid "The credit should be positive."
+msgstr "Krediittien arvon pitää olla positiivinen."
+
+#: modules/wcredit/imp.php:46
+msgid "The credit is not enough."
+msgstr "Krediitit eivät riitä."
+
+#: modules/wcredit/imp.php:47
+#, php-format
+msgid "Used by order No. %s"
+msgstr "Käytetty tilaukseen nro. %s"
+
+#: modules/wcredit/imp.php:48
+#, php-format
+msgid "Recharged by order No. %s"
+msgstr "Laskutettu uudestaan tilauksessa nro. %s"
+
+#: modules/wcredit/imp.php:112
+msgid "Add WooCommerce Credit"
+msgstr "Lisää WooCommerce -krediitti"
+
+#: modules/wcredit/imp.php:113
+msgid "Add New WooCommerce Credit"
+msgstr "Lisää uusi WooCommerce -krediitti"
+
+#: modules/wcredit/imp.php:115
+msgid "Edit WooCommerce Credit"
+msgstr "Muokkaa WooCommerce -krediittiä"
+
+#: modules/wcredit/imp.php:116
+msgid "New WooCommerce Credit"
+msgstr "Uusi WooCommerce -krediitti"
+
+#: modules/wcredit/imp.php:117 modules/wcredit/imp.php:118
+msgid "View WooCommerce Credit"
+msgstr "Näytä WooCommerce -krediitti"
+
+#: modules/wcredit/imp.php:119
+msgid "Search WooCommerce credit"
+msgstr "Hae WooCommerce -krediittejä"
+
+#: modules/wcredit/imp.php:120
+msgid "No WooCommerce credit found"
+msgstr "WooCommerce -krediittejä ei löytynyt"
+
+#: modules/wcredit/imp.php:121
+msgid "No WooCommerce credit found in trash"
+msgstr "WooCommerce -krediittejä ei löytynyt roskakorista"
+
+#: modules/wcredit/imp.php:122
+msgid "Parent WooCommerce Credit"
+msgstr "Pää-WooCommerce -krediitit"
+
+#: modules/wcredit/imp.php:124
+msgid "This is where WooCommerce credit are stored."
+msgstr "Tänne WooCommerce -krediitit talletetaan."
+
+#: modules/wcredit/imp.php:295
+msgid "Credit Balance"
+msgstr "Krediittisaldo"
+
+#: modules/wcredit/imp.php:303
+msgid "+ Add Credit"
+msgstr "+ Lisää krediitti"
+
+#: modules/wcredit/imp.php:389
+msgid "Enable WooCommerce Credit"
+msgstr "Salli WooCommerce -krediitit"
+
+#: modules/wcredit/imp.php:396
+msgid "Buy Credit Amount from WooCommerce Products"
+msgstr "Osta krediittisumma WooCommerce Productsilta"
+
+#: modules/wcredit/imp.php:404 modules/wintegration/imp.php:361
+msgid "(Only simple products are listed here)"
+msgstr "(Vain yksinkertaiset tuotteet on listattu tässä)"
+
+#: modules/wcredit/imp.php:463
+msgid "Customer Credit"
+msgstr "Asiakkaan krediitit"
+
+#: modules/wcredit/imp.php:481
+msgid "Please login to use your credit."
+msgstr "Kirjaudu sisään käyttääksesi krediittejä."
+
+#: modules/wcredit/imp.php:503
+#, php-format
+msgid ""
+"Your current credit balance is %s. <br/>Enter a credit amount if you want to "
+"pay by customer credit."
+msgstr "Krediittisaldosi on %s. <br/>Anna krediittimäärä, jos haluat maksaa niillä."
+
+#: modules/wcredit/imp.php:512
+msgid "Apply Custom Credit"
+msgstr "Käytä asiakaskrediitti"
+
+#: modules/wintegration/imp.php:69
+msgid "WooCommerce"
+msgstr "WooCommerce"
+
+#: modules/wintegration/imp.php:89
+msgid "WooCommerce Integration"
+msgstr "WooCommerce -integraatio"
+
+#: modules/wintegration/imp.php:175
+msgid "Enable WooCommerce integration"
+msgstr "Salli WooCommerce -integraatio"
+
+#: modules/wintegration/imp.php:182
+msgid "Autocomplete Order"
+msgstr "Täytä tilaustiedot automaattisesti"
+
+#: modules/wintegration/imp.php:191
+msgid ""
+"Enable WooCommerce automatically set appointment orders on Completed status "
+"right after a successfull payment."
+msgstr "Salli WooCommercen asettaa tapaamistilaukset valmis-tilaan automaattisesti onnistuneen maksun jälkeen."
+
+#: modules/wintegration/imp.php:198
+msgid "Products Settings"
+msgstr "Tuoteasetukset"
+
+#: modules/wintegration/imp.php:210
+msgid "+ Add Product"
+msgstr "+ Lisää tuote"
+
+#: modules/wintegration/imp.php:345
+msgid "WooCommerce Product"
+msgstr "WooCommercen tuote"
+
+#: modules/wintegration/imp.php:408
+msgid "Custom CSS"
+msgstr "Oma CSS"
+
+#: modules/wintegration/imp.php:474
+msgid "WooCommerce Settings Updated"
+msgstr "WooCommercen asetukset päivitettiin"
+
+#: modules/wintegration/wc_imp.php:360
+msgid ""
+"There was a problem with your submission. Please check error messages below."
+msgstr "Lähetetyissä tiedoissa oli vikaa. Katso alhaalla näkyvät virheviestit."
+
+#: modules/wintegration/wc_imp.php:467
+#, php-format
+msgid "WooCommerce Order ID: %s"
+msgstr "WooCommercen tilausnumero: %s"
+
+#: modules/wintegration/wc_imp.php:729
+msgid "Add to cart"
+msgstr "Lisää ostoskoriin"
