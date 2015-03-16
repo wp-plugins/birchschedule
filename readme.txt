@@ -3,7 +3,7 @@ Contributors: birchpress
 Tags: appointment, appointment booking, appointment booking calendar, appointment calendar, appointment scheduling, book appointment, booking calendar, scheduling, booking form, reservation, online scheduling
 Requires at least: 3.7
 Tested up to: 4.1
-Stable tag: 1.10
+Stable tag: 1.10.1
 
 BirchPress Scheduler is an appointment booking and online scheduling plugin that allows service businesses to take online bookings.
 
@@ -89,6 +89,9 @@ To embed the booking form into a post/page, just insert the following shortcode:
 [bpscheduler_booking_form]
 
 == Changelog ==
+
+= 1.10.1 =
+* Bug Fix: use $wpdb->db_version instead of mysql_get_server_info to avoid warnings or errors.
 
 = 1.10 =
 * Improvement: open ‘Edit Appointment’ page in a new browser tab by right clicking the appointment title in Admin calendar.
