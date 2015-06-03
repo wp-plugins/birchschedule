@@ -1,0 +1,39 @@
+body {
+  background-color: transparent;
+}
+.fc-event {
+  cursor: pointer;
+}
+.fc-event a {
+  color: white;
+  text-decoration: none;
+}
+.fc-event a:hover {
+  text-decoration: underline;
+}
+.birs_scene .navbar-brand {
+  padding: 8px;
+}
+.birs_scene .navbar-collapse {
+  padding-left: 8px;
+  padding-right: 8px;
+}
+.birs_scene .navbar {
+  margin-bottom: 0;
+}
+#birs_calendar_header {
+  background-color: white;
+  padding-top: 8px;
+}
+#birs_calendar {
+  background-color: white;
+}
+#birs_calendar_menu .input-group {
+  display: inline-table;
+}
+#birs_calendar_menu select {
+  width: 15em;
+}
+.updated.fade {
+  opacity: 1;
+}
